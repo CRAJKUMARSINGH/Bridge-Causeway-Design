@@ -1,0 +1,2195 @@
+Design of pier for bridge									
+									
+I)Design Parameters:-									
+									
+	Clear Right Span				 =	6.00m			
+	Deck slab length 				 =	6.800m			
+	Width of the carriage way				 =	6.00m			
+	Thickness of deck slab as per IRC SP 20				 =	0.480m			
+	Thickness of wearing coat 				 =	0.075m			
+	Height of guard stones				 =	0.750m			
+	Thickness of pier bed block 				 =	0.30m			
+	Sectional area of pier bed block				 =	0.410sqm			
+	Thickness of strip footing				 =	0.45m			
+	Height of pier				 =	1.200m			
+	(As per hydralic calculations)								
+	Top width of pier				 =	0.900m			
+	Bottom width of pier				 =	0.90m			
+	Sectional area of pier section 				 =	1.080sqm			
+	One side batter of pier				 =	0.000m			
+	Other side batter of pier				 =	0.000m			
+	Width of 1st footing 				 =	1.20m			
+	Thickness of 1st footing 				 =	0.30m			
+	One side offset of 1st footing wrt pier				 =	0.15m			
+	Other side offset of 1st footing wrt pier				 =	0.15m			
+	Width of 2nd footing 				 =	1.50m			
+	Thickness of 2nd footing 				 =	0.30m			
+	One side offset of 2nd footing wrt pier				 =	0.30m			
+	Other side offset of 2nd footing wrt pier				 =	0.30m			
+	Width of 3rd footing 				 =	1.80m			
+	Thickness of 3rd footing				 =	0.30m			
+	One side offset of 3rd footing wrt pier				 =	0.45m			
+	Other side offset of 3rd footing wrt pier				 =	0.45m			
+	Width of VRCC strip footing				 =	2.40m			
+	Thickness of VRCC strip footing (d3)				 =	0.45m			
+	Canal side offset of RCC strip footing wrt pier (s5)				 =	0.75m			
+	Bank side offset of RCC strip footing wrt pier (s6)				 =	0.75m			
+	Offset of top footing along width				 =	0.00m			
+	Offset of 2nd footing along width				 =	0.00m			
+	Offset of 3rd footing along width				 =	0.00m			
+	Offset of RCC strip footing along width (w1)				 =	0.15m			
+	Type of bearings				 =	No bearings proposed			
+	Unit weight of RCC (yrc)				 =	25KN/cum			
+	Unit weight of PCC (ypc)				 =	24KN/cum			
+	Road crest level (RTL) 				 =	5.645m			
+	Low bed level (LBL) 				 =	3.965m			
+	High flood Level (HFL)				 =	6.235m			
+	Bottom of foundation level (BFL) 				 =	2.315m			
+	Safe Bearing Capacity of the soil (SBC) 				 =	15.00t/sqm			
+	Compressive strength of concrete for PCC  (fck)				 =	20.00N/sqmm			
+	Compressive strength of concrete for VRCC Strip footing (fck)				 =	25.00N/sqmm			
+	Yield strength of steel (fy)				 =	415.00N/sqmm			
+	Cover to reinforcement 				 =	50.00mm			
+	Unit weight of water (w)				 =	10KN/cum			
+									
+II)General loading pattern:-									
+									
+	As per IRC:6---2000,the following loadings are to be considered on the bridge or slab								
+	culvert:-								
+									
+	1.Dead load								
+	2.Live load								
+	3.Impact load								
+	4.Wind load								
+	5.Water current								
+	6.Tractive,braking effort of vehicles&frictional resistance of bearings								
+	7.Buoyancy								
+	8.Seismic force								
+	9.Water pressure force								
+									
+	Apart from the above forces,the following pressures are to be considered as per clause 								
+7.11.2.2 of IRC SP:82---2007:-									
+									
+	(a) Pressure due to static head due to afflux on upstream side and trough of 								
+	    standing wave on down stream side:								
+									
+	(b) Pressure due to velocity head								
+									
+	(c) Pressure due to eddies								
+									
+	(d) Pressure due to friction of water against piers and bottom of slab								
+									
+	(e) Force due to uplift under superstructure								
+									
+	As per the clause 7.11.3.4 of IRC:SP82--2007,Additional load of 150 mm thick silt with density 								
+equal to 15 kN/m3 spread over the entire soffit(in case of box girders) and deck slabs of all types of 									
+super structure should also be considered:									
+									
+	As per clause 202.3,the increase in permissible stresses is not permissible for the								
+above loading combination.									
+									
+III)Loading on the slab culvert for design of pier:-									
+									
+1.Dead Load:-									
+									
+	i)Self wieght of the deck slab  =					489.60KN			
+									
+	ii)Self wieght of bed block over pier  =					61.50KN			
+									
+	iii)Self weight of wearing coat =					76.50KN			
+									
+									
+						627.60KN			
+									
+	There is no need to consider snow load as per the climatic conditions 								
+									
+	Self wieght of the pier upto bottom most footing based on the preliminary 								
+section assumed:-									
+									
+	iv)Self wieght of the pier section  =					155.52KN			
+									
+	v)Self wieght of top footing  =					51.84KN			
+									
+	vi)Self wieght of 2nd footing =					64.80KN			
+									
+	vii)Self wieght of 3rd footing =					77.76KN			
+									
+	viii)Self wieght of 4th footing = 					0.00KN			
+									
+									
+						349.92KN			
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+ix)Calculation of eccentricity of self weight of pier w.r.t base of pier									
+									
+S.No	Description	Load in KN	Distance of centroid of load from toe of pier				Moment		
+									
+1	"Back batter(W1)
+"	0		0.9			0		
+2	"Centre portion(W2)
+"	155.52		0.45			69.98		
+3	"Front batter(W3)
+"	0		0			0		
+									
+		155.52					69.98		
+									
+	Location of resultant from toe of pier =				0.45m				
+									
+									
+	Eccentricity wrt centre of base of pier =				0.000m				
+									
+									
+x)Calculation of eccentricity of self weight of pier&1st footing w.r.t bottom of 1st footing 									
+									
+S.No	Description	Load in KN	Distance of centroid of load from toe of 1st footing				Moment		
+									
+1	Back batter	0		1.05			0		
+2	Centre portion	155.52		0.6			93.31		
+3	Front batter	0		0.15			0		
+4	1st footing	51.84		0.6			31.1		
+									
+		207.36					124.41		
+									
+	Location of resultant from toe of pier =				0.60m				
+									
+									
+	Eccentricity wrt centre of 1st footing=				0.000m				
+									
+									
+									
+xi)Calculation of eccentricity of self weight of pier,1st&2nd footings w.r.t bottom of 2nd footing									
+									
+S.No	Description	Load in KN	Distance of centroid of load from toe of 2nd footing				Moment		
+									
+1	Back batter	0		1.2			0		
+2	Centre portion	155.52		0.75			116.64		
+3	Front batter	0		0.3			0		
+4	1st footing	51.84		0.75			38.88		
+5	2nd footing	64.8		0.75			48.6		
+									
+		272.16					204.12		
+									
+	Location of resultant from toe of pier =				0.75m				
+									
+									
+	Eccentricity =				0.000m				
+									
+									
+									
+xii)Calculation of eccentricity of self weight of pier,1st&2nd footings w.r.t bottom of 2nd footing									
+									
+S.No	Description	Load in KN	Distance of centroid of load from toe of 3rd footing				Moment		
+									
+1	Back batter	0		1.35			0		
+2	Centre portion	155.52		0.9			139.97		
+3	Front batter	0		0.45			0		
+4	1st footing	51.84		0.90			46.66		
+5	2nd footing	64.8		0.90			58.32		
+6	3rd footing	77.76		0.90			69.98		
+		349.92					314.93		
+									
+	Location of resultant from toe of pier =				0.90m				
+									
+									
+	Eccentricity =				0.000m				
+									
+									
+2.Live Load:-									
+									
+	As per clause 201.1 of IRC:6--2000,the bridges and culverts of medium importance 								
+are to be designed for IRC Class A loading.									
+									
+		GENERAL  IRC Class-A loading Pattern							
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+	The IRC Class A loading as per the drawing is severe and the same is to be considered as per 								
+clauses 207.1.3&207.4									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+	The ground contact area of wheels for the above placement,each axle wise is								
+given below:-									
+									
+	Axle load		Ground Contact Area						
+	(Tonnes)		B(mm)	W(mm)					
+									
+	11.4		250	500					
+	6.8		200	380					
+	2.7		150	200					
+									
+									
+	Assuming 0.3m allowance for guide posts and the clear distance of vehicle from 								
+the edge of guide post being 0.15m as per clause 207.1,the value of 'f' shown in the figure will 									
+be 0.45m									
+									
+	Hence,the width of area to be loaded with 7.25KN/m2 on left side is (f) =					0.45m			
+	Similarly,the area to be loaded on right side (k) = 					3.25m			
+						3.70m			
+									
+									
+	The total live load on the deck slab composes the following components:-								
+									
+	1.Wheel loads----Point loads						296.00KN		
+									
+	2.Live load in remaing portion(Left side)----UDL						22.19KN		
+									
+	2.Live load in remaing portion(Right side)----UDL						160.23KN		
+									
+							478.41KN		
+									
+									
+	Resultant live load:-								
+									
+	Eccentricity of live load w.r.t y-direction(Along the direction of travel of vehicles)								
+									
+	Taking moments of all the forces w.r.t y-axis								
+									
+	S.No	Wheel Load/UDL in KN	Distance from Y-axis				Moment		
+									
+	1	57		0.70m			39.90KNm		
+	2	57		0.70m			39.90KNm		
+	3	57		2.50m			142.50KNm		
+	4	57		2.50m			142.50KNm		
+	5	34		0.64m			21.76KNm		
+	6	34		2.44m			82.96KNm		
+	7	22.185		0.225m			4.99KNm		
+	8	160.225		4.375m			700.98KNm		
+									
+		478.410					1175.50KNm		
+									
+	Distance of centroid of forces from y-axis								
+									
+									
+ =	2.457m								
+									
+	Eccentricity   =		0.543m						
+									
+									
+	Eccentricity of live load w.r.t x-direction(At right angle to the travel of vehicles)								
+									
+	Taking moments of all the forces w.r.t x-axis								
+									
+	S.No	Load in KN	Distance from X-axis				Moment		
+									
+	1	34		0.925m			31.45KNm		
+	2	34		0.925m			31.45KNm		
+	5	57		5.225m			297.83KNm		
+	6	57		5.225m			297.83KNm		
+	7	57		6.425m			366.23KNm		
+	8	57		6.425m			366.23KNm		
+	9	22.19KN		3.400m			75.43KNm		
+	10	160.23KN		3.400m			544.77KNm		
+		478.41					2011.19KN		
+									
+	Distance of centroid of forces from x-axis								
+									
+									
+ =	4.204m								
+									
+	Eccentricity   =		0.804m						
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+	Calculation of reactions on pier:-								
+									
+	Reaction   due to point loads Ra  =			421.85KN					
+									
+									
+	Reaction due to point loads = Rb =			56.56KN					
+									
+									
+	Hence,the critical reaction is Ra =			421.8KN					
+									
+	The corrected reaction  =			421.85KN					
+									
+	Assuming that the live load reaction acts at the centre of the contact area on the pier,								
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+	The eccentricty of the line of action of live load   =					0.00m			
+									
+	The eccentricity in the other direction need not be considered due to high section modulus in transverse 								
+direction.									
+									
+									
+3.Impact of vehicles:-									
+									
+	As per Clause 211 of IRC:6--2000,impact allowance shall be made by an increment 								
+of live load by a factor 4.5/(6+L)									
+									
+Hence,the factor is			0.352						
+									
+									
+	Further as per clause 211.7 of IRC:6--2000,the above impact factor shall be only 								
+50% for calculation of pressure on piers and abutments just below the level of bed block.There 									
+ is no need to increase the live load below 3m depth.									
+									
+	As such,the impact allowance for the top 3m of pier will be 						0.176		
+									
+									
+	For the remaining portion,impact need not be considered.								
+									
+									
+									
+4.Wind load:-									
+									
+	The deck system is located at height of (RTL-LBL)				1.68m				
+									
+									
+	The Wind pressure acting on deck system located at that height is considered for design.								
+									
+	As per clause 212.3 and from Table .4 of IRC:6---2000,the wind pressure at that 								
+	hieght is=								
+									
+	59.48	Kg/m2.							
+									
+	Height of the deck system =				1.755				
+									
+	Breadth of the deck system =				7.4				
+									
+	The effective area exposed to wind force =HeightxBreadth =								
+									
+	Hence,the wind force acting at centroid of the deck system =						3.86KN		
+	(Taking 50% perforations)								
+									
+	Further as per clause 212.4 of IRC:6---2000 ,300 Kg/m wind force is considered to be 								
+acting at a hieght of 1.5m from road surface on live load vehicle.									
+									
+	Hence,the wind force acting at 1.5m above the road surface =						18.00KN		
+									
+									
+	The location of the wind force from the top of RCC strip footing =						4.16m		
+									
+									
+									
+5.Water current force:-									
+									
+a)Water current force on deck slab:-									
+									
+	Velocity of stream at top,when the flow approaches the top of deck slab = √2 x Vmean =						3.65m/sec		
+									
+	P = 52KV2 =		284.7	Kg/m2.					
+									
+	(where the value of 'K' is 1.5 )								
+									
+	Force acting on centroid of deck slab  =			10.74KN					
+									
+	Point of action of water current force from the top of RCC strip footing = 						3.09m		
+									
+b)Water current force on pier:-									
+									
+	Water pressure is considered on square ended piers as per clause 213.2 of 								
+IRC:6---2000 is									
+									
+									
+	Hence,the water current force =			4.30KN					
+									
+									
+Point of action of water current force from the top of RCC strip footing = 							2.10m		
+									
+6.Tractive,braking effort of vehicles&frictional resistance of bearings:-									
+									
+	The breaking effect of vehicles shall be 20% of live load acting in longitudinal 								
+direction at 1.2m above road surface as per the clause 214.2 of IRC:6--2000.									
+									
+	As no bearings are assumed in the present case,50% of the above longitudinal 								
+force can be assumed to be transmitted to the supports of simply supported spans resting on 									
+stiff foundation with no bearings as per clause 214.5.1.3 of IRC:6---2000									
+									
+	Hence,the longitudinal force due to braking,tractive or frictional resistance of 								
+bearings transferred to pier is									
+			47.84KN						
+									
+									
+	The location of the tractive force from the top of RCC strip footing =						3.86m		
+									
+									
+7.Buoyancy :-									
+									
+	As per clause 216.4 of IRC:6---2000,for abutments or piers of shallow depth,the 								
+dead weight of the pier shall be reduced by wieght of equal volume of water upto HFL. 									
+									
+	The above reduction in self wieght will be considered assuming that the back fill 								
+behind the pier is scoured.									
+									
+	For the preliminary section assumed,the volume of pier section is								
+									
+	i)Volume of pier section   =					6.48Cum			
+									
+	ii)Volume of top footing   =					2.16Cum			
+									
+	iii)Volume of 2nd footing   =					2.70Cum			
+									
+	iv)Volume of 3rd footing   =					3.24Cum			
+									
+	v)Volume of 4th footing   =					0.00Cum			
+						14.58Cum			
+									
+	Reduction in self wieght =					145.80KN			
+									
+									
+									
+9.Siesmic force :-									
+									
+	As per clause 222.1 of IRC:6---2000,the bridges in siesmic zones I and II need not be 								
+designed for siesmic forces.The location of the slab culvert is in Zone-I.Hence,there is no need to 									
+design the bridge for siesmic forces.									
+									
+10.Water pressure force:-									
+									
+	As per clause 7.11.2.2(b) of IRC SP82:2007,the pressure due to static head will be zero at the surface of 								
+water and will increase linearly to P = wh at depth 'h' from the surface, below which it will be constant as indicated 									
+in the sketch below :-									
+	Where, w = unit weight of water 								
+	            h = afflux or depth of superstructure (including wearing coat) whichever is more.								
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+	Total horizontal water pressure force = 				16.09KN				
+	The above pressure acts at height of 0.42H =				0.71m				
+									
+11.Pressure due to eddies :-									
+									
+Pressure due to eddies = w (Vv-V)2 									
+		2g							
+Where,									
+Vv = velocity of flow through the vents,  									
+V = velocity of approach									
+(w = unit weight of water; g= Acceleration due to gravity)									
+									
+	Pressure force due to eddies =				0.014KN				
+									
+	which is negligible.Hence it need not be considered								
+									
+12. Pressure due to friction of water against piers and bottom of slab :-									
+									
+	Pressure due to friction =f x ρ x (Cx Vv)2 								
+									
+	Where,								
+	 f = friction coefficient = 1 								
+	ρ = mass density of water (w/g)								
+	Vv = velocity of flow through the vents (m/sec)								
+	C = value of constant generally taken as10%								
+									
+i)Force due to friction on Deck slab:-									
+									
+	Frictional force on bottom and top of deck slab =				4.96KN				
+									
+	The location of the frictional force from the top of RCC strip footing =						3.09m		
+									
+ii)Force due to friction on pier:-									
+									
+	Frictional force on both faces of pier =				0.50KN				
+									
+	The location of the frictional force from the top of RCC strip footing =						1.50m		
+									
+									
+									
+13. Force due to uplift under superstructure :-									
+									
+	This force acts vertically upwards and is given by								
+									
+	Uplift force = wh x Asp 								
+									
+	Where,								
+	Asp area of the superstructure in plan								
+	h = the uplift head under the deckslab which may be taken as higher of the following two values:  (i) Afllux								
+	(ii) Thickness of superstructure including wearing coat-head loss due to increase in								
+	velocity through vents (Vv) Head loss due to increase in velocity through the vents is calculated by 								
+	following expression								
+		h1 =  Vv2-V2 							
+		2g							
+									
+	Where,								
+	Vv =velocity of flow through the vents 								
+	V = velocity of approach								
+									
+		Afflux  =			0.131m				
+									
+		Head loss due to increase in velocity =			0.012m				
+									
+		Hence,up lift head =			0.543m				
+									
+	Hence uplift force on the deck slab =				221.54KN				
+									
+IV)Check for stresses for pier&footings:-									
+									
+									
+a)Load Envelope-I:-(The Canal is dry,with live load on span)									
+									
+i)On top of RCC Strip footing									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical forces acting on the pier (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				627.60KN	0.00	0.00		
+2	Self wieght of pier&footings				349.92KN	0.000	0.000		
+3	Reaction due to live load with impact factor---(Wheel loads+UDL) 				421.85KN	0.00	0.543		
+4	Impact load				0.00	0.00	0.00		
+					1399.37				
+									
+	Horizontal forces acting/transferred on the pier (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	4.16		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	y-Direction	3.86		
+3	Water current force				0.00KN	x-Direction	0.00		
+									
+	Check for stresses:-								
+									
+	About x-axis:-								
+									
+	Breadth of bottom footing b =				6.00m				
+	Depth of bottom footing d =				1.80m				
+	Area of the footing = A =				10.8	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	3.24	m3			
+	about x-axis --Zx =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compression is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at heel
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	58.11		
+2	Self wieght of pier&footings				349.92KN	0.00	32.4		
+3	Reaction due to live load with impact factor				421.85KN	0.00	39.06		
+4	Impact load				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Tractive,Braking&Frictional resistance of bearings				47.84KN	3.86	-57		
+	(Stress = -31.36*4.93/6.38)								
+							72.57		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at toe
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	58.11		
+2	Self wieght of pier&footings				349.92KN	0.00	32.4		
+3	Reaction due to live load with impact factor				421.85KN	0.00	39.06		
+4	Impact load				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Tractive,Braking&Frictional resistance of bearings				47.84KN	3.86	57		
+	(Stress = 31.36*4.93/6.38)								
+							186.57		
+									
+									
+	Stress at heel =		P/A(1+6e/b)+M/Z =		72.57	KN/Sqm>-2800KN/sqm.			
+									
+				Hence safe.					
+									
+	Stress at  toe =		P/A(1+6e/b)+M/Z =		186.57	KN/Sqm<5000KN/sqm			
+									
+				Hence safe.					
+									
+									
+	About y-axis:-								
+									
+	Breadth of bottom footing b =				1.80m				
+	Depth of bottom footing d =				6.00m				
+	Area of the footing = A =				10.8	m2			
+									
+	Section modulus of bottom footing about =			(1/6)bd2 =	10.80	m3			
+	y-axis--Zy =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compression is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at upstream edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	58.11		
+2	Self wieght of pier&footings				349.92KN	0.00	32.4		
+3	Reaction due to live load with impact factor				421.85KN	-0.543	17.85		
+4	Impact load				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Wind load				18.00KN	4.16	-6.93		
+6	Water current force				0.00KN	0.00	0		
+									
+							101.43		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at D/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	58.11		
+2	Self wieght of pier&footings				349.92KN	0.00	32.4		
+3	Reaction due to live load with impact factor				421.85KN	0.543	60.27		
+4	Impact load				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Wind load				18.00KN	4.16	6.93		
+6	Water current force				0.00KN	0.00	0		
+							157.71		
+									
+	Stress at up stream side 		P/A(1+6e/b)+M/Z =		101.43	KN/Sqm>-2800KN/sqm.			
+	edge of pier =								
+									
+				Hence safe.					
+									
+	Stress at down stream side 		P/A(1+6e/b)+M/Z =		157.71	KN/Sqm<5000KN/sqm			
+	edge of pier =								
+				Hence safe.					
+									
+									
+ii)On top of 3rd footing									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the pier (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				627.60KN	0.00	0.00		
+2	Self wieght of pier&footings				272.16KN	0.000	0.000		
+3	Reaction due to live load with impact factor				421.85KN	0.00	0.543		
+4	Impact load				0.00	0.00	0.00		
+									
+	Horizontal load acting/transferred on the pier (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	3.86		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	y-Direction	3.56		
+3	Water current force				0.00KN	x-Direction	-0.30		
+									
+									
+	Check for stresses:-								
+									
+	About x-axis:-								
+									
+	Breadth of 1st footing b =				6.00m				
+	Depth of 1st footing d =				1.50m				
+	Area of the footing = A =				9	m2			
+									
+	Section modulus of Ist footing about 			(1/6)bd2 =	2.25	m3			
+	x-axis--Zx =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compression is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at heel
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	69.73		
+2	Self wieght of pier&footings				272.16KN	0.00	30.24		
+3	Reaction due to live load with impact factor				421.85KN	0.00	46.87		
+4	Impact load				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Tractive,Braking&Frictional resistance of bearings				47.84KN	3.56	-75.7		
+									
+							71.14		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at toe
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	69.73		
+2	Self wieght of pier&footings				272.16KN	0.00	30.24		
+3	Reaction due to live load with impact factor				421.85KN	0.00	46.87		
+4	Impact load				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Tractive,Braking&Frictional resistance of bearings				47.84KN	3.56	75.7		
+									
+							222.54		
+									
+	Stress at heel =		P/A(1+6e/b)+M/Z =		71.15	KN/Sqm>-2800KN/sqm.			
+									
+				Hence safe.					
+									
+	Stress at  toe =		P/A(1+6e/b)+M/Z =		222.54	KN/Sqm<5000KN/sqm			
+									
+				Hence safe.					
+									
+									
+	About y-axis:-								
+									
+	Breadth of 1st footing b =				1.50m				
+	Depth of 1st footing d =				6.00m				
+	Area of the footing = A =				9	m2			
+									
+	Section modulus of Ist footing about 			(1/6)bd2 =	9.00	m3			
+	y-axis--Zy =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compression is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at upstream edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	69.73		
+2	Self wieght of pier&footings				272.16KN	0.00	30.24		
+3	Reaction due to live load with impact factor				421.85KN	-0.543	21.42		
+4	Impact load				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Wind load				18.00KN	3.86	-7.72		
+6	Water current force				0.00KN	-0.30	0		
+									
+							113.67		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at D/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	69.73		
+2	Self wieght of pier&footings				272.16KN	0.00	30.24		
+3	Reaction due to live load with impact factor				421.85KN	0.543	72.32		
+4	Impact load				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Wind load				18.00KN	3.86	7.72		
+6	Water current force				0.00KN	-0.30	0		
+							180.01		
+									
+									
+	Stress at up stream side 		P/A(1+6e/b)+M/Z =		113.67	KN/Sqm>-2800KN/sqm.			
+	edge of pier =								
+				Hence safe.					
+									
+									
+	Stress at down stream side 		P/A(1+6e/b)+M/Z =		180.01	KN/Sqm<5000KN/sqm			
+	edge of pier =								
+				Hence safe.					
+									
+									
+									
+i)On top of 2nd footing									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the pier (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				627.60KN	0.00	0.00		
+2	Self wieght of pier&footings				207.36KN	0.000	0.000		
+3	Reaction due to live load with impact factor				496.09KN	0.00	0.543		
+4	Impact load				0.00	0.00	0.00		
+									
+	Horizontal load acting/transferred on the abutment (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	3.56		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	y-Direction	3.26		
+3	Water current force				0.00KN	x-Direction	-0.60		
+									
+									
+	Check for stresses:-								
+									
+	About x-axis:-								
+									
+	Breadth of pier b =				6.00m				
+	Depth of pier d =				1.20m				
+	Area of the footing = A =				7.2	m2			
+									
+	Section modulus of base of pier			(1/6)bd2 =	1.44	m3			
+	about x-axis--Zx =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compression is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at heel
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	87.17		
+2	Self wieght of pier&footings				207.36KN	0.00	28.8		
+3	Reaction due to live load with impact factor				496.09KN	0.00	68.9		
+4	Impact load				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Tractive,Braking&Frictional resistance of bearings				47.84KN	3.26	-108.31		
+									
+							76.56		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at toe
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	87.17		
+2	Self wieght of pier&footings				207.36KN	0.00	28.8		
+3	Reaction due to live load with impact factor				496.09KN	0.00	68.9		
+4	Impact load				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Tractive,Braking&Frictional resistance of bearings				47.84KN	3.26	108.31		
+									
+							293.18		
+									
+									
+	Stress at heel =		P/A(1+6e/b)+M/Z =		76.56	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+									
+	Stress at  toe =		P/A(1+6e/b)+M/Z =		293.18	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+	About y-axis:-								
+									
+	Breadth of pier b =				1.20m				
+	Depth of pier d =				6.00m				
+	Area of the footing = A =				7.2	m2			
+									
+	Section modulus of base of pier 			(1/6)bd2 =	7.20	m3			
+	about y-axis--Zy =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compression is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at upstream edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	87.17		
+2	Self wieght of pier&footings				207.36KN	0.00	28.8		
+3	Reaction due to live load with impact factor				496.09KN	-0.543	31.49		
+4	Impact load				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Wind load				18.00KN	3.56	-8.9		
+6	Water current force				0.00KN	-0.60	0		
+									
+							138.56		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at D/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	87.17		
+2	Self wieght of pier&footings				207.36KN	0.00	28.8		
+3	Reaction due to live load with impact factor				496.09KN	0.543	106.31		
+4	Impact load				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Wind load				18.00KN	3.56	8.9		
+6	Water current force				0.00KN	-0.60	0		
+							231.18		
+									
+	Stress at up stream side 								
+	edge of pier =		P/A(1+6e/b)+M/Z =		138.56	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+	Stress at down stream side 								
+	edge of pier =		P/A(1+6e/b)+M/Z =		231.18	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+i)On top of 1st footing									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the pier (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				627.60KN	0.00	0.00		
+2	Self wieght of pier&cut waters				155.52KN	0.000	0.000		
+3	Reaction due to live load with impact factor				421.85KN	0.00	0.543		
+4	Impact load				0.00	0.00	0.00		
+									
+	Horizontal load acting/transferred on the pier (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	3.56		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	y-Direction	2.96		
+3	Water current force				0.00KN	x-Direction	0.00		
+									
+									
+	Check for stresses:-								
+									
+	About x-axis:-								
+									
+	Breadth of pier b =				6.00m				
+	Depth of pier d =				0.90m				
+	Area of the footing = A =				5.4	m2			
+									
+	Section modulus of base of pier			(1/6)bd2 =	0.81	m3			
+	about x-axis--Zx =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compression is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at heel
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	116.22		
+2	Self wieght of pier&footings				155.52KN	0.00	28.8		
+3	Reaction due to live load with impact factor				421.85KN	0.00	78.12		
+4	Impact load				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Tractive,Braking&Frictional resistance of bearings				47.84KN	2.96	-174.83		
+									
+							48.31		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at toe
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	116.22		
+2	Self wieght of pier&footings				155.52KN	0.00	28.8		
+3	Reaction due to live load with impact factor				421.85KN	0.00	78.12		
+4	Impact load				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Tractive,Braking&Frictional resistance of bearings				47.84KN	2.96	174.83		
+									
+							397.97		
+									
+									
+	Stress at heel =		P/A(1+6e/b)+M/Z =		48.31	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+									
+	Stress at  toe =		P/A(1+6e/b)+M/Z =		397.97	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+	About y-axis:-								
+									
+	Breadth of pier b =				0.90m				
+	Depth of pier d =				6.00m				
+	Area of the footing = A =				5.4	m2			
+									
+	Section modulus of base of pier 			(1/6)bd2 =	5.40	m3			
+	about y-axis--Zy =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compression is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at upstream edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	116.22		
+2	Self wieght of pier&footings				155.52KN	0.00	28.8		
+3	Reaction due to live load with impact factor				421.85KN	-0.543	35.7		
+4	Impact load				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Wind load				18.00KN	3.56	-11.87		
+6	Water current force				0.00KN	0.00	0		
+									
+							168.85		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at D/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	116.22		
+2	Self wieght of pier&footings				155.52KN	0.00	28.8		
+3	Reaction due to live load with impact factor				421.85KN	0.543	120.54		
+4	Impact load				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Wind load				18.00KN	3.56	11.87		
+6	Water current force				0.00KN	0.00	0		
+							277.43		
+									
+	Stress at up stream side 								
+	edge of pier =		P/A(1+6e/b)+M/Z =		168.85	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+	Stress at down stream side 								
+	edge of pier =		P/A(1+6e/b)+M/Z =		277.43	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+b)Load Envelope-II:-(The Canal is full,with no live load on span)									
+									
+i)On top of RCC Strip footing									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the pier (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				627.60KN				
+	Deduct uplift pressure				-221.54KN				
+	Net Reaction due to dead load from super structure				406.06KN	0.00	0.00		
+	Self wieght of pier&cut waters				349.92KN				
+	Reduction in self weight due to buoyancy				-145.80KN				
+2	Net self weight				204.12KN	0.000	0.000		
+									
+	Horizontal load acting/transferred on the pier (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	4.16		
+2	Tractive,Braking&Frictional resistance of bearings				0.00KN	y-Direction	0.00		
+3	Water current force on deck slab				10.74KN	x-Direction	3.09		
+4	Water current force on pier				4.30KN	x-Direction	2.10		
+5	Frictional force due to water on deck slab				4.96KN	x-Direction	3.09		
+6	Frictional force due to water on pier				0.50KN	x-Direction	1.50		
+7	Water pressure force				16.09KN	y-Direction	1.61		
+									
+	Check for stresses:-								
+									
+	About x-axis:-								
+									
+	Breadth of bottom footing b =				6.00m				
+	Depth of bottom footing d =				1.80m				
+	Area of the footing = A =				10.8	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	3.24	m3			
+	about x-axis --Zx =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compression is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at heel
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				406.06KN	0.00	37.6		
+2	Net self wieght of pier&footings				204.12KN	0.00	18.9		
+3	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+4	Horizontal load due to earth pressure				0.00KN	0.00	0		
+5	Water pressure force				16.09KN	1.61	8.0		
+							64.47		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at toe
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				406.06KN	0.00	37.6		
+2	Net self wieght of pier&footings				204.12KN	0.00	18.9		
+3	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+4	Horizontal load due to earth pressure				0.00KN	0.00	0		
+5	Water pressure force				16.09KN	1.61	-8.0		
+							48.53		
+									
+	Stress at heel =		P/A(1+6e/b)+M/Z =		64.47	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+									
+	Stress at  toe =		P/A(1+6e/b)+M/Z =		48.53	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+									
+	About y-axis:-								
+									
+	Breadth of bottom footing b =				1.80m				
+	Depth of bottom footing d =				6.00m				
+	Area of the footing = A =				10.8	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	10.80	m3			
+	about y-axis --Zy =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compression is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at U/S Edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				406.06KN	0.00	37.6		
+2	Net self wieght of pier&footings				204.12KN	0.00	18.9		
+3	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+4	Wind load				18.00KN	4.16	-6.93		
+5	Water current force on deck slab				10.74KN	3.09	-3.1		
+6	Water current force on pier				4.30KN	2.10	-0.8		
+7	Frictional force due to water on deck slab				4.96KN	3.09	-1.4		
+8	Frictional force due to water on pier				0.50KN	1.50	-0.1		
+							44.17		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at D/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				406.06KN	0.00	37.6		
+2	Net self wieght of pier&footings				204.12KN	0.00	18.9		
+3	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+4	Wind load				18.00KN	4.16	6.93		
+5	Water current force on deck slab				10.74KN	3.09	3.1		
+6	Water current force on pier				4.30KN	2.10	0.8		
+7	Frictional force due to water on deck slab				4.96KN	3.09	1.4		
+8	Frictional force due to water on pier				0.50KN	1.50	0.1		
+							68.83		
+									
+	Stress at up stream side 								
+	edge of pier =		P/A(1+6e/b)+M/Z =		44.17	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+	Stress at down stream side 								
+	edge of pier =		P/A(1+6e/b)+M/Z =		68.83	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+									
+ii)On top of 3rd footing									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the pier (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				627.60KN				
+	Deduct uplift pressure				-221.54KN				
+	Net Reaction due to dead load from super structure				406.06KN	0.00	0.00		
+	Self wieght of pier&cut waters				272.16KN				
+	Reduction in self weight due to buoyancy				-113.40KN				
+2	Net self weight				158.76KN	0.000	0.000		
+3	Vertical component of earth pressure				0.00KN	0.000	0.000		
+									
+	Horizontal load acting/transferred on the pier (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	3.86		
+2	Tractive,Braking&Frictional resistance of bearings				0.00KN	y-Direction	0.00		
+3	Water current force on deck slab				10.74KN	x-Direction	2.79		
+4	Water current force on pier				4.30KN	x-Direction	1.80		
+5	Frictional force due to water on deck slab				4.96KN	x-Direction	2.79		
+6	Frictional force due to water on pier				0.50KN	x-Direction	1.20		
+7	Horizontal load due to earth pressure				0.00KN	y-Direction	0.00		
+8	Water pressure force				16.09KN	y-Direction	1.31		
+									
+	Check for stresses:-								
+									
+	About x-axis:-								
+									
+	Breadth of 1st footing b =				6.00m				
+	Depth of 1st footing d =				1.50m				
+	Area of the footing = A =				9	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	2.25	m3			
+	about x-axis --Zx =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compression is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at heel
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				406.06KN	0.00	45.12		
+2	Net self wieght of pier&footings				158.76KN	0.00	17.64		
+3	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+4	Horizontal load due to earth pressure				0.00KN	0.00	0		
+5	Water pressure force				16.09KN	1.31	9.3		
+							72.1		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at toe
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				406.06KN	0.00	45.12		
+2	Net self wieght of pier&footings				158.76KN	0.00	17.64		
+3	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+4	Horizontal load due to earth pressure				0.00KN	0.00	0		
+5	Water pressure force				16.09KN	1.31	-9.3		
+							53.42		
+									
+	Stress at heel =		P/A(1+6e/b)+M/Z =		72.1	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+									
+	Stress at  toe =		P/A(1+6e/b)+M/Z =		53.42	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+									
+	About y-axis:-								
+									
+	Breadth of 1st footing b =				1.50m				
+	Depth of 1st footing d =				6.00m				
+	Area of the footing = A =				9	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	9.00	m3			
+	about y-axis --Zy =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compression is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at U/S Edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				406.06KN	0.00	45.12		
+2	Net self wieght of pier&footings				158.76KN	0.00	17.64		
+3	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+4	Wind load				18.00KN	3.86	-7.72		
+5	Water current force on deck slab				10.74KN	2.79	-3.3		
+6	Water current force on pier				4.30KN	1.80	-0.9		
+7	Frictional force due to water on deck slab				4.96KN	2.79	-1.5		
+8	Frictional force due to water on pier				0.50KN	1.20	-0.1		
+							49.24		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at D/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				406.06KN	0.00	45.12		
+2	Net self wieght of pier&footings				158.76KN	0.00	17.64		
+3	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+4	Wind load				18.00KN	3.86	7.72		
+5	Water current force on deck slab				10.74KN	2.79	3.3		
+6	Water current force on pier				4.30KN	1.80	0.9		
+7	Frictional force due to water on deck slab				4.96KN	2.79	1.5		
+8	Frictional force due to water on pier				0.50KN	1.20	0.1		
+							76.28		
+									
+	Stress at up stream side 								
+	edge of pier =		P/A(1+6e/b)+M/Z =		49.24	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+	Stress at down stream side 								
+	edge of pier =		P/A(1+6e/b)+M/Z =		76.28	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+									
+iii)On top of 2nd footing									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the pier (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				627.60KN				
+	Deduct uplift pressure				-221.54KN				
+	Net Reaction due to dead load from super structure				406.06KN	0.00	0.00		
+	Self wieght of pier&footings				207.36KN				
+	Reduction in self weight due to buoyancy				-86.40KN				
+2	Net self weight				120.96KN	0.000	0.000		
+3	Vertical component of earth pressure				0.00KN	0.000	0.000		
+									
+	Horizontal load acting/transferred on the pier (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	3.56		
+2	Tractive,Braking&Frictional resistance of bearings				0.00KN	y-Direction	0.00		
+3	Water current force on deck slab				10.74KN	x-Direction	2.49		
+4	Water current force on pier				4.30KN	x-Direction	1.50		
+5	Frictional force due to water on deck slab				4.96KN	x-Direction	2.49		
+6	Frictional force due to water on pier				0.50KN	x-Direction	0.90		
+7	Horizontal load due to earth pressure				0.00KN	y-Direction	0.00		
+8	Water pressure force				16.09KN	y-Direction	1.01		
+									
+	Check for stresses:-								
+									
+	About x-axis:-								
+									
+	Breadth of abutment b =				6.00m				
+	Depth of abutment d =				1.20m				
+	Area of the footing = A =				7.2	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	1.44	m3			
+	about x-axis --Zx =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compression is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at heel
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				406.06KN	0.00	56.4		
+2	Net self wieght of pier&footings				120.96KN	0.00	16.8		
+3	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+4	Horizontal load due to earth pressure				0.00KN	0.00	0		
+5	Water pressure force				16.09KN	1.01	11.2		
+							84.44		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at toe
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				406.06KN	0.00	56.4		
+2	Net self wieght of pier&footings				120.96KN	0.00	16.8		
+3	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+4	Horizontal load due to earth pressure				0.00KN	0.00	0		
+5	Water pressure force				16.09KN	1.01	-11.2		
+							61.96		
+									
+	Stress at heel =		P/A(1+6e/b)+M/Z =		84.44	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+									
+	Stress at  toe =		P/A(1+6e/b)+M/Z =		61.96	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+									
+	About y-axis:-								
+									
+	Breadth of pier b =				1.20m				
+	Depth of pier d =				6.00m				
+	Area of the footing = A =				7.2	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	7.20	m3			
+	about y-axis --Zy =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compression is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at U/S Edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				406.06KN	0.00	56.4		
+2	Net self wieght of pier&footings				120.96KN	0.00	16.8		
+3	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+4	Wind load				18.00KN	3.56	-8.9		
+5	Water current force on deck slab				10.74KN	2.49	-3.7		
+6	Water current force on pier				4.30KN	1.50	-0.9		
+7	Frictional force due to water on deck slab				4.96KN	2.49	-1.7		
+8	Frictional force due to water on pier				0.50KN	0.90	-0.1		
+							57.91		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at D/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				406.06KN	0.00	56.4		
+2	Net self wieght of pier&footings				120.96KN	0.00	16.8		
+3	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+4	Wind load				18.00KN	3.56	8.9		
+5	Water current force on deck slab				10.74KN	2.49	3.7		
+6	Water current force on pier				4.30KN	1.50	0.9		
+7	Frictional force due to water on deck slab				4.96KN	2.49	1.7		
+8	Frictional force due to water on pier				0.50KN	0.90	0.1		
+							88.49		
+									
+	Stress at up stream side 								
+	edge of pier =		P/A(1+6e/b)+M/Z =		57.91	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+	Stress at down stream side 								
+	edge of pier =		P/A(1+6e/b)+M/Z =		88.49	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+iii)On top of 1st footing									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the pier (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				627.60KN				
+	Deduct uplift pressure				-221.54KN				
+	Net Reaction due to dead load from super structure				406.06KN	0.00	0.00		
+	Self wieght of pier&footings				155.52KN				
+	Reduction in self weight due to buoyancy				-64.80KN				
+2	Net self weight				90.72KN	0.000	0.000		
+3	Vertical component of earth pressure				0.00KN	0.000	0.000		
+									
+	Horizontal load acting/transferred on the pier (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	3.26		
+2	Tractive,Braking&Frictional resistance of bearings				0.00KN	y-Direction	0.00		
+3	Water current force on deck slab				10.74KN	x-Direction	2.19		
+4	Water current force on pier				4.30KN	x-Direction	1.20		
+5	Frictional force due to water on deck slab				4.96KN	x-Direction	2.19		
+6	Frictional force due to water on pier				0.50KN	x-Direction	0.60		
+7	Horizontal load due to earth pressure				0.00KN	y-Direction	0.00		
+8	Water pressure force				16.09KN	y-Direction	0.71		
+									
+	Check for stresses:-								
+									
+	About x-axis:-								
+									
+	Breadth of pier b =				6.00m				
+	Depth of pier d =				0.90m				
+	Area of the footing = A =				5.4	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	0.81	m3			
+	about x-axis --Zx =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compression is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at heel
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				406.06KN	0.00	75.2		
+2	Net self wieght of pier&footings				90.72KN	0.00	16.8		
+3	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+4	Horizontal load due to earth pressure				0.00KN	0.00	0		
+5	Water pressure force				16.09KN	0.71	14.0		
+							106.02		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at toe
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				406.06KN	0.00	75.2		
+2	Net self wieght of pier&footings				90.72KN	0.00	16.8		
+3	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+4	Horizontal load due to earth pressure				0.00KN	0.00	0		
+5	Water pressure force				16.09KN	0.71	-14.0		
+							77.98		
+									
+	Stress at heel =		P/A(1+6e/b)+M/Z =		106.02	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+									
+	Stress at  toe =		P/A(1+6e/b)+M/Z =		77.98	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+									
+	About y-axis:-								
+									
+	Breadth of pier b =				0.90m				
+	Depth of pier d =				6.00m				
+	Area of the footing = A =				5.4	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	5.40	m3			
+	about y-axis --Zy =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compression is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at U/S Edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				406.06KN	0.00	75.2		
+2	Net self wieght of pier&footings				90.72KN	0.00	16.8		
+3	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+4	Wind load				18.00KN	3.26	-10.87		
+5	Water current force on deck slab				10.74KN	2.19	-4.4		
+6	Water current force on pier				4.30KN	1.20	-1.0		
+7	Frictional force due to water on deck slab				4.96KN	2.19	-2.0		
+8	Frictional force due to water on pier				0.50KN	0.60	-0.1		
+							73.74		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at D/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				406.06KN	0.00	75.2		
+2	Net self wieght of pier&footings				90.72KN	0.00	16.8		
+3	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+4	Horizontal load due to earth pressure				18.00KN	3.26	10.87		
+5	Water current force on deck slab				10.74KN	2.19	4.4		
+6	Water current force on pier				4.30KN	1.20	1.0		
+7	Frictional force due to water on deck slab				4.96KN	2.19	2.0		
+8	Frictional force due to water on pier				0.50KN	0.60	0.1		
+							110.26		
+									
+	Stress at up stream side 								
+	edge of pier =		P/A(1+6e/b)+M/Z =		73.74	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+	Stress at down stream side 								
+	edge of pier =		P/A(1+6e/b)+M/Z =		110.26	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+V)Check for stability of pier:-									
+									
+a)Load Envelope-I:-(The Canal is dry,with live load on span)									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the pier (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				627.60KN	0.00	0.00		
+2	Self wieght of pier				155.52KN	0.000	0.000		
+3	Reaction due to live load with impact factor				421.85KN	0.00	0.543		
+4	Vertical component of Active Earth pressure				0.00KN	0.000	0.00		
+					1204.97KN				
+									
+									
+	Horizontal load acting/transferred on the abutment (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	3.26		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	y-Direction	2.96		
+3	Horizontal Active Earth pressure force				0.00KN	y-Direction	0.00		
+					65.84KN				
+									
+	Check for stability against over turning:-								
+									
+	Taking moments of all the overturning forces about toe of the pier wrt x-axis,								
+									
+	Moment due to tractive,braking&frictional resistance of bearings  =						141.61Kn-m		
+									
+									
+	Moment due to active earth pressure force  =						0.00Kn-m		
+									
+									
+				Total overturning moment =			141.61Kn-m		
+									
+	Taking moments of all the restoring forces about toe of the pier wrt x-axis,,								
+									
+	Moment due to dead load reaction from super structure =						282.42Kn-m		
+									
+									
+	Moment due to self weight of pier =						69.98Kn-m		
+									
+									
+	Moment due to live load reaction on pier =						189.83Kn-m		
+									
+									
+	Moment due to vertical component of active earth pressure =						0.00Kn-m		
+									
+									
+				Total Restoring moment =			542.23Kn-m		
+									
+									
+		Factor of safety =		3.829084983	> 2.0	Hence safe			
+					(As per clause 706.3.4 of IRC:78-2000)				
+									
+									
+	Check for stability against sliding:-								
+									
+	Total vertical load acting on the base of the pier Vb =						1204.97KN		
+									
+	Total sliding force,ie,horizontal load on the pier Hb =						65.84KN		
+									
+	Coefficient of friction between concrete surfaces =						0.80		
+									
+	Factor of safety against sliding Fs =			14.64090828	> 1.5	Hence safe			
+					(As per clause 706.3.4 of IRC:78-2000)				
+									
+									
+b)Load Envelope-II:-(The Canal is full,with no live load on span)									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the pier (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				627.60KN				
+	Deduct uplift pressure				-221.54KN				
+	Net Reaction due to dead load from super structure				406.06KN	0.00	0.00		
+	Self wieght of pier				155.52KN				
+	"Reduction in self weight due to buoyancy
+"				-64.80KN				
+2	Net self wieght				90.72KN	0.000	0.000		
+3	Vertical component of Active Earth pressure				0.00	0.000	0.00		
+									
+									
+									
+	Horizontal load acting/transferred on the pier (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	3.26		
+2	Tractive,Braking&Frictional resistance of bearings				0.00KN	y-Direction	0.00		
+3	Water current force on deck slab				10.74KN	x-Direction	2.19		
+4	Water current force on pier				4.30KN	x-Direction	1.20		
+5	Frictional force due to water on deck slab				4.96KN	x-Direction	2.19		
+6	Frictional force due to water on pier				0.50KN	x-Direction	0.60		
+7	Active Earth pressure force				0.00KN	y-Direction	0.00		
+8	Force due to water pressure				16.09KN	y-Direction	0.71		
+									
+	Check for stability against over turning:-								
+									
+	Taking moments of all the overturning forces about toe of the abutment wrt x-axis,								
+									
+	Moment due to tractive,braking&frictional resistance of bearings  =						0.00Kn-m		
+									
+	Moment due to active earth pressure force  =						0.00Kn-m		
+									
+									
+				Total overturning moment =			0.00Kn-m		
+									
+	Taking moments of all the restoring forces about toe of the abutment wrt x-axis,								
+									
+	Moment due to self weight of pier =						40.82Kn-m		
+									
+									
+	Moment due to water pressure force on the pier =						11.35Kn-m		
+									
+									
+	Moment due to vertical component of active earth pressure =						0.00Kn-m		
+									
+									
+				Total Restoring moment =			52.18Kn-m		
+									
+									
+		Factor of safety =		∞	> 2.0	Hence safe			
+					(As per clause 706.3.4 of IRC:78-2000)				
+									
+	Check for stability against sliding:-								
+									
+	Total vertical load acting on the base of the pier Vb =						106.81KN		
+									
+									
+	Total sliding force,ie,horizontal load on the pier Hb =						0.00KN		
+									
+	Coefficient of friction between concrete surfaces =						0.80		
+									
+	Factor of safety against sliding Fs =			∞	> 1.5	Hence safe			
+					(As per clause 706.3.4 of IRC:78-2000)				
+									
+									
+VI)Design of Strip footing:-									
+									
+a)Load Envelope-I:-(The Canal is dry,with live load on span)									
+									
+i)At the bottom of RCC strip footing									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the pier (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				627.60KN	0.00	0.00		
+2	Self weight of pier&footings				349.92KN	0.000	0.000		
+3	"Self weight of RCC strip footing
+"				170.10KN	0.00	0.00		
+4	Reaction due to live load with impact factor				421.85KN	0.00	0.543		
+4	Vertical component of earth pressure				0.00KN	0.000	0.000		
+									
+	Horizontal load acting/transferred on the pier (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	4.46		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	y-Direction	4.16		
+3	Horizontal load due to earth pressure				0.00KN	y-Direction	0.00		
+									
+	Safe bearing capacity SBC of the soil =				15.00t/sqm				
+									
+									
+	Check for stresses:-								
+									
+	About x-axis:-								
+									
+	Breadth of footing b =				6.30m				
+	Depth of footing d =				2.40m				
+	Area of the footing = A =				15.12	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	6.05	m3			
+	about x-axis --Zx =								
+									
+	For RCC Strip footing permissible bearing pressure is 1.5xSBC =					225KN/sqm			
+									
+	No tension is allowed on soil as per clause 706.3.3.1 of IRC 78:2000								
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at heel
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	41.51		
+2	Self wieght of pier&footings				349.92KN	0.00	23.14		
+3	Self weight of RCC strip footing				170.10KN	0.00	11.25		
+4	Reaction due to live load with impact factor				421.85KN	0.00	27.9		
+5	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+1	Wind load				18.00KN	0.00	0		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	4.16	-32.9		
+3	Horizontal load due to earth pressure				0.00KN	0.00	0.0		
+							70.89		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at toe
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	41.51		
+2	Self wieght of pier&footings				349.92KN	0.00	23.14		
+3	Self weight of RCC strip footing				170.10KN	0.00	11.25		
+4	Reaction due to live load with impact factor				421.85KN	0.00	27.9		
+5	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+1	Wind load				18.00KN	0.00	0		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	4.16	32.91		
+3	Horizontal load due to earth pressure				0.00KN	0.00	0		
+							136.71		
+									
+	Stress at heel =		P/A(1+6e/b)+M/Z =		70.89	KN/Sqm>0			
+									
+									
+				Hence safe.					
+									
+	Stress at  toe =		P/A(1+6e/b)+M/Z =		136.71	KN/Sqm<225KN/sqm			
+									
+									
+				Hence safe.					
+									
+									
+	About y-axis:-								
+									
+	Breadth of footing b =				2.40m				
+	Depth of footing d =				6.30m				
+	Area of the footing = A =				15.12	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	15.88	m3			
+	about y-axis --Zy =								
+									
+	For RCC Strip footing permissible bearing pressure is 1.5xSBC =					225KN/sqm			
+									
+	No tension is allowed on soil as per clause 706.3.3.1 of IRC 78:2000								
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at U/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	41.51		
+2	Self wieght of pier&footings				349.92KN	0.00	23.14		
+3	Self weight of RCC strip footing				170.10KN	0.00	11.25		
+4	Reaction due to live load with impact factor				421.85KN	-0.543	-9.97		
+5	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+1	Wind load				18.00KN	4.46	-5.06		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	0.00	0.0		
+3	Horizontal load due to earth pressure				0.00KN	0.00	0.0		
+							60.87		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at D/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				627.60KN	0.00	41.51		
+2	Self wieght of pier&footings				349.92KN	0.00	23.14		
+3	Self weight of RCC strip footing				170.10KN	0.00	11.25		
+4	Reaction due to live load with impact factor				421.85KN	0.543	65.77		
+5	Vertical component of Earth pressure				0.00KN	0.00	0		
+	Horizontal loads:- (Stress = M/Z)								
+1	Wind load				18.00KN	4.46	5.06		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	0.00	0		
+3	Horizontal load due to earth pressure				0.00KN	0.00	0		
+							146.73		
+									
+	Stress at up stream side 								
+	edge of pier =		P/A(1+6e/b)+M/Z =		60.87	KN/Sqm>0			
+									
+									
+				Hence safe.					
+	Stress at down stream side 								
+	edge of pier =		P/A(1+6e/b)+M/Z =		146.73	KN/Sqm<225KN/sqm			
+									
+									
+				Hence safe.					
+									
+	The footing has to be designed as strip footing supporting the masonry structure								
+									
+	The net bearing pressure on the toe of footing =				125.46	KN/Sqm			
+	(Excluding self weight of footing)								
+									
+	The footing needs to be designed for 1.5 times the 								
+	above net bearing pressure				188.19	KN/Sqm			
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+	The UDL on the footing for unit width =				188.19	KN/m			
+									
+	The critical section for bending is at a distance of 1/4xwidth of bottom footing from the centre,ie,at section X--X								
+									
+	Hence,the length of cantilever portion to be considered for design = 								
+									
+						0.83m			
+									
+	Hence,the critical bending moment = (1/2)Wl2 =					64.82KN-m			
+									
+									
+	Effective depth required d =			Mu/0.133fckb   =		139.62mm			
+									
+									
+	The over all depth required(Assuming 16mm dia bars) =					197.62mm			
+									
+									
+	However provide overall depth of  =					450.00mm			
+									
+	Hence,effective depth =					392.00mm			
+									
+									
+	Bottom steel:-								
+									
+	Mu/bd2 =	0.422							
+									
+	From table 3 of SP 16,percentage of steel required =					0.127			
+	Minimum percentage required =					0.15			
+									
+	Area of steel required =					588.00sqmm			
+									
+									
+	However provide 12mm dia bars at 125mm c/c along width,the area of reinforcement comes to								
+									
+						904.32sqmm			
+	Distribution steel:-								
+									
+	Provide distribution reinforcement of 0.15% of cross sectional area of footing								
+									
+	Hence,the distribution reinforcement required =					675.00sqmm			
+									
+	Adopting 12mm dia bars,the spacing required = 					167.00mm			
+									
+									
+	However provide 12mm dia bars at 150mm c/c spacing,as distribution reinforcement								
+									
+									
+	Check for one way shear:-								
+									
+		The critical section for beam shear is at distance of 'd' from the face of the column,ie,at Y-Y							
+									
+	Hence,the factored design shear force  VFd =				56.46KN				
+									
+									
+	Nominal shear stress Tv  =			0.1N/sqmm	<2.8 N/sqmm				
+					(As per Table 20 of 1S 456)				
+									
+		Hence,the section is safe from shear point of view							
+									
+									
+		Assumed percentage area of the steel reinforcement =				0.23%			
+									
+									
+		The design shear strength of concrete for the above steel percentage from 							
+		Table 19 of IS 456 is 							
+				0.35	Hence Vuc =	137.20KN			
+									
+				0.35>0.1					
+									
+			Hence,the depth provided is safe from beam shear point of view						
+									
+	The check for two way shear is not necessary in the present context.								

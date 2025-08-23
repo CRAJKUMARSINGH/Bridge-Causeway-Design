@@ -1,0 +1,443 @@
+DESIGN  OF  FACE WALL (BIT-I)								
+								
+Data:-								
+								
+Height of Retaining wall =							2.40m	
+Height of wall above G.L=							2.40m	
+Height of wall below G.L=							0.00m	
+Density of back fill soil&material in toe portion = 							1800Kg/Cum	
+Unit weight of concrete  =							2400Kg/Cum	
+Top width =							0.30m	
+Bottom width assumed =							1.50m	
+Ground water Table level =								
+Angle of shearing resistance of back fill material&material at toe portion(Q)  = 							30	
+Angle of face of wall supporting earth with horizontal(a)(In degrees)							63.47	
+(in clock wise direction)								
+Slope of back fill(b) =							0	
+Angle of wall friction (q) =							20	
+Surcharge over the back fill in terms of height of back fill =							0.60m	
+Safe bearing capacity =							15000.0Kg/Sqm	
+								
+Coefficient of active earth pressure by Coulomb's theory 								
+								2
+			Ka =			Sin(a+Q)		
+				sina    sin(a-q)  		     sin(Q+q)sin(Q-b)		
+						          sin(a+b)		
+								
+From the above expression,								
+								
+		Ka =	0.57					
+								
+Hence,maximum pressure at the base of the wall						Pa =	2462.40Kg/sqm	
+								
+The pressure distribution along the height of the wall is as given below:-								
+								
+Surcharge load =		615.6						
+								
+								
+			615.6					
+								
+								
+								
+				2.40m				
+								
+								
+								
+		2462.40						
+								
+	Total earth pressure =		4432.32					
+								
+	The active earth pressure acts on the wall as shown below:-							
+								
+								
+				0.30				
+								
+								
+								
+			46.53					
+								
+					2.40m			
+								
+								
+			63.47					
+			0.3	C				
+		0.15						
+			1.50					
+								
+								
+								
+								
+	Horizontal component of the earth pressure Ph =						3050.65Kg/sqm	
+								
+	Vertical component of the earth pressure Pv =						3215.43Kg/sqm	
+								
+Stability calculations:-								
+						Load(Kg)	Lever arm about C	Moment(Kg-m)
+								
+	Weight of the wall =					1728.00Kg	0.15	259.20
+						3456.00Kg	0.70	2419.20
+	Weight of the earth =					2592.00Kg	1.10	2851.20
+	Vertical component of Active earth pressure=					3215.43Kg	1.21	3875.93
+	Weight of soil on the heel of footing-I =					1296.00Kg	1.65	2138.40
+						12287.43Kg		11543.93
+								
+	Note:-Weight of soil on the toe is neglected on the assumption that,it is scoured.							
+								
+	Horizontal earth pressure force =					3050.65	1.16m	-3532.65
+								8011.28
+								
+Lever arm x =		M	=	0.65m				
+		V						
+								
+	Eccentricuty e = b/2-x =			0.10m	<b/6			
+								
+	Maximum stress =		P/A(1+6e/b) =	11468.27	< SBC 	Hence O.K		
+								
+	Minimum stress =		P/A(1-6e/b) =	4914.97		Hence O.K		
+								
+	Coefficient of friction between soil and footing  u =				0.5			
+								
+	Factor of safety against sliding =(uFx0.9W)/Ph =				1.81	>1.25	Hence O.K	
+								
+	Factor of safety against overturning =				3.27	>1.5	Hence O.K	
+								
+								
+								
+								
+								
+DESIGN  OF  FACE WALL (BIT-II)								
+								
+Data:-								
+								
+Height of Retaining wall =							1.80m	
+Height of wall above G.L=							1.80m	
+Height of wall below G.L=							0.00m	
+Density of back fill soil&material in toe portion = 							1800Kg/Cum	
+Grade of concrete =							M15	
+Grade of steel =							Fe415	
+Unit weight of concrete  =							2400Kg/Cum	
+Top width =							0.30m	
+Bottom width assumed =							1.20m	
+Ground water Table level =								
+Angle of shearing resistance of back fill material&material at toe portion(Q)  = 							30	
+Angle of face of wall supporting earth with horizontal(a)(In degrees)							63.47	
+(in clock wise direction)								
+Slope of back fill(b) =							0	
+Angle of wall friction (q) =							20	
+Permissible compressive stress in bending for M20 Concrete (c)=							70Kg/Sqcm	
+Permissible tensile stress in bending for Fe 415 steel (t)=							2300Kg/Sqcm	
+Modular ratio m = 280/3c =							13	
+k = mc/(mc+t)							0.283	
+j = 1-k/3 =							0.906	
+R = 1/2(cjk) =							8.974	
+Surcharge over the back fill in terms of height of back fill =							0.60m	
+Safe bearing capacity =							15000.0Kg/Sqm	
+								
+Coefficient of active earth pressure by Coulomb's theory 								
+								2
+			Ka =			Sin(a+Q)		
+				sina    sin(a-q)  		     sin(Q+q)sin(Q-b)		
+						          sin(a+b)		
+								
+From the above expression,								
+								
+		Ka =	0.57					
+								
+Hence,maximum pressure at the base of the wall						Pa =	1846.80Kg/sqm	
+								
+The pressure distribution along the height of the wall is as given below:-								
+								
+Surcharge load =		615.6						
+								
+								
+			615.6					
+								
+								
+								
+				1.80m				
+								
+								
+								
+		1846.80						
+								
+	Total earth pressure =		2770.2					
+								
+	The active earth pressure acts on the wall as shown below:-							
+								
+								
+				0.30				
+								
+								
+								
+			46.53					
+								
+					1.80m			
+								
+								
+			63.47					
+			0.3	C				
+		0.15						
+			1.20					
+								
+								
+								
+								
+	Horizontal component of the earth pressure Ph =						1906.65Kg/sqm	
+								
+	Vertical component of the earth pressure Pv =						2009.65Kg/sqm	
+								
+Stability calculations:-								
+						Load(Kg)	Lever arm about C	Moment(Kg-m)
+								
+	Weight of the wall =					1296.00Kg	0.15	194.40
+						1944.00Kg	0.60	1166.40
+	Weight of the earth =					1458.00Kg	0.90	1312.20
+	Vertical component of Active earth pressure=					2009.65Kg	0.90	1816.84
+	Weight of soil on the heel of footing-I =					972.00Kg	1.35	1312.20
+						7679.65Kg		5802.04
+								
+	Note:-Weight of soil on the toe is neglected on the assumption that,it is scoured.							
+								
+	Horizontal earth pressure force =					1906.65	0.91m	-1727.43
+								4074.61
+								
+Lever arm x =		M	=	0.53m				
+		V						
+								
+	Eccentricuty e = b/2-x =			0.07m	<b/6			
+								
+	Maximum stress =		P/A(1+6e/b) =	8639.6	< SBC 	Hence O.K		
+								
+	Minimum stress =		P/A(1-6e/b) =	4159.81		Hence O.K		
+								
+	Coefficient of friction between soil and footing  u =				0.5			
+								
+	Factor of safety against sliding =(uFx0.9W)/Ph =				1.81	>1.25	Hence O.K	
+								
+	Factor of safety against overturning =				3.36	>1.5	Hence O.K	
+								
+								
+								
+DESIGN  OF  FACE WALL (BIT-III)								
+								
+Data:-								
+								
+Height of Retaining wall =							1.20m	
+Height of wall above G.L=							1.20m	
+Height of wall below G.L=							0.00m	
+Density of back fill soil&material in toe portion = 							1800Kg/Cum	
+Grade of concrete =							M15	
+Grade of steel =							Fe415	
+Unit weight of concrete  =							2400Kg/Cum	
+Top width =							0.30m	
+Bottom width assumed =							0.80m	
+Ground water Table level =								
+Angle of shearing resistance of back fill material&material at toe portion(Q)  = 							30	
+Angle of face of wall supporting earth with horizontal(a)(In degrees)							67.41	
+(in clock wise direction)								
+Slope of back fill(b) =							0	
+Angle of wall friction (q) =							20	
+Permissible compressive stress in bending for M20 Concrete (c)=							70Kg/Sqcm	
+Permissible tensile stress in bending for Fe 415 steel (t)=							2300Kg/Sqcm	
+Modular ratio m = 280/3c =							13	
+k = mc/(mc+t)							0.283	
+j = 1-k/3 =							0.906	
+R = 1/2(cjk) =							8.974	
+Surcharge over the back fill in terms of height of back fill =							0.60m	
+Safe bearing capacity =							15000.0Kg/Sqm	
+								
+Coefficient of active earth pressure by Coulomb's theory 								
+								2
+			Ka =			Sin(a+Q)		
+				sina    sin(a-q)  		     sin(Q+q)sin(Q-b)		
+						          sin(a+b)		
+								
+From the above expression,								
+								
+		Ka =	0.51					
+								
+Hence,maximum pressure at the base of the wall						Pa =	1101.60Kg/sqm	
+								
+The pressure distribution along the height of the wall is as given below:-								
+								
+Surcharge load =		550.8						
+								
+								
+			550.8					
+								
+								
+								
+				1.20m				
+								
+								
+								
+		1101.60						
+								
+	Total earth pressure =		1321.92					
+								
+	The active earth pressure acts on the wall as shown below:-							
+								
+								
+				0.30				
+								
+								
+								
+			42.59					
+								
+					1.20m			
+								
+								
+			67.41					
+			0.3	C				
+		0.15						
+			0.80					
+								
+								
+								
+								
+	Horizontal component of the earth pressure Ph =						973.55Kg/sqm	
+								
+	Vertical component of the earth pressure Pv =						894.24Kg/sqm	
+								
+Stability calculations:-								
+						Load(Kg)	Lever arm about C	Moment(Kg-m)
+								
+	Weight of the wall =					864.00Kg	0.15	129.60
+						720.00Kg	0.47	336.00
+	Weight of the earth =					540.00Kg	0.63	342.00
+	Vertical component of Active earth pressure=					894.24Kg	0.58	520.39
+	Weight of soil on the heel of footing-I =					648.00Kg	0.95	615.60
+						3666.24Kg		1943.59
+								
+	Note:-Weight of soil on the toe is neglected on the assumption that,it is scoured.							
+								
+	Horizontal earth pressure force =					973.55	0.65m	-636.70
+								1306.89
+								
+Lever arm x =		M	=	0.36m				
+		V						
+								
+	Eccentricuty e = b/2-x =			0.04m	<b/6			
+								
+	Maximum stress =		P/A(1+6e/b) =	5957.64	< SBC 	Hence O.K		
+								
+	Minimum stress =		P/A(1-6e/b) =	3207.96		Hence O.K		
+								
+	Coefficient of friction between soil and footing  u =				0.5			
+								
+	Factor of safety against sliding =(uFx0.9W)/Ph =				1.69	>1.25	Hence O.K	
+								
+	Factor of safety against overturning =				3.05	>1.5	Hence O.K	
+								
+								
+								
+DESIGN  OF  FACE WALL (BIT-IV)								
+								
+Data:-								
+								
+Height of Retaining wall =							0.80m	
+Height of wall above G.L=							0.80m	
+Height of wall below G.L=							0.00m	
+Density of back fill soil&material in toe portion = 							1800Kg/Cum	
+Grade of concrete =							M15	
+Grade of steel =							Fe415	
+Unit weight of concrete  =							2400Kg/Cum	
+Top width =							0.30m	
+Bottom width assumed =							0.50m	
+Ground water Table level =								
+Angle of shearing resistance of back fill material&material at toe portion(Q)  = 							30	
+Angle of face of wall supporting earth with horizontal(a)(In degrees)							76	
+(in clock wise direction)								
+Slope of back fill(b) =							0	
+Angle of wall friction (q) =							20	
+Permissible compressive stress in bending for M20 Concrete (c)=							70Kg/Sqcm	
+Permissible tensile stress in bending for Fe 415 steel (t)=							2300Kg/Sqcm	
+Modular ratio m = 280/3c =							13	
+k = mc/(mc+t)							0.283	
+j = 1-k/3 =							0.906	
+R = 1/2(cjk) =							8.974	
+Surcharge over the back fill in terms of height of back fill =							0.60m	
+Safe bearing capacity =							15000.0Kg/Sqm	
+								
+Coefficient of active earth pressure by Coulomb's theory 								
+								2
+			Ka =			Sin(a+Q)		
+				sina    sin(a-q)  		     sin(Q+q)sin(Q-b)		
+						          sin(a+b)		
+								
+From the above expression,								
+								
+		Ka =	0.42					
+								
+Hence,maximum pressure at the base of the wall						Pa =	604.80Kg/sqm	
+								
+The pressure distribution along the height of the wall is as given below:-								
+								
+Surcharge load =		453.6						
+								
+								
+			453.6					
+								
+								
+								
+				0.80m				
+								
+								
+								
+		604.80						
+								
+	Total earth pressure =		604.8					
+								
+	The active earth pressure acts on the wall as shown below:-							
+								
+								
+				0.30				
+								
+								
+								
+			34					
+								
+					0.80m			
+								
+								
+			76					
+			0.3	C				
+		0.15						
+			0.50					
+								
+								
+								
+								
+	Horizontal component of the earth pressure Ph =						501.50Kg/sqm	
+								
+	Vertical component of the earth pressure Pv =						338.05Kg/sqm	
+								
+Stability calculations:-								
+						Load(Kg)	Lever arm about C	Moment(Kg-m)
+								
+	Weight of the wall =					576.00Kg	0.15	86.40
+						192.00Kg	0.37	70.40
+	Weight of the earth =					144.00Kg	0.43	62.40
+	Vertical component of Active earth pressure=					338.05Kg	0.36	122.85
+	Weight of soil on the heel of footing-I =					432.00Kg	0.65	280.80
+						1682.05Kg		622.85
+								
+	Note:-Weight of soil on the toe is neglected on the assumption that,it is scoured.							
+								
+	Horizontal earth pressure force =					501.50	0.49m	-243.73
+								379.12
+								
+Lever arm x =		M	=	0.23m				
+		V						
+								
+	Eccentricuty e = b/2-x =			0.02m	<b/6			
+								
+	Maximum stress =		P/A(1+6e/b) =	4171.48	< SBC 	Hence O.K		
+								
+	Minimum stress =		P/A(1-6e/b) =	2556.71		Hence O.K		
+								
+	Coefficient of friction between soil and footing  u =				0.5			
+								
+	Factor of safety against sliding =(uFx0.9W)/Ph =				1.51	>1.25	Hence O.K	
+								
+	Factor of safety against overturning =				2.56	>1.5	Hence O.K	

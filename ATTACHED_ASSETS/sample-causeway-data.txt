@@ -1,0 +1,55 @@
+SAMPLE CAUSEWAY DESIGN PARAMETERS
+=================================
+
+BASIC DIMENSIONS:
+-----------------
+Length: 100 meters
+Width: 8 meters  
+Height: 2 meters
+Water Depth: 1.5 meters
+
+SITE CONDITIONS:
+----------------
+Soil Type: Medium (150 kN/m² bearing capacity)
+Load Type: Light Vehicle (5 kN/m² live load)
+Safety Factor: 2.5
+
+MATERIAL SPECIFICATIONS:
+------------------------
+Concrete Grade: M25
+Steel Grade: Fe415
+Foundation: Spread Foundation
+Construction: Direct Construction
+
+DESIGN CRITERIA:
+----------------
+Design Life: 50 years
+Seismic Zone: II
+Wind Speed: 33 m/s
+Temperature: -5°C to +45°C
+
+SAFETY FEATURES:
+----------------
+Guard Rails: Yes
+Lighting: Yes
+Drainage: Surface drainage system
+Maintenance Access: Yes
+
+CALCULATED RESULTS (Auto-generated):
+------------------------------------
+Volume: 1600 m³
+Surface Area: 800 m²
+Perimeter: 216 m
+Total Load: 3840 kN
+Foundation Pressure: 3200 kN/m²
+Safety Margin: 4.69
+Status: SAFE ✅
+
+RECOMMENDATIONS:
+----------------
+Foundation Type: Spread Foundation
+Construction Method: Direct Construction
+Material Quantities:
+- Concrete: 1600 m³
+- Steel: 128 tons
+- Formwork: 1232 m²

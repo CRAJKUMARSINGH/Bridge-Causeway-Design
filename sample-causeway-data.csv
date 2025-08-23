@@ -1,0 +1,21 @@
+Parameter,Value,Unit,Category
+Length,100,m,Dimensions
+Width,8,m,Dimensions
+Height,2,m,Dimensions
+Water Depth,1.5,m,Environmental
+Soil Type,Medium,,Site Conditions
+Load Type,Light Vehicle,,Traffic
+Safety Factor,2.5,,Design
+Concrete Grade,M25,Materials
+Steel Grade,Fe415,Materials
+Foundation Type,Spread Foundation,Design
+Construction Method,Direct Construction,Design
+Design Life,50,Years,Design
+Seismic Zone,II,,Environmental
+Wind Speed,33,m/s,Environmental
+Temperature Range,-5 to 45,Deg C,Environmental
+Corrosion Protection,Epoxy Coating,Materials
+Drainage System,Surface Drainage,Design
+Guard Rails,Yes,Safety
+Lighting,Yes,Safety
+Maintenance Access,Yes,Safety

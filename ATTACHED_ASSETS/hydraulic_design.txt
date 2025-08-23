@@ -1,0 +1,462 @@
+Hydraulic  design									
+									
+Hydraulic Particulars:-									
+									
+1.Maximum Flood Level				6.235					
+									
+2.Ordinary Flood level				5.015					
+									
+3.Lowest Bed level				3.965					
+									
+4.Average bed slope				0.015200					
+(1 in 1000)									
+									
+5.Rugosity Coefficient(n)				0.050					
+(As per table 5 of IRC:SP 13)									
+									
+6.Bottom of deck proposed				5.165					
+(MFL+Vertical clearence)									
+									
+7.Road Crest level				5.645					
+(Bottom of deck level+thickness of deck slab)									
+									
+8.Width of carriage way				6.000					
+									
+									
+Discharge Calculations:-									
+									
+I)Discharge calculations of stream:-									
+									
+A) Area-Velocity Method:-									
+									
+a)At the proposed bridge site(20m upstream):-									
+									
+Maximum Flood level			6.235m						
+Slope			0.01520						
+Rugosity Coefficient			0.050						
+									
+S.No	Chainage	R.L	Depth of	Average	Distance	Area	Wetted 		
+			flow	depth of	(m)	(Sqm)	perimeter		
+			(m)	flow			(m)		
+				(m)					
+									
+1	0	6.500	0.00	0.00	0.00	0.00	0.00		
+2	1	5.340	0.90	0.45	1.00	0.45	1.08		
+3	2	4.560	1.68	1.29	1.00	1.29	1.05		
+4	4	3.965	2.27	1.97	2.00	3.95	2.05		
+5	6	4.780	1.46	1.86	2.00	3.73	2.34		
+6	7	5.300	0.94	1.20	1.00	1.20	1.12		
+7	9	6.100	0.14	0.54	2.00	1.07	2.30		
+8	10	6.420	0.00	0.07	1.00	0.07	1.05		
+						11.74	10.99		
+									
+									
+Hydraulic Radius		R=	Total area/Wetted perimeter =			1.07			
+									
+Velocity  V =		1/nX(R2/3XS1/2)				2.58m/sec			
+									
+Discharge  =		AXV				30.28Cumecs			
+									
+									
+									
+b)At 300m upstream of the the proposed bridge site:-									
+									
+Maximum Flood level			9.235m						
+Slope			0.01520						
+Rugosity Coefficient			0.050						
+									
+S.No	Chainage	R.L	Depth of	Average	Distance	Area	Wetted 		
+			flow	depth of	(m)	(Sqm)	perimeter		
+			(m)	flow			(m)		
+				(m)					
+									
+1	0	9.450	0.00	0.00	0.00	0.00	0.00		
+2	1	8.290	0.95	0.47	1.00	0.47	1.08		
+3	2	7.720	1.52	1.23	1.00	1.23	1.05		
+4	4	7.500	1.74	1.63	2.00	3.25	2.05		
+5	6	7.650	1.59	1.66	2.00	3.32	2.34		
+6	8	8.250	0.98	1.29	2.00	2.57	2.20		
+7	10	9.050	0.18	0.58	2.00	1.17	2.30		
+8	13	9.370	0.00	0.09	3.00	0.28	3.20		
+						12.29	14.22		
+									
+									
+Hydraulic Radius		R=	Total area/Wetted perimeter =			0.86			
+									
+Velocity  V =		1/nX(R2/3XS1/2)				2.23m/sec			
+									
+Discharge  =		AXV				27.41Cumecs			
+									
+									
+									
+c)At 300m downstream of the the proposed bridge site:-									
+									
+Maximum Flood level			4.035m						
+Slope			0.01520						
+Rugosity Coefficient			0.050						
+									
+S.No	Chainage	R.L	Depth of	Average	Distance	Area	Wetted 		
+			flow	depth of	(m)	(Sqm)	perimeter		
+			(m)	flow			(m)		
+				(m)					
+									
+1	0	4.400	0.00	0.00	0.00	0.00	0.00		
+2	1	3.240	0.80	0.40	1.00	0.40	1.08		
+3	2	2.460	1.58	1.19	1.00	1.19	1.05		
+4	4	1.660	2.38	1.98	2.00	3.95	2.05		
+5	6	1.770	2.27	2.32	2.00	4.64	2.34		
+6	8	3.200	0.84	1.55	2.00	3.10	2.20		
+7	10	3.750	0.29	0.56	2.00	1.12	2.30		
+8	13	4.320	0.00	0.14	3.00	0.43	3.20		
+						14.82	14.22		
+									
+									
+Hydraulic Radius		R=	Total area/Wetted perimeter =			1.04			
+									
+Velocity  V =		1/nX(R2/3XS1/2)				2.53m/sec			
+									
+Discharge  =		AXV				37.49Cumecs			
+									
+									
+B) CATCHMENT  AREA  METHOD:-									
+									
+Catchment area from stream alignment and local enquiry(Indicated in the drawing) =						1.38sqkm			
+									
+Using Dicken's formula Discharge Q = CA3/4 =				21.65Cumecs					
+									
+Design discharge of the stream =				30.28Cumecs					
+									
+II)Discharge from surplus wier of tank:-									
+									
+Assume head of flow  =  			0.45m	(As enquired from local people)					
+									
+Length of check dam =			22.75m						
+									
+The discharge per metre length of check dam is calculated as given below:-									
+									
+q = Cd L h3/2.  =			24.13Cusecs	0.68Cumecs					
+									
+(Where Cd  =4.10 as being adopted by Irrigation authorities )									
+									
+Hence the total discharge over the check dam =				 Q2 =	15.47Cumecs				
+									
+Design Discharge =						45.75Cumecs			
+									
+Design Velocity =						2.58m/sec			
+									
+									
+Ventway Calculations & fixation of RTL:-									
+									
+	As per caluse 5.1.3(ii)a of IRC SP:82-2008,low level submersible structures like causeways,								
+provide a vent area of about 40 percent but not less than 30 percent of the unobstructed area of the stream 									
+measured between the proposed road top level and the stream bed.However, the available area of flow									
+under design HFL condition should always be at least 70 percent of the unobstructed area of flow between 									
+the design HFL and the stream bed i.e. the obstruction under design HFL condition should not be more 									
+than 30per cent.									
+									
+Trial 1:-									
+									
+	Assume RTL of +5.645m,the unobstructed area of the stream measured between the RTL and								
+stream bed (from graphical calculation in AUTOCAD) =					66.53sqm				
+									
+	To avoid debris and other tree logs etc.getting clogged in the vents,it is proposed to provide 6m								
+spans,for which open expansion joints are sufficient.Hence,3 spans of each 6m are proposed.									
+Further 4Nos of 900mm dia are proposed on each side of the spans to avoid concentration of flow in 									
+the middle portion,thereby avoiding the formation of eddies and scouring of face walls.									
+									
+	Vented area available for middle span =				6.88sqm				
+									
+	 ---do---- for left side span                   =				5.75sqm				
+									
+	 ---do---- for right side span                 =				5.95sqm				
+									
+	Cumulative area of vents available from  =				7.63sqm				
+	900mm dia pipes								
+									
+			Total vented area provided =		26.21sqm				
+									
+	Percentage of vented area provided =				39.40%	>30%			
+									
+			Hence O.K						
+									
+	From local enquiry,the HFL is fixed as +6.235m								
+									
+Total area between HFL and stream bed for defined cross section    =						79.33sqm			
+(from graphical calculation in AUTOCAD) 									
+									
+Area available for flow in between HFL and RTL/PBL             					                     =	30.06sqm			
+									
+Total vented area provided 					                     =	26.21sqm			
+									
+	Hence.total area available, when the flow is at HFL  				                     =	56.27sqm			
+									
+	Percentage of obstruction =					29.07%	<30%		
+									
+			Hence O.K						
+									
+Afflux Calculations(H.F.L Condition):-									
+									
+Un obstructed area of cross section    =				A  =		79.33Sqm			
+									
+Total vented area provided  = a  =						56.27Sqm			
+									
+Design discharge Q =						45.75Cumecs			
+									
+Linear water way L =						28.80m			
+									
+Depth of down stream water Dd =						0.80m			
+									
+Width of the channel at HFL =    						45.38m			
+									
+Case(a) Assume that afflux is less than 1.4Dd:-									
+									
+Using Orifice formula for calculation of discharge									
+									
+	Q = Co X (2g)1/2 X L X Dd X [h+(1+e)u2/2g]1/2 								
+									
+	In the present case,								
+									
+	a/A =					0.71			
+									
+Corresponding to this value the coefficient Co from IRC SP:13--2004 = 						0.867			
+Corresponding to this value the coefficient e from IRC SP:13--2004  = 						0.91			
+									
+	Hence								
+									
+	0.267349914	 =       h+	0.097349643	u2 ------------- (1)					
+									
+									
+At just upstream of the bridge									
+									
+	Q = W X (Dd + h) X u								
+									
+	1.008153372	  =	(0.80+h) X u						
+									
+		u =	1.008153372	  ----------------(2)					
+			(0.80+h)						
+									
+Substituting,the above value in eq (1)									
+					    '2				
+	0.267349914	 =	h+ 0.097350	 X                 1.008153					
+				(0.80+h)					
+									
+									
+Solving by trial and error method,assume h = 				0.30m					
+									
+				0.267350 = 	0.333764906	Not satisfied			
+									
+			assume h =	0.131m					
+									
+				0.267350 = 	0.267765234				
+									
+		Hence afflux h =		0.131m					
+									
+		Velocity u =		1.083m/sec					
+									
+Case(b) Assume that afflux is more than 1.4Dd:-									
+									
+	Applying Broad crested wier formula,								
+									
+	Q  =  1.706 CW LH3/2  								
+									
+As per clause 15.2 of IRC SP:13-2004,the value of CW for narrow bridge opening with or without floor =							0.94		
+									
+	Hence H =		0.99m						
+									
+	H = Du  +  u2/2g  ≈   Du 								
+									
+		Du =	0.99m						
+									
+	Again  applying Q  = Du x W x u								
+									
+		u =	1.018m/sec						
+									
+	Du = H -  u2/2g								
+									
+	Hence, Du  =		0.937						
+									
+	Hence afflux h = Du - Dd  =			0.137					
+									
+	From the above calculations,it is inferred that afflux is less than 1/4 th Dd 								
+	and hence afflux to be adopted is from the Orifice formula,which is equal to					0.131m			
+									
+Scour Depth Calculations:-									
+									
+	As per the clause 101.1.2 of IRC:5--1985,the design discharge should be increased by 30% to ensure adequate 								
+margin of safety for foundations and protection works									
+									
+Hence,the discharge for design of foundations  =  				1.30XDesign Discharge  =  			60.85Cumecs		
+									
+									
+Lacey's Silt factor ' f ' = 1.76Xm1/2(Due to pebbles&boulders in the bed) =							2.00		
+									
+Discharge per metre width of foundations =   q  =							2.113		
+									
+									
+Normal scour depth D = 1.34(q2/f)1/3 = 							1.75m		
+									
+									
+Maximum scour depth Dm  = 1.5XD  =							2.63m		
+(For design of abutment foundations,as per clause 110.1.4.2 of IRC:5--1985)									
+									
+									
+Depth of foundation = Dm + Max.of 1.2m or 1/3 Dm =							3.83m		
+									
+									
+Bottom level of foundation =  							2.41m		
+									
+Depth of foundation below low bed level  =   							1.56m		
+									
+The Minimum Safe Bearing capacity of the soil is considered as 15 KN/m2 at a depth of 1.50m below LBL									
+									
+Hence open foundation in the form of individual footings is proposed at a depth of 1.80m below LBL									
+						,ie,at a level of 	+2.315m		
+									
+As the foundations are proposed below the Max.scour level,bed protection is not needed from scour depth 									
+considerations.									
+									
+Design of Protection works:-									
+									
+Afflux =						0.131m			
+									
+Depth of flow =			di  =			2.27m			
+									
+Head due to velocity of approach =				(Vmax2/2g)X[di/(di+x)]2		0.303m			
+									
+Combined head due to Velocity of approach and				 hi  =		0.434m			
+afflux									
+									
+Velocity through vents    Vv   =				0.90X(2ghi)1/2  =		2.63m/sec			
+									
+Linear water way required				LWW  = Qd/(VvXdi)  =		7.67m	<28.80m		
+									
+Area available for flow at H.F.L =						56.27sqm			
+									
+	As per the clause 6.4.2(i),of IRC SP:82-2008,the post construction velocity under the structure should not exceed 								
+2 m/s and the intensity of discharge is limited to 3m3/m except in the case of properly designed raft foundation with adequate 									
+protective works.									
+									
+Hence Vlim. =						2.00m/sec			
+									
+Discharge,that can be passed over the causeway safely =						112.54Cumecs	>60.85		
+									
+					Hence O.K				
+									
+	As per the clause 5.1.3(iv),of IRC SP:82-2008 for the beds consisting of boulders upto 200mm size,the permissible 								
+velocity through vents is 2.5m/s and for beds containing larger sized boulders or rocky strata permissible velocity is 6m/s.									
+									
+	As the bed of the proposed stream is rocky strata,increased velocity of 2.68m/sec is allowed through vents without								
+rigid floor protection.Hence rigid floor protection is not proposed.									
+									
+	However,suitably designed flexible aprons with cut-off walls are proposed on both upstream and down stream sides to 								
+protect against the probable eddies formed due to uneven spacing of vents along the causeway.									
+									
+Design of cut-off walls/Toe walls:-									
+									
+	Though,it is sufficient to take the D/S side cut-off upto 1.27 times the normal scour depth as per 								
+caluse 703.2.3.2 of IRC 78-1983 considering that the reach is straight.									
+									
+1.27XNormal  scour depth from HFL  =				2.22m					
+									
+Depth of bottom of Cut-off wall from HFL  =				2.22m					
+									
+Bottom level of cut-off wall  =				4.01					
+									
+Depth of bottom of D/S side Cut-off wall from LBL				-0.05m					
+									
+	As per the clause 6.4.2(v),of IRC SP:82-2008,the minimum depth of cut-off wall on U/S side is 2.0m below bed 								
+level and 2.5m below bed level on D/S side.									
+									
+Depth of bottom of D/S side Cut-off wall from LBL				2.50m					
+									
+Depth of bottom of U/S side Cut-off wall from LBL				2.00m					
+									
+	As rigid floooring is not being proposed,there is no need to provide cut-off walls.But toe walls are proposed to a depth 								
+of 0.90m to protect the flexible apron.									
+									
+Design of LAUNCHING/FLEXIBLE  APRONS:-									
+									
+	Size of stones as per clause 5.3.7.2 of IRC 89-1985								
+									
+	Diametre (d) = (Vmax/4.893)2 =			0.28m					
+			Say	0.30m					
+									
+	Weight of each stone considering the specific gravity of stone as 2.65								
+									
+	Weight of stone  =4/3x   x(d/2)3 x 2.65 x 1000 =				37.48Kg				
+									
+			Say		40Kg				
+									
+	Weight of each stone shall not be less than 40 Kg.								
+									
+									
+	Dimensions of apron as per clause 5.3.5.2 of IRC 89-1985								
+									
+			( T ) = 0.06 x (Qdf)1/3 =		0.236				
+									
+	Thickness of apron at inner edge(near raft) = 1.5 x T =				0.354m				
+									
+				Say 	0.60m				
+									
+	Thickness of apron at outer edge = 2.25 x T =				0.531m				
+									
+				Say 	0.90m				
+									
+	Hence provide a thickness of 0.60m at near end and 0.9m at the outer end								
+									
+	Width of Launching Apron on U/S Side:-								
+									
+	The launching aprons are designed to reach a level of 1.50 times the normal scour depth								
+									
+				1.5 x D =	2.625m				
+									
+	Bottom level of apron after launching  =  HFL-1.5 X D =				3.61m				
+									
+	Depth below top of the raft =				-1.65m				
+									
+	The apron should launch in a slope of 1V : 2H as per clause 5.3.7.6 of IRC 89								
+									
+	Hence the width of launching apron at U/S =				-3.30m				
+									
+As per the clause 6.4.2(vi),of IRC SP:82-2008,minimum width =					4.0m				
+									
+									
+	Width of Launching Apron on D/S Side:-								
+									
+	The launching aprons are designed to reach a level of 2.00 times the normal scour depth								
+									
+				2.0 x D =	3.500m				
+									
+	Bottom level of apron after launching  =  HFL-2 X D =				2.74m				
+									
+	Depth below top of the raft =				0.23m				
+									
+	The apron should launch in a slope of 1V : 2H as per clause 5.3.7.6 of IRC 89								
+									
+	Hence the width of launching apron at D/S =				0.46m				
+									
+As per the clause 6.4.2(vi),of IRC SP:82-2008,minimum width =					6.0m				
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									

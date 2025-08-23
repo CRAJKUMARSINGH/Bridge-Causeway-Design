@@ -1,0 +1,2298 @@
+Design of Abutments for causeway									
+									
+I)Design Parameters:-									
+									
+	Clear Right Span				 =	6.00m			
+	Deck slab length 				 =	6.800m			
+	Width of the carriage way				 =	6.00m			
+	Thickness of deck slab as per IRC SP 20				 =	0.480m			
+	Thickness of wearing coat 				 =	0.075m			
+	Height of guard stones				 =	0.750m			
+	Thickness of dirt wall 				 =	0.30m			
+	Sectional area of dirt wall 				 =	0.370sqm			
+	Thickness of strip footing				 =	0.45m			
+	Height of abutments				 =	1.200m			
+	(As per hydralic calculations)								
+	Top width of abutments 				 =	0.750m			
+	Bottom width of abutments				 =	1.05m			
+	Sectional area of abutment section 				 =	1.080sqm			
+	Bank side batter of abutment 				 =	0.000m			
+	Stream side batter of abutment 				 =	0.300m			
+	Width of 1st footing 				 =	1.35m			
+	Thickness of 1st footing 				 =	0.30m			
+	Canal side offset of 1st footing wrt abutment 				 =	0.15m			
+	Bank side offset of 1st footing wrt abutment				 =	0.15m			
+	Width of 2nd footing 				 =	1.50m			
+	Thickness of 2nd footing 				 =	0.30m			
+	Canal side offset of 2nd footing wrt abutment 				 =	0.30m			
+	Bank side offset of 2nd footing wrt abutment				 =	0.15m			
+	Width of 3rd footing 				 =	1.65m			
+	Thickness of 3rd footing				 =	0.30m			
+	Canal side offset of 3rd footing wrt abutment 				 =	0.45m			
+	Bank side offset of 3rd footing wrt abutment				 =	0.15m			
+	Width of VRCC strip footing				 =	1.95m			
+	Thickness of VRCC strip footing (d3)				 =	0.45m			
+	Canal side offset of RCC strip footing wrt abutment (s5)				 =	0.60m			
+	Bank side offset of RCC strip footing wrt abutment (s6)				 =	0.30m			
+	Offset of top footing along width				 =	0.00m			
+	Offset of 2nd footing along width				 =	0.00m			
+	Offset of 3rd footing along width				 =	0.00m			
+	Offset of RCC strip footing along width (w1)				 =	0.15m			
+	Type of bearings				 =	No bearings proposed			
+	Unit weight of RCC (yrc)				 =	25KN/cum			
+	Unit weight of PCC (ypc)				 =	24KN/cum			
+	Density of back fill soil behind abutments (y) 				 =	18KN/Cum			
+	Unit weight of water (yw)				 =	10KN/Cum			
+	Angle of shearing resistance of back fill material(Q)  				 =	30			
+	Angle of face of wall supporting earth with horizontal(In degrees)(in clock wise direction)(a)				 =	90			
+	Slope of back fill (b) 				 =	0			
+	Angle of wall friction (q) 				 =	15			
+	Height of surcharge considered (h3)				 =	1.20m			
+	Road crest level (RTL) 				 =	5.645m			
+	Low bed level (LBL) 				 =	3.965m			
+	High flood Level (HFL)				 =	6.235m			
+	Bottom of foundation level (BFL) 				 =	2.315m			
+	Safe Bearing Capacity of the soil (SBC) 				 =	15.00t/sqm			
+	Compressive strength of concrete for PCC  (fck)				 =	20.00N/sqmm			
+	Compressive strength of concrete for VRCC  (fck)				 =	25.00N/sqmm			
+	Yield strength of steel (fy)				 =	415.00N/sqmm			
+	Cover to reinforcement 				 =	50.00mm			
+									
+									
+									
+II)General loading pattern:-									
+									
+	As per IRC:6---2000,the following loadings are to be considered on the submersible bridge or slab								
+	culvert:-								
+									
+	1.Dead load								
+	2.Live load								
+	3.Impact load								
+	4.Wind load								
+	5.Water current								
+	6.Tractive,braking effort of vehicles&frictional resistance of bearings								
+	7.Buoyancy								
+	8.Earth pressure								
+	9.Seismic force								
+	10.Water pressure force								
+									
+	Apart from the above forces,the following pressures are to be considered as per clause 								
+7.11.2.2 of IRC SP:82---2007:-									
+									
+	(a) Pressure due to static head due to afflux on upstream side and trough of 								
+	    standing wave on down stream side:								
+									
+	(b) Pressure due to velocity head								
+									
+	(c) Pressure due to eddies								
+									
+	(d) Pressure due to friction of water against piers and bottom of slab								
+									
+	(e) Force due to uplift under superstructure								
+									
+	As per the clause 7.11.3.4 of IRC:SP82--2007,Additional load of 150 mm thick silt with density 								
+equal to 15 kN/m3 spread over the entire soffit(in case of box girders) and deck slabs of all types of 									
+super structure should also be considered:									
+									
+	As per clause 202.3 of IRC 6:2000,the increase in permissible stresses is not permissible for the								
+above loading combination.									
+									
+III)Loading on the submersible bridge for design of abutments:-									
+									
+1.Dead Load:-									
+									
+	i)Self wieght of the deck slab  =					244.80KN			
+									
+	ii)Self wieght of dirtwall over abutment  =					55.50KN			
+									
+	iii)Self weight of wearing coat =					38.25KN			
+									
+									
+						338.55KN			
+									
+	There is no need to consider snow load as per the climatic conditions 								
+									
+	Self wieght of the abutments upto bottom most footing based on the preliminary 								
+section assumed:-									
+									
+	iv)Self wieght of the abutment section  =					155.52KN			
+									
+	v)Self wieght of top footing  =					58.32KN			
+									
+	vi)Self wieght of 2nd footing =					64.80KN			
+									
+	vii)Self wieght of 3rd footing =					71.28KN			
+									
+	viii)Self wieght of 4th footing = 					0.00KN			
+									
+									
+						349.92KN			
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+ix)Calculation of eccentricity of self weight of abutment w.r.t base of abutment 									
+									
+S.No	Description	Load in KN	Distance of centroid of load from toe of abutment				Moment		
+									
+1	"Back batter(W1)
+"	0		1.05			0		
+2	"Centre portion(W2)
+"	129.6		0.675			87.48		
+3	"Front batter(W3)
+"	25.92		0.2			5.18		
+									
+		155.52					92.66		
+									
+	Location of resultant from toe of abutment =				0.60m				
+									
+									
+	Eccentricity wrt centre of base of abutment =				0.075m				
+									
+									
+x)Calculation of eccentricity of self weight of abutment&1st footing w.r.t bottom of 1st footing 									
+									
+S.No	Description	Load in KN	Distance of centroid of load from toe of 1st footing				Moment		
+									
+1	Back batter	0		1.2			0		
+2	Centre portion	129.6		0.825			106.92		
+3	Front batter	25.92		0.35			9.07		
+4	1st footing	58.32		0.675			39.37		
+									
+		213.84					155.36		
+									
+	Location of resultant from toe of abutment =				0.73m				
+									
+									
+	Eccentricity wrt centre of 1st footing=				0.055m				
+									
+									
+									
+xi)Calculation of eccentricity of self weight of abutment,1st&2nd footings w.r.t bottom of 2nd footing									
+									
+S.No	Description	Load in KN	Distance of centroid of load from toe of 2nd footing				Moment		
+									
+1	Back batter	0		1.35			0		
+2	Centre portion	129.6		0.975			126.36		
+3	Front batter	25.92		0.5			12.96		
+4	1st footing	58.32		0.83			48.11		
+5	2nd footing	64.8		0.75			48.6		
+									
+		278.64					236.03		
+									
+	Location of resultant from toe of abutment =				0.85m				
+									
+									
+	Eccentricity =				0.100m				
+									
+									
+									
+xii)Calculation of eccentricity of self weight of abutment,1st&2nd footings w.r.t bottom of 2nd footing									
+									
+S.No	Description	Load in KN	Distance of centroid of load from toe of 3rd footing				Moment		
+									
+1	Back batter	0		1.35			0		
+2	Centre portion	129.6		0.975			126.36		
+3	Front batter	25.92		0.5			12.96		
+4	1st footing	58.32		0.83			48.11		
+5	2nd footing	64.8		0.75			48.6		
+6	3rd footing	71.28		0.83			58.81		
+		349.92					294.84		
+									
+	Location of resultant from toe of abutment =				0.84m				
+									
+									
+	Eccentricity =				0.015m				
+									
+									
+2.Live Load:-									
+									
+	As per clause 201.1 of IRC:6--2000,the bridges and culverts of medium importance 								
+are to be designed for IRC Class A loading.									
+									
+		GENERAL  IRC Class-A loading Pattern							
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+	The IRC Class A loading as per the drawing is severe and the same is to be considered as per 								
+clauses 207.1.3&207.4									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+	The ground contact area of wheels for the above placement,each axle wise is								
+given below:-									
+									
+	Axle load		Ground Contact Area						
+	(Tonnes)		B(mm)	W(mm)					
+									
+	11.4		250	500					
+	6.8		200	380					
+	2.7		150	200					
+									
+									
+	Assuming 0.3m allowance for guide posts and the clear distance of vehicle from 								
+the edge of guide post being 0.15m as per clause 207.1,the value of 'f' shown in the figure will 									
+be 0.45m									
+									
+	Hence,the width of area to be loaded with 7.25KN/m2 on left side is (f) =					0.45m			
+	Similarly,the area to be loaded on right side (k) = 					3.25m			
+						3.70m			
+									
+									
+	The total live load on the deck slab composes the following components:-								
+									
+	1.Wheel loads----Point loads						296.00KN		
+									
+	2.Live load in remaing portion(Left side)----UDL						22.185KN		
+									
+	2.Live load in remaing portion(Right side)----UDL						160.225KN		
+									
+							478.41KN		
+									
+									
+	Resultant live load:-								
+									
+	Eccentricity of live load w.r.t y-direction(Along the direction of travel of vehicles)								
+									
+	Taking moments of all the forces w.r.t y-axis								
+									
+	S.No	Wheel Load/UDL in KN	Distance from Y-axis				Moment		
+									
+	1	57		0.70m			39.90KNm		
+	2	57		0.70m			39.90KNm		
+	3	57		2.50m			142.50KNm		
+	4	57		2.50m			142.50KNm		
+	5	34		0.64m			21.76KNm		
+	6	34		2.44m			82.96KNm		
+	7	22.185		0.225m			4.99KNm		
+	8	160.225		4.375m			700.98KNm		
+									
+		478.410					1175.50KNm		
+									
+	Distance of centroid of forces from y-axis								
+									
+									
+ =	2.457m								
+									
+	Eccentricity   =		0.543m						
+									
+									
+	Eccentricity of live load w.r.t x-direction(At right angle to the travel of vehicles)								
+									
+	Taking moments of all the forces w.r.t x-axis								
+									
+	S.No	Load in KN	Distance from X-axis				Moment		
+									
+	1	34		0.925m			31.45KNm		
+	2	34		0.925m			31.45KNm		
+	5	57		5.225m			297.83KNm		
+	6	57		5.225m			297.83KNm		
+	7	57		6.425m			366.23KNm		
+	8	57		6.425m			366.23KNm		
+	9	22.19KN		3.400m			75.43KNm		
+	10	160.23KN		3.400m			544.77KNm		
+		478.41					2011.19KN		
+									
+	Distance of centroid of forces from x-axis								
+									
+									
+ =	4.204m								
+									
+	Eccentricity   =		0.804m						
+									
+	Location of resultant is as shown below:-								
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+	Calculation of reactions on abutments:-								
+									
+	Reaction   due to loads Ra  =			182.64KN					
+									
+									
+	Reaction due to point loads = Rb =			295.77KN					
+									
+									
+	Hence,the critical reaction is Ra =			295.77KN					
+									
+	The corrected reaction  =			295.77KN					
+									
+	Assuming that the live load reaction acts at the centre of the contact area on the abutment,								
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+	The eccentricty of the line of action of live load   =					0.01m			
+									
+									
+									
+3.Impact of vehicles:-									
+									
+	As per Clause 211 of IRC:6--2000,impact allowance shall be made by an increment 								
+of live load by a factor 4.5/(6+L)									
+									
+Hence,the factor is			0.352						
+									
+									
+	Further as per clause 211.7 of IRC:6--2000,the above impact factor shall be only 								
+50% for calculation of pressure on piers and abutments just below the level of bed block.There 									
+ is no need to increase the live load below 3m depth.									
+									
+	As such,the impact allowance for the top 3m of abutments will be 						0.176		
+									
+									
+	For the remaining portion,impact need not be considered.								
+									
+									
+									
+4.Wind load:-									
+									
+	The deck system is located at height of (RTL-LBL)				1.68m				
+									
+									
+	The Wind pressure acting on deck system located at that height is considered for design.								
+									
+	As per clause 212.3 and from Table .4 of IRC:6---2000,the wind pressure at that 								
+	hieght is=								
+									
+	59.48	Kg/m2.							
+									
+	Height of the deck system =				1.755				
+									
+	Breadth of the deck system =				7.4				
+									
+	The effective area exposed to wind force =HeightxBreadth =								
+									
+	Hence,the wind force acting at centroid of the deck system =						3.86KN		
+	(Taking 50% perforations)								
+									
+	Further as per clause 212.4 of IRC:6---2000 ,300 Kg/m wind force is considered to be 								
+acting at a hieght of 1.5m from road surface on live load vehicle.									
+									
+	Hence,the wind force acting at 1.5m above the road surface =						18.00KN		
+									
+									
+	The location of the wind force from the top of RCC strip footing =						4.16m		
+									
+									
+									
+5.Water current force:-									
+									
+a)Water current force on deck slab:-									
+									
+	Velocity of stream at top,when the flow approaches the top of deck slab = √2 x Vmean =						3.65m/sec		
+									
+	P = 52KV2 =		201.24	Kg/m2.					
+									
+	(where the value of 'K' is 1.5 )								
+									
+	Force acting on centroid of deck slab  =			3.80KN					
+									
+	Point of action of water current force from the top of RCC strip footing = 						3.09m		
+b)Water current force on abutment:-									
+									
+	Water pressure is considered on square ended abutments as per clause 213.2 of 								
+IRC:6---2000 is									
+									
+	For the purpose of calculation of exposed area to water current force,only 1.0m								
+width of abutment is considered for full hieght upto HFL									
+									
+	Hence,the water current force =			3.38KN					
+									
+									
+Point of action of water current force from the top of RCC strip footing = 							2.88m		
+									
+									
+6.Tractive,braking effort of vehicles&frictional resistance of bearings:-									
+									
+	The breaking effect of vehicles shall be 20% of live load acting in longitudinal 								
+direction at 1.2m above road surface as per the clause 214.2 of IRC:6--2000.									
+									
+	As no bearings are assumed in the present case,50% of the above longitudinal 								
+force can be assumed to be transmitted to the supports of simply supported spans resting on 									
+stiff foundation with no bearings as per clause 214.5.1.3 of IRC:6---2000									
+									
+	Hence,the longitudinal force due to braking,tractive or frictional resistance of 								
+bearings transferred to abutments is									
+			47.84KN						
+									
+									
+	The location of the tractive force from the top of RCC strip footing =						3.86m		
+									
+									
+7.Buoyancy :-									
+									
+	As per clause 216.4 of IRC:6---2000,for abutments or piers of shallow depth,the 								
+dead weight of the abutment shall be reduced by wieght of equal volume of water upto HFL. 									
+									
+	The above reduction in self wieght will be considered assuming that the back fill 								
+behind the abutment is scoured.									
+									
+	For the preliminary section assumed,the volume of abutment section is								
+									
+	i)Volume of abutment section   =					6.48Cum			
+									
+	ii)Volume of top footing   =					2.43Cum			
+									
+	iii)Volume of 2nd footing   =					2.70Cum			
+									
+	iv)Volume of 3rd footing   =					2.97Cum			
+									
+	v)Volume of 4th footing   =					0.00Cum			
+						14.58Cum			
+									
+	Reduction in self wieght =					145.80KN			
+									
+									
+8.Earth pressure :-									
+									
+	As per clause 217.1 of IRC:6---2000,the abutments are to be designed for a 								
+surcharge equivalent to a back fill of hieght 1.20m behind the abutment.									
+									
+	The coefficient of active earth pressure exerted by the cohesion less back fill on 								
+the abutment as per the Coulomb's theory is given by									
+									
+						 '2			
+	Ka =			Sin(a+Q)					
+		sina    sin(a-q)  		     sin(Q+q)sin(Q-b)					
+				          sin(a+b)					
+									
+									
+									
+		Sin(a+Q) =	SIN[3.14*(76.06+30)/180] =		0.961				
+		Sin(a-q) =	SIN[3.14*(76.06-15)/180] =		0.875				
+		Sina =	SIN[3.14*(76.06)/180] =		0.97				
+		Sin(Q+q) =	SIN[3.14*(30+15)/180] =		0.707				
+		Sin(Q-b) =	SIN[3.14*(30-0)/180] =		0.5				
+		Sin(a+b) =	SIN[3.14*(76.06+0)/180] =		0.97				
+									
+	From the above expression,								
+									
+			Ka =	0.3					
+									
+The hieght of abutment above GL,as per the preliminary section assumed =							1.200m		
+									
+Hence,maximum pressure at the base of the wall						Pa =	6.48KN/sqm		
+									
+									
+The pressure distribution along the height of the wall is as given below:-									
+									
+Surcharge load =		6.48	KN/sqm						
+									
+									
+				6.48					
+									
+									
+									
+				1.200					
+									
+									
+									
+		6.48		6.48					
+									
+	Area of the rectangular portion =					7.78			
+	Area of the triangular portion =					3.89			
+						11.67			
+									
+									
+	Taking moments of the areas about the toe of the wall								
+									
+	S.No	Description	Area	Lever arm	Moment				
+									
+	1	Rectangular	7.78	0.6	4.668				
+	2	Triangular	3.89	0.4	1.556				
+									
+			11.67		6.224				
+									
+	Height from the bottom of the wall =			0.53m					
+									
+									
+	The active Earth pressure acts on the abutment as shown below:-								
+									
+									
+				0.70					
+									
+									
+									
+			15						
+					1.200m				
+									
+						0.53m			
+									
+			90						
+				1.05					
+			0						
+	Total earth pressure acting on the abutment  P =					69.98KN			
+									
+									
+	Horizontal component of the earth pressure Ph =						67.60KN		
+									
+									
+	Vertical component of the earth pressure Pv =						18.10KN		
+									
+									
+	Eccentricity of vertical component of earth pressure = 						0.53m		
+									
+9.Siesmic force :-									
+									
+	As per clause 222.1 of IRC:6---2000,the bridges in siesmic zones I and II need not be 								
+designed for siesmic forces.The location of the slab culvert is in Zone-I.Hence,there is no need to 									
+design the bridge for siesmic forces.									
+									
+10.Water pressure force:-									
+									
+	As per clause 7.11.2.2(b) of IRC SP82:2007,the pressure due to static head will be zero at the surface of 								
+water and will increase linearly to P = wh at depth 'h' from the surface, below which it will be constant as indicated 									
+in the sketch below :-									
+	Where, w = unit weight of water 								
+	            h = afflux or depth of superstructure (including wearing coat) whichever is more.								
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+	Total horizontal water pressure force = 				11.48KN				
+	The above pressure acts at height of 0.42H =				0.71m				
+									
+11.Pressure due to eddies :-									
+									
+Pressure due to eddies = w (Vv-V)2 									
+		2g							
+Where,									
+Vv = velocity of flow through the vents,  									
+V = velocity of approach									
+(w = unit weight of water; g= Acceleration due to gravity)									
+									
+	Pressure force due to eddies =				0.007KN				
+									
+	which is negligible.Hence it need not be considered								
+									
+12. Pressure due to friction of water against piers and bottom of slab :-									
+									
+	Pressure due to friction =f x ρ x (Cx Vv)2 								
+									
+	Where,								
+	 f = friction coefficient = 1 								
+	ρ = mass density of water (w/g)								
+	Vv = velocity of flow through the vents (m/sec)								
+	C = value of constant generally taken as10%								
+									
+i)Force due to friction on Deck slab:-									
+									
+	Frictional force on bottom and top of deck slab =				4.96KN				
+									
+	The location of the frictional force from the top of RCC strip footing =						3.09m		
+									
+ii)Force due to friction on abutment:-									
+									
+	Frictional force on the canal side face of abutment =				0.50KN				
+									
+	The location of the frictional force from the top of RCC strip footing =						1.50m		
+									
+									
+									
+13. Force due to uplift under superstructure :-									
+									
+	This force acts vertically upwards and is given by								
+									
+	Uplift force = wh x Asp 								
+									
+	Where,								
+	Asp area of the superstructure in plan								
+	h = the uplift head under the deckslab which may be taken as higher of the following two values:  (i) Afllux								
+	(ii) Thickness of superstructure including wearing coat-head loss due to increase in								
+	velocity through vents (Vv) Head loss due to increase in velocity through the vents is calculated by 								
+	following expression								
+		h1 =  Vv2-V2 							
+		2g							
+									
+	Where,								
+	Vv =velocity of flow through the vents 								
+	V = velocity of approach								
+									
+		Afflux  =			0.131m				
+									
+		Head loss due to increase in velocity =			0.012m				
+									
+		Hence,up lift head =			0.543m				
+									
+	Hence uplift force on the deck slab =				195.48KN				
+									
+									
+IV)Check for stresses for abutments&footings:-									
+									
+									
+a)Load Envelope-I:-(The Canal is dry,back fill scoured with live load on span)									
+									
+i)On top of RCC Strip footing									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical forces acting on the abutment (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				338.55KN	0.00	0.00		
+2	Self wieght of abutment&footings				349.92KN	0.015	0.000		
+3	Reaction due to live load with impact factor---(Wheel loads+UDL) 				347.83KN	-0.01	0.543		
+4	Impact load				52.06	-0.01	0.543		
+					1088.35				
+									
+	Horizontal forces acting/transferred on the abutment (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	4.16		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	y-Direction	3.86		
+3	Water current force				3.38KN	x-Direction	2.88		
+									
+	Check for stresses:-								
+									
+	About x-axis:-								
+									
+	Breadth of 3rd footing b =				6.00m				
+	Depth of 3rd footing d =				1.65m				
+	Area of the footing = A =				9.9	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	2.72	m3			
+	about x-axis --Zx =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compreession is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at heel
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	34.2		
+2	Self wieght of abutment&footings				349.92KN	0.02	35.88		
+3	Reaction due to live load with impact factor				347.83KN	-0.01	34.78		
+4	Impact load				52.06KN	-0.01	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Tractive,Braking&Frictional resistance of bearings				47.84KN	3.86	-67.83		
+	(Stress = -31.36*4.93/6.38)								
+							37.03		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at toe
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	34.2		
+2	Self wieght of abutment&footings				349.92KN	-0.02	34.82		
+3	Reaction due to live load with impact factor				347.83KN	0.01	35.49		
+4	Impact load				52.06KN	-0.01	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Tractive,Braking&Frictional resistance of bearings				47.84KN	3.86	67.83		
+									
+							172.34		
+									
+									
+	Stress at heel =		P/A(1+6e/b)+M/Z =		37.03	KN/Sqm>-2800KN/sqm.			
+									
+				Hence safe.					
+									
+	Stress at  toe =		P/A(1+6e/b)+M/Z =		172.34	KN/Sqm<5000KN/sqm			
+									
+				Hence safe.					
+									
+									
+	About y-axis:-								
+									
+	Breadth of 3rd footing b =				1.65m				
+	Depth of 3rd footing d =				6.00m				
+	Area of the footing = A =				9.9	m2			
+									
+	Section modulus of bottom footing about =			(1/6)bd2 =	9.90	m3			
+	y-axis--Zy =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compreession is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at upstream edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	34.2		
+2	Self wieght of abutment&footings				349.92KN	0.00	35.35		
+3	Reaction due to live load with impact factor				347.83KN	-0.543	-34.24		
+4	Impact load				52.06KN	0.54	15.64		
+	Horizontal loads:- (Stress = M/Z)								
+5	Wind load				18.00KN	4.16	-7.56		
+6	Water current force				3.38KN	2.88	-0.98		
+									
+							42.41		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at D/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	34.2		
+2	Self wieght of abutment&footings				349.92KN	0.00	35.35		
+3	Reaction due to live load with impact factor				347.83KN	0.543	104.51		
+4	Impact load				52.06KN	0.54	15.64		
+	Horizontal loads:- (Stress = M/Z)								
+5	Wind load				18.00KN	4.16	7.56		
+6	Water current force				3.38KN	2.88	0.98		
+							198.24		
+									
+	Stress at up stream side 		P/A(1+6e/b)+M/Z =		42.41	KN/Sqm>-2800KN/sqm.			
+	edge  =								
+									
+				Hence safe.					
+									
+	Stress at down stream side 		P/A(1+6e/b)+M/Z =		198.24	KN/Sqm<5000KN/sqm			
+	edge =								
+				Hence safe.					
+									
+									
+ii)On top of 3rd footing									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the abutment (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				338.55KN	0.00	0.00		
+2	Self wieght of abutment&footings				278.64KN	0.100	0.000		
+3	Reaction due to live load with impact factor				347.83KN	-0.01	0.543		
+4	Impact load				52.06	-0.01	0.543		
+									
+	Horizontal load acting/transferred on the abutment (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	3.86		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	y-Direction	3.56		
+3	Water current force				3.38KN	x-Direction	2.58		
+									
+									
+	Check for stresses:-								
+									
+	About x-axis:-								
+									
+	Breadth of 2nd footing b =				6.00m				
+	Depth of 2nd footing d =				1.50m				
+	Area of the footing = A =				9	m2			
+									
+	Section modulus of Ist footing about 			(1/6)bd2 =	2.25	m3			
+	x-axis--Zx =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compreession is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at heel
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	37.62		
+2	Self wieght of abutment&footings				278.64KN	0.10	34.06		
+3	Reaction due to live load with impact factor				347.83KN	-0.01	38.26		
+4	Impact load				52.06KN	-0.01	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Tractive,Braking&Frictional resistance of bearings				47.84KN	3.56	-75.7		
+									
+							34.24		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at toe
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	37.62		
+2	Self wieght of abutment&footings				278.64KN	-0.10	27.86		
+3	Reaction due to live load with impact factor				347.83KN	0.01	39.03		
+4	Impact load				52.06KN	-0.01	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Tractive,Braking&Frictional resistance of bearings				47.84KN	3.56	75.7		
+									
+							180.21		
+									
+	Stress at heel =		P/A(1+6e/b)+M/Z =		34.23	KN/Sqm>-2800KN/sqm.			
+									
+				Hence safe.					
+									
+	Stress at  toe =		P/A(1+6e/b)+M/Z =		180.21	KN/Sqm<5000KN/sqm			
+									
+				Hence safe.					
+									
+									
+	About y-axis:-								
+									
+	Breadth of 1st footing b =				1.50m				
+	Depth of 1st footing d =				6.00m				
+	Area of the footing = A =				9	m2			
+									
+	Section modulus of Ist footing about 			(1/6)bd2 =	9.00	m3			
+	y-axis--Zy =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compreession is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at upstream edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	37.62		
+2	Self wieght of abutment&footings				278.64KN	0.00	30.96		
+3	Reaction due to live load with impact factor				347.83KN	-0.543	-45.29		
+4	Impact load				52.06KN	0.54	18.35		
+	Horizontal loads:- (Stress = M/Z)								
+5	Wind load				18.00KN	3.86	-7.72		
+6	Water current force				3.38KN	2.58	-0.97		
+									
+							32.95		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at D/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	37.62		
+2	Self wieght of abutment&footings				278.64KN	0.00	30.96		
+3	Reaction due to live load with impact factor				347.83KN	0.543	122.59		
+4	Impact load				52.06KN	0.54	18.35		
+	Horizontal loads:- (Stress = M/Z)								
+5	Wind load				18.00KN	3.86	7.72		
+6	Water current force				3.38KN	2.58	0.97		
+							218.21		
+									
+									
+	Stress at up stream side 		P/A(1+6e/b)+M/Z =		32.95	KN/Sqm>-2800KN/sqm.			
+	edge =								
+				Hence safe.					
+									
+									
+	Stress at down stream side 		P/A(1+6e/b)+M/Z =		218.21	KN/Sqm<5000KN/sqm			
+	edge =								
+				Hence safe.					
+									
+									
+									
+i)On top of 2nd footing									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the abutment (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				338.55KN	0.00	0.00		
+2	Self wieght of abutment&cut waters				213.84KN	0.055	0.000		
+3	Reaction due to live load with impact factor				347.83KN	-0.01	0.543		
+4	Impact load				52.06	-0.01	0.543		
+									
+	Horizontal load acting/transferred on the abutment (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	3.56		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	y-Direction	3.26		
+3	Water current force				3.38KN	x-Direction	2.28		
+									
+									
+	Check for stresses:-								
+									
+	About x-axis:-								
+									
+	Breadth of 1st footing b =				6.00m				
+	Depth of 1st footing d =				1.35m				
+	Area of the footing = A =				8.1	m2			
+									
+	Section modulus of base of abutment 			(1/6)bd2 =	1.82	m3			
+	about x-axis--Zx =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compreession is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at heel
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	41.8		
+2	Self wieght of abutment&footings				213.84KN	0.06	27.48		
+3	Reaction due to live load with impact factor				347.83KN	-0.01	42.51		
+4	Impact load				52.06KN	-0.01	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Tractive,Braking&Frictional resistance of bearings				47.84KN	3.26	-85.58		
+									
+							26.21		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at toe
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	41.8		
+2	Self wieght of abutment&footings				213.84KN	-0.06	24.95		
+3	Reaction due to live load with impact factor				347.83KN	0.01	43.37		
+4	Impact load				52.06KN	-0.01	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Tractive,Braking&Frictional resistance of bearings				47.84KN	3.26	85.58		
+									
+							195.7		
+									
+									
+	Stress at heel =		P/A(1+6e/b)+M/Z =		26.21	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+									
+	Stress at  toe =		P/A(1+6e/b)+M/Z =		195.7	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+	About y-axis:-								
+									
+	Breadth of 1st footing b =				1.35m				
+	Depth of 1st footing d =				6.00m				
+	Area of the footing = A =				8.1	m2			
+									
+	Section modulus of base of abutment 			(1/6)bd2 =	8.10	m3			
+	about y-axis--Zy =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compreession is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at upstream edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	41.8		
+2	Self wieght of abutment&footings				213.84KN	0.00	26.4		
+3	Reaction due to live load with impact factor				347.83KN	-0.543	-60.69		
+4	Impact load				52.06KN	0.54	21.94		
+	Horizontal loads:- (Stress = M/Z)								
+5	Wind load				18.00KN	3.56	-7.91		
+6	Water current force				3.38KN	2.28	-0.95		
+									
+							20.59		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at D/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	41.8		
+2	Self wieght of abutment&footings				213.84KN	0.00	26.4		
+3	Reaction due to live load with impact factor				347.83KN	0.543	146.57		
+4	Impact load				52.06KN	0.54	21.94		
+	Horizontal loads:- (Stress = M/Z)								
+5	Wind load				18.00KN	3.56	7.91		
+6	Water current force				3.38KN	2.28	0.95		
+							245.57		
+									
+	Stress at up stream side 								
+	edge of abutment =		P/A(1+6e/b)+M/Z =		20.59	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+	Stress at down stream side 								
+	edge of abutment =		P/A(1+6e/b)+M/Z =		245.57	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+i)On top of 1st footing									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the abutment (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				338.55KN	0.00	0.00		
+2	Self wieght of abutment&footings				155.52KN	0.075	0.000		
+3	Reaction due to live load with impact factor				347.83KN	-0.01	0.543		
+4	Impact load				52.06	-0.01	0.543		
+									
+	Horizontal load acting/transferred on the abutment (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	3.56		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	y-Direction	2.96		
+3	Water current force				3.38KN	x-Direction	2.28		
+									
+									
+	Check for stresses:-								
+									
+	About x-axis:-								
+									
+	Breadth of abutment b =				6.00m				
+	Depth of abutment d =				1.05m				
+	Area of the footing = A =				6.3	m2			
+									
+	Section modulus of base of abutment 			(1/6)bd2 =	1.10	m3			
+	about x-axis--Zx =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compreession is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at heel
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	53.74		
+2	Self wieght of abutment&footings				155.52KN	0.08	26.45		
+3	Reaction due to live load with impact factor				347.83KN	-0.01	54.66		
+4	Impact load				52.06KN	-0.01	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Tractive,Braking&Frictional resistance of bearings				47.84KN	2.96	-128.44		
+									
+							6.41		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at toe
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	53.74		
+2	Self wieght of abutment&footings				155.52KN	-0.08	22.83		
+3	Reaction due to live load with impact factor				347.83KN	0.01	55.76		
+4	Impact load				52.06KN	-0.01	0		
+	Horizontal loads:- (Stress = M/Z)								
+5	Tractive,Braking&Frictional resistance of bearings				47.84KN	2.96	128.44		
+									
+							260.77		
+									
+									
+	Stress at heel =		P/A(1+6e/b)+M/Z =		6.41	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+									
+	Stress at  toe =		P/A(1+6e/b)+M/Z =		260.77	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+	About y-axis:-								
+									
+	Breadth of abutment b =				1.05m				
+	Depth of abutment d =				6.00m				
+	Area of the footing = A =				6.3	m2			
+									
+	Section modulus of base of abutment 			(1/6)bd2 =	6.30	m3			
+	about y-axis--Zy =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compreession is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at upstream edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	53.74		
+2	Self wieght of abutment&footings				155.52KN	0.00	24.69		
+3	Reaction due to live load with impact factor				347.83KN	-0.543	25.23		
+4	Impact load				52.06KN	0.54	33.9		
+	Horizontal loads:- (Stress = M/Z)								
+5	Wind load				18.00KN	3.56	-10.17		
+6	Water current force				3.38KN	2.28	-1.22		
+									
+							126.17		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at D/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	53.74		
+2	Self wieght of abutment&footings				155.52KN	0.00	24.69		
+3	Reaction due to live load with impact factor				347.83KN	0.543	226.52		
+4	Impact load				52.06KN	0.54	33.9		
+	Horizontal loads:- (Stress = M/Z)								
+5	Wind load				18.00KN	3.56	10.17		
+6	Water current force				3.38KN	2.28	1.22		
+							350.24		
+									
+	Stress at up stream side 								
+	edge of abutment =		P/A(1+6e/b)+M/Z =		126.17	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+	Stress at down stream side 								
+	edge of abutment =		P/A(1+6e/b)+M/Z =		350.24	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+b)Load Envelope-II:-(The Canal is full,back fill intact with no live load on span)									
+									
+i)On top of RCC Strip footing									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the abutment (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				338.55KN				
+	Deduct uplift pressure				-195.48KN				
+	Net reaction due to dead load from super structure				143.07KN	0.00	0.00		
+	Self wieght of abutment&cut waters				349.92KN				
+	Reduction in self weight due to buoyancy				-145.80KN				
+2	Net self weight				204.12KN	0.015	0.000		
+3	Vertical component of earth pressure				18.10KN	0.525	0.000		
+									
+	Horizontal load acting/transferred on the abutment (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	4.16		
+2	Tractive,Braking&Frictional resistance of bearings				0.00KN	y-Direction	0.00		
+3	Water current force on deck slab				3.80KN	x-Direction	3.09		
+4	Water current force on abutment				3.38KN	x-Direction	2.88		
+5	Frictional force due to water on deck slab				4.96KN	x-Direction	3.09		
+6	Frictional force due to water on abutment				0.50KN	x-Direction	1.50		
+7	Horizontal load due to earth pressure				67.60KN	y-Direction	1.43		
+8	Water pressure force				11.48KN	y-Direction	1.61		
+									
+	Check for stresses:-								
+									
+	About x-axis:-								
+									
+	Breadth of bottom footing b =				6.00m				
+	Depth of bottom footing d =				1.65m				
+	Area of the footing = A =				9.9	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	2.72	m3			
+	about x-axis --Zx =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compreession is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at heel
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				143.07KN	0.00	14.45		
+2	Net self wieght of abutment&footings				204.12KN	0.015	20.93		
+3	Vertical component of Earth pressure				18.10KN	0.53	2.79		
+	Horizontal loads:- (Stress = M/Z)								
+4	Horizontal load due to earth pressure				67.60KN	1.43	-35.59		
+5	Water pressure force				11.48KN	1.61	6.8		
+							9.35		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at toe
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				143.07KN	0.00	14.45		
+2	Net self wieght of abutment&footings				204.12KN	-0.02	20.31		
+3	Vertical component of Earth pressure				18.10KN	-0.53	0.87		
+	Horizontal loads:- (Stress = M/Z)								
+4	Horizontal load due to earth pressure				67.60KN	1.43	35.59		
+5	Water pressure force				11.48KN	1.61	-6.8		
+							64.45		
+									
+	Stress at heel =		P/A(1+6e/b)+M/Z =		9.35	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+									
+	Stress at  toe =		P/A(1+6e/b)+M/Z =		64.45	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+									
+	About y-axis:-								
+									
+	Breadth of bottom footing b =				1.65m				
+	Depth of bottom footing d =				6.00m				
+	Area of the footing = A =				9.9	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	9.90	m3			
+	about y-axis --Zy =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compreession is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at U/S Edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				143.07KN	0.00	14.45		
+2	Net self wieght of abutment&footings				204.12KN	0.00	20.62		
+3	Vertical component of Earth pressure				18.10KN	0.00	1.83		
+	Horizontal loads:- (Stress = M/Z)								
+4	Wind load				18.00KN	4.16	-7.56		
+5	Water current force on abutment				3.38KN	2.88	-1.0		
+6	Water current force on deck slab				3.80KN	3.09	-1.2		
+7	Frictional force due to water on deck slab				4.96KN	3.09	-1.6		
+8	Frictional force due to water on abutment				0.50KN	1.50	-0.1		
+							25.54		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at D/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				143.07KN	0.00	14.45		
+2	Net self wieght of abutment&footings				204.12KN	0.00	20.62		
+3	Vertical component of Earth pressure				18.10KN	0.00	1.83		
+	Horizontal loads:- (Stress = M/Z)								
+4	Wind load				18.00KN	4.16	7.56		
+5	Water current force on abutment				3.38KN	2.88	1.0		
+6	Water current force on deck slab				3.80KN	3.09	1.2		
+7	Frictional force due to water on deck slab				4.96KN	3.09	1.6		
+8	Frictional force due to water on abutment				0.50KN	1.50	0.1		
+							48.26		
+									
+	Stress at up stream side 								
+	edge of abutment =		P/A(1+6e/b)+M/Z =		25.54	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+	Stress at down stream side 								
+	edge of abutment =		P/A(1+6e/b)+M/Z =		48.26	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+									
+ii)On top of 3rd footing									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the abutment (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				338.55KN				
+	Deduct uplift pressure				-195.48KN				
+	Net reaction due to dead load from super structure				143.07KN	0.00	0.00		
+	Self wieght of abutment&footings				278.64KN				
+	Reduction in self weight due to buoyancy				-116.10KN				
+2	Net self weight				162.54KN	0.100	0.000		
+3	Vertical component of earth pressure				18.10KN	0.525	0.000		
+									
+	Horizontal load acting/transferred on the abutment (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	3.86		
+2	Tractive,Braking&Frictional resistance of bearings				0.00KN	y-Direction	0.00		
+3	Water current force on deck slab				3.80KN	x-Direction	2.79		
+4	Water current force on abutment				3.38KN	x-Direction	2.58		
+5	Frictional force due to water on deck slab				4.96KN	x-Direction	2.79		
+6	Frictional force due to water on abutment				0.50KN	x-Direction	1.20		
+7	Horizontal load due to earth pressure				67.60KN	y-Direction	1.13		
+8	Water pressure force				11.48KN	y-Direction	1.31		
+									
+	Check for stresses:-								
+									
+	About x-axis:-								
+									
+	Breadth of 2nd footing b =				6.00m				
+	Depth of 2nd footing d =				1.50m				
+	Area of the footing = A =				9	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	2.25	m3			
+	about x-axis --Zx =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compreession is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at heel
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				143.07KN	0.00	15.9		
+2	Net self wieght of abutment&footings				162.54KN	0.10	19.87		
+3	Vertical component of Earth pressure				18.10KN	0.53	3.07		
+	Horizontal loads:- (Stress = M/Z)								
+4	Horizontal load due to earth pressure				67.60KN	1.13	-34.05		
+5	Water pressure force				11.48KN	1.31	6.7		
+							11.45		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at toe
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				143.07KN	0.00	15.9		
+2	Net self wieght of abutment&footings				162.54KN	-0.10	16.25		
+3	Vertical component of Earth pressure				18.10KN	-0.53	0.96		
+	Horizontal loads:- (Stress = M/Z)								
+4	Horizontal load due to earth pressure				67.60KN	1.13	34.05		
+5	Water pressure force				11.48KN	1.31	-6.7		
+							60.5		
+									
+	Stress at heel =		P/A(1+6e/b)+M/Z =		11.45	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+									
+	Stress at  toe =		P/A(1+6e/b)+M/Z =		60.5	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+									
+	About y-axis:-								
+									
+	Breadth of 1st footing b =				1.50m				
+	Depth of 1st footing d =				6.00m				
+	Area of the footing = A =				9	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	9.00	m3			
+	about y-axis --Zy =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compreession is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at U/S Edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				143.07KN	0.00	15.9		
+2	Net self wieght of abutment&footings				162.54KN	0.00	18.06		
+3	Vertical component of Earth pressure				18.10KN	0.00	2.01		
+	Horizontal loads:- (Stress = M/Z)								
+4	Wind load				18.00KN	3.86	-7.72		
+5	Water current force on deck slab				3.80KN	2.79	-1.2		
+6	Water current force on abutment				3.38KN	2.58	-1.0		
+7	Frictional force due to water on deck slab				4.96KN	2.79	-1.5		
+8	Frictional force due to water on abutment				0.50KN	1.20	-0.1		
+							24.49		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at D/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				143.07KN	0.00	15.9		
+2	Net self wieght of abutment&footings				162.54KN	0.00	18.06		
+3	Vertical component of Earth pressure				18.10KN	0.00	2.01		
+	Horizontal loads:- (Stress = M/Z)								
+4	Wind load				18.00KN	3.86	7.72		
+5	Water current force on deck slab				3.80KN	2.79	1.2		
+6	Water current force on abutment				3.38KN	2.58	1.0		
+7	Frictional force due to water on deck slab				4.96KN	2.79	1.5		
+8	Frictional force due to water on abutment				0.50KN	1.20	0.1		
+							47.45		
+									
+	Stress at up stream side 								
+	edge of abutment =		P/A(1+6e/b)+M/Z =		24.49	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+	Stress at down stream side 								
+	edge of abutment =		P/A(1+6e/b)+M/Z =		47.45	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+									
+iii)On top of 2nd footing									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the abutment (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				338.55KN				
+	Deduct uplift pressure				-195.48KN				
+	Net reaction due to dead load from super structure				143.07KN	0.00	0.00		
+	Self wieght of abutment&cut waters				213.84KN				
+	Reduction in self weight due to buoyancy				-89.10KN				
+2	Net self weight				124.74KN	0.055	0.000		
+3	Vertical component of earth pressure				18.10KN	0.525	0.000		
+									
+	Horizontal load acting/transferred on the abutment (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	3.56		
+2	Tractive,Braking&Frictional resistance of bearings				0.00KN	y-Direction	0.00		
+3	Water current force on deck slab				3.80KN	x-Direction	2.49		
+4	Water current force on abutment				3.38KN	x-Direction	2.28		
+5	Frictional force due to water on deck slab				4.96KN	x-Direction	2.49		
+6	Frictional force due to water on abutment				0.50KN	x-Direction	0.90		
+7	Horizontal load due to earth pressure				67.60KN	y-Direction	0.83		
+8	Water pressure force				11.48KN	y-Direction	1.01		
+									
+	Check for stresses:-								
+									
+	About x-axis:-								
+									
+	Breadth of 1st footing b =				6.00m				
+	Depth of 1st footing d =				1.35m				
+	Area of the footing = A =				8.1	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	1.82	m3			
+	about x-axis --Zx =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compreession is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at heel
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				143.07KN	0.00	17.66		
+2	Net self wieght of abutment&footings				124.74KN	0.06	16.25		
+3	Vertical component of Earth pressure				18.10KN	0.53	3.41		
+	Horizontal loads:- (Stress = M/Z)								
+4	Horizontal load due to earth pressure				67.60KN	0.83	-30.91		
+5	Water pressure force				11.48KN	1.01	6.3		
+							12.74		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at toe
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				143.07KN	0.00	17.66		
+2	Net self wieght of abutment&footings				124.74KN	-0.06	14.55		
+3	Vertical component of Earth pressure				18.10KN	-0.53	1.06		
+	Horizontal loads:- (Stress = M/Z)								
+4	Horizontal load due to earth pressure				67.60KN	0.83	30.91		
+5	Water pressure force				11.48KN	1.01	-6.3		
+							57.85		
+									
+	Stress at heel =		P/A(1+6e/b)+M/Z =		12.74	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+									
+	Stress at  toe =		P/A(1+6e/b)+M/Z =		57.85	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+									
+	About y-axis:-								
+									
+	Breadth of 1st footing b =				1.35m				
+	Depth of 1st footing d =				6.00m				
+	Area of the footing = A =				8.1	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	8.10	m3			
+	about y-axis --Zy =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compreession is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at U/S Edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				143.07KN	0.00	17.66		
+2	Net self wieght of abutment&footings				124.74KN	0.00	15.4		
+3	Vertical component of Earth pressure				18.10KN	0.00	2.23		
+	Horizontal loads:- (Stress = M/Z)								
+4	Wind load				18.00KN	3.56	-7.91		
+5	Water current force on deck slab				3.80KN	2.49	-1.2		
+6	Water current force on abutment				3.38KN	2.28	-1.0		
+7	Frictional force due to water on deck slab				4.96KN	2.49	-1.5		
+8	Frictional force due to water on abutment				0.50KN	0.90	-0.1		
+							23.68		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at D/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				143.07KN	0.00	17.66		
+2	Net self wieght of abutment&footings				124.74KN	0.00	15.4		
+3	Vertical component of Earth pressure				18.10KN	0.00	2.23		
+	Horizontal loads:- (Stress = M/Z)								
+4	Wind load				18.00KN	3.56	7.91		
+5	Water current force on deck slab				3.80KN	2.49	1.2		
+6	Water current force on abutment				3.38KN	2.28	1.0		
+7	Frictional force due to water on deck slab				4.96KN	2.49	1.5		
+8	Frictional force due to water on abutment				0.50KN	0.90	0.1		
+							46.9		
+									
+	Stress at up stream side 								
+	edge of abutment =		P/A(1+6e/b)+M/Z =		23.68	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+	Stress at down stream side 								
+	edge of abutment =		P/A(1+6e/b)+M/Z =		46.9	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+iii)On top of 1st footing									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the abutment (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				338.55KN				
+	Deduct uplift pressure				-195.48KN				
+	Net reaction due to dead load from super structure				143.07KN	0.00	0.00		
+	Self wieght of abutment&cut waters				213.84KN				
+	Reduction in self weight due to buoyancy				-89.10KN				
+2	Net self weight				124.74KN	0.055	0.000		
+3	Vertical component of earth pressure				18.10KN	0.525	0.000		
+									
+	Horizontal load acting/transferred on the abutment (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	3.26		
+2	Tractive,Braking&Frictional resistance of bearings				0.00KN	y-Direction	0.00		
+3	Water current force on deck slab				3.80KN	x-Direction	2.19		
+4	Water current force on abutment				3.38KN	x-Direction	1.98		
+5	Frictional force due to water on deck slab				4.96KN	x-Direction	2.19		
+6	Frictional force due to water on abutment				0.50KN	x-Direction	0.60		
+7	Horizontal load due to earth pressure				67.60KN	y-Direction	0.53		
+8	Water pressure force				11.48KN	y-Direction	0.71		
+									
+	Check for stresses:-								
+									
+	About x-axis:-								
+									
+	Breadth of abutment b =				6.00m				
+	Depth of abutment d =				1.05m				
+	Area of the footing = A =				6.3	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	1.10	m3			
+	about x-axis --Zx =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compreession is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at heel
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				143.07KN	0.00	22.71		
+2	Net self wieght of abutment&footings				124.74KN	0.06	20.89		
+3	Vertical component of Earth pressure				18.10KN	0.53	4.38		
+	Horizontal loads:- (Stress = M/Z)								
+4	Horizontal load due to earth pressure				67.60KN	0.53	-32.7		
+5	Water pressure force				11.48KN	0.71	7.4		
+							22.63		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at toe
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				143.07KN	0.00	22.71		
+2	Net self wieght of abutment&footings				124.74KN	-0.06	18.71		
+3	Vertical component of Earth pressure				18.10KN	-0.53	1.36		
+	Horizontal loads:- (Stress = M/Z)								
+4	Horizontal load due to earth pressure				67.60KN	0.53	32.7		
+5	Water pressure force				11.48KN	0.71	-7.4		
+							68.13		
+									
+	Stress at heel =		P/A(1+6e/b)+M/Z =		22.63	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+									
+	Stress at  toe =		P/A(1+6e/b)+M/Z =		68.13	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+									
+	About y-axis:-								
+									
+	Breadth of abutment b =				1.05m				
+	Depth of abutment d =				6.00m				
+	Area of the footing = A =				6.3	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	6.30	m3			
+	about y-axis --Zy =								
+									
+	For M20 grade of concrete permissible compressive stress in direct compreession is 5N/mm2								
+									
+					i.e,	5000KN/sqm			
+									
+	For M20 grade of concrete permissible tensile stress in bending tension is -2.8N/mm2								
+									
+					i.e,	-2800KN/sqm			
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at U/S Edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				143.07KN	0.00	22.71		
+2	Net self wieght of abutment&footings				124.74KN	0.00	19.8		
+3	Vertical component of Earth pressure				18.10KN	0.00	2.87		
+	Horizontal loads:- (Stress = M/Z)								
+4	Wind load				18.00KN	3.26	-9.31		
+5	Water current force on deck slab				3.80KN	2.19	-1.3		
+6	Water current force on abutment				3.38KN	1.98	-1.1		
+7	Frictional force due to water on deck slab				4.96KN	2.19	-1.7		
+8	Frictional force due to water on abutment				0.50KN	0.60	-0.1		
+							31.92		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at D/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				143.07KN	0.00	22.71		
+2	Net self wieght of abutment&footings				124.74KN	0.00	19.8		
+3	Vertical component of Earth pressure				18.10KN	0.00	2.87		
+	Horizontal loads:- (Stress = M/Z)								
+4	Wind load				18.00KN	3.26	9.31		
+5	Water current force on deck slab				3.80KN	2.19	1.3		
+6	Water current force on abutment				3.38KN	1.98	1.1		
+7	Frictional force due to water on deck slab				4.96KN	2.19	1.7		
+8	Frictional force due to water on abutment				0.50KN	0.60	0.1		
+							58.84		
+									
+	Stress at up stream side 								
+	edge of abutment =		P/A(1+6e/b)+M/Z =		31.92	KN/Sqm>-2800KN/sqm.			
+									
+									
+				Hence safe.					
+	Stress at down stream side 								
+	edge of abutment =		P/A(1+6e/b)+M/Z =		58.84	KN/Sqm<5000KN/sqm			
+									
+									
+				Hence safe.					
+									
+V)Check for stability of abutments:-									
+									
+a)Load Envelope-III:-(The Canal is dry,back fill intact with live load on span)									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the abutment (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				338.55KN	0.00	0.00		
+2	Self wieght of abutments				155.52KN	0.075	0.000		
+3	Reaction due to live load with impact factor				399.88KN	-0.01	0.543		
+4	Vertical component of Active Earth pressure				18.10KN	0.525	0.00		
+					912.05KN				
+									
+									
+	Horizontal load acting/transferred on the abutment (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	3.26		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	y-Direction	2.96		
+3	Horizontal Active Earth pressure force				67.60KN	y-Direction	0.53		
+					133.44KN				
+									
+	Check for stability against over turning:-								
+									
+	Taking moments of all the overturning forces about toe of the abutment wrt x-axis,								
+									
+	Moment due to tractive,braking&frictional resistance of bearings  =						141.61Kn-m		
+									
+									
+	Moment due to active earth pressure force  =						36.05Kn-m		
+									
+									
+				Total overturning moment =			177.66Kn-m		
+									
+	Taking moments of all the restoring forces about toe of the abutment wrt x-axis,,								
+									
+	Moment due to dead load reaction from super structure =						177.74Kn-m		
+									
+									
+	Moment due to self weight of abutment =						93.31Kn-m		
+									
+									
+	Moment due to live load reaction on abutment =						205.94Kn-m		
+									
+									
+	Moment due to vertical component of active earth pressure =						19.01Kn-m		
+									
+									
+				Total Restoring moment =			496.00Kn-m		
+									
+									
+		Factor of safety =		2.791812517	> 2.0	Hence safe			
+					(As per clause 706.3.4 of IRC:78-2000)				
+									
+									
+	Check for stability against sliding:-								
+									
+	Total vertical load acting on the base of the abutment Vb =						912.05KN		
+									
+	Total sliding force,ie,horizontal load on the abutment Hb =						133.44KN		
+									
+	Coefficient of friction between concrete surfaces =						0.80		
+									
+	Factor of safety against sliding Fs =			5.46799594	> 1.5	Hence safe			
+					(As per clause 706.3.4 of IRC:78-2000)				
+									
+									
+b)Load Envelope-II:-(The Canal is full,back fill intact with no live load on span)									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the abutment (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				338.55KN				
+	Deduct uplift pressure				-195.48KN				
+	Net reaction due to dead load from super structure				143.07KN	0.00	0.00		
+	Self wieght of abutments				155.52KN				
+	"Reduction in self weight due to buoyancy
+"				-64.80KN				
+2	Net self wieght				90.72KN	0.075	0.000		
+3	Vertical component of Active Earth pressure				18.10	0.525	0.00		
+									
+									
+									
+	Horizontal load acting/transferred on the abutment (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	3.26		
+2	Tractive,Braking&Frictional resistance of bearings				0.00KN	y-Direction	0.00		
+3	Active Earth pressure force				67.60KN	y-Direction	0.53		
+4	Force due to water pressure				11.48KN	y-Direction	0.71		
+									
+	Check for stability against over turning:-								
+									
+	Taking moments of all the overturning forces about toe of the abutment wrt x-axis,								
+									
+	Moment due to tractive,braking&frictional resistance of bearings  =						0.00Kn-m		
+									
+	Moment due to active earth pressure force  =						36.05Kn-m		
+									
+									
+				Total overturning moment =			36.05Kn-m		
+									
+	Taking moments of all the restoring forces about toe of the abutment wrt x-axis,								
+									
+	Moment due to dead load reaction from super structure =						75.11		
+									
+									
+	Moment due to self weight of abutment =						54.43Kn-m		
+									
+									
+	Moment due to water pressure force on the abutment =						8.10Kn-m		
+									
+									
+	Moment due to vertical component of active earth pressure =						19.01Kn-m		
+									
+									
+				Total Restoring moment =			156.65Kn-m		
+									
+									
+		Factor of safety =		4.345153465	> 2.0	Hence safe			
+					(As per clause 706.3.4 of IRC:78-2000)				
+									
+	Check for stability against sliding:-								
+									
+	Total vertical load acting on the base of the abutment Vb =						251.89KN		
+									
+									
+	Total sliding force,ie,horizontal load on the abutment Hb =						67.60KN		
+									
+	Coefficient of friction between concrete surfaces =						0.80		
+									
+	Factor of safety against sliding Fs =			2.981077375	> 1.5	Hence safe			
+					(As per clause 706.3.4 of IRC:78-2000)				
+									
+									
+VI)Design of Strip footing:-									
+									
+a)Load Envelope-III:-(The Canal is dry,back fill intact with live load on span)									
+									
+i)At the bottom of RCC strip footing									
+									
+The following co-ordinates are assumed:-									
+									
+a)x-Direction-----At right angle to the movement of vehicles									
+b)y-Direction-----In the direction of movement of vehicles									
+									
+	Vertical load acting on the abutment (P) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Eccentricty about x-axis(m)	Eccentricty about y-axis(m)		
+									
+1	Reaction due to dead load from super structure				338.55KN	0.00	0.00		
+2	Self weight of abutment&footings				349.92KN	0.015	0.000		
+3	"Self weight of RCC strip footing
+"				138.21KN	0.00	0.00		
+4	Reaction due to live load with impact factor				295.77KN	0.00	0.543		
+4	Vertical component of earth pressure				18.10KN	0.525	0.000		
+									
+	Horizontal load acting/transferred on the abutment (H) composes of the following components								
+									
+S.No	Type of load				Intensity in KN	Direction x or y	Location(Ht.from the section considered).(m)		
+									
+1	Wind load				18.00KN	x-Direction	4.46		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	y-Direction	4.16		
+3	Horizontal load due to earth pressure				67.60KN	y-Direction	1.73		
+									
+	Safe bearing capacity SBC of the soil =				15.00t/sqm				
+									
+									
+	Check for stresses:-								
+									
+	About x-axis:-								
+									
+	Breadth of footing b =				6.30m				
+	Depth of footing d =				1.95m				
+	Area of the footing = A =				12.285	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	3.99	m3			
+	about x-axis --Zx =								
+									
+	For RCC Strip footing permissible bearing pressure is 1.5xSBC =					225KN/sqm			
+									
+	No tension is allowed on soil as per clause 706.3.3.1 of IRC 78:2000								
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at heel
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	27.56		
+2	Self wieght of abutment&footings				349.92KN	0.02	28.89		
+3	Self weight of RCC strip footing				138.21KN	0.00	11.25		
+4	Reaction due to live load with impact factor				295.77KN	0.00	24.08		
+5	Vertical component of Earth pressure				18.10KN	0.53	2.21		
+	Horizontal loads:- (Stress = M/Z)								
+1	Wind load				18.00KN	0.00	0		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	4.16	-49.9		
+3	Horizontal load due to earth pressure				67.60KN	1.73	-29.4		
+							14.79		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at toe
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	27.56		
+2	Self wieght of abutment&footings				349.92KN	-0.02	28.08		
+3	Self weight of RCC strip footing				138.21KN	0.00	11.25		
+4	Reaction due to live load with impact factor				295.77KN	0.00	24.08		
+5	Vertical component of Earth pressure				18.10KN	-0.53	0.74		
+	Horizontal loads:- (Stress = M/Z)								
+1	Wind load				18.00KN	0.00	0		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	4.16	49.85		
+3	Horizontal load due to earth pressure				67.60KN	1.73	29.35		
+							170.91		
+									
+	Stress at heel =		P/A(1+6e/b)+M/Z =		14.79	KN/Sqm>0			
+									
+									
+				Hence safe.					
+									
+	Stress at  toe =		P/A(1+6e/b)+M/Z =		170.91	KN/Sqm<225KN/sqm			
+									
+									
+				Hence safe.					
+									
+									
+	About y-axis:-								
+									
+	Breadth of footing b =				1.95m				
+	Depth of footing d =				6.30m				
+	Area of the footing = A =				12.285	m2			
+									
+	Section modulus of bottom footing 			(1/6)bd2 =	12.90	m3			
+	about y-axis --Zy =								
+									
+	For RCC Strip footing permissible bearing pressure is 1.5xSBC =					225KN/sqm			
+									
+	No tension is allowed on soil as per clause 706.3.3.1 of IRC 78:2000								
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity/Lever arm	"Stress at U/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	27.56		
+2	Self wieght of abutment&footings				349.92KN	0.00	28.48		
+3	Self weight of RCC strip footing				138.21KN	0.00	11.25		
+4	Reaction due to live load with impact factor				295.77KN	-0.543	-16.15		
+5	Vertical component of Earth pressure				18.10KN	0.00	1.47		
+	Horizontal loads:- (Stress = M/Z)								
+1	Wind load				18.00KN	4.46	-6.22		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	0.00	0.0		
+3	Horizontal load due to earth pressure				67.60KN	0.00	0.0		
+							46.39		
+									
+									
+S.No	Type of load				Intensity in KN (P)	Eccentricity	"Stress at D/S edge
+P/A(1+6e/b)"		
+									
+	Vertical loads:-(Stress = P/A(1+6e/b)								
+1	Reaction due to dead load from super structure				338.55KN	0.00	27.56		
+2	Self wieght of abutment&footings				349.92KN	0.00	28.48		
+3	Self weight of RCC strip footing				138.21KN	0.00	11.25		
+4	Reaction due to live load with impact factor				295.77KN	0.543	64.3		
+5	Vertical component of Earth pressure				18.10KN	0.00	1.47		
+	Horizontal loads:- (Stress = M/Z)								
+1	Wind load				18.00KN	4.46	6.22		
+2	Tractive,Braking&Frictional resistance of bearings				47.84KN	0.00	0		
+3	Horizontal load due to earth pressure				67.60KN	0.00	0		
+							139.28		
+									
+	Stress at up stream side 								
+	edge of abutment =		P/A(1+6e/b)+M/Z =		46.39	KN/Sqm>0			
+									
+									
+				Hence safe.					
+	Stress at down stream side 								
+	edge of abutment =		P/A(1+6e/b)+M/Z =		139.29	KN/Sqm<225KN/sqm			
+									
+									
+				Hence safe.					
+									
+	The footing has to be designed as strip footing supporting the masonry structure								
+									
+	The net bearing pressure on the toe of footing =				159.66	KN/Sqm			
+	(Excluding self weight of footing)								
+									
+	The footing needs to be designed for 1.5 times the 								
+	above net bearing pressure				239.49	KN/Sqm			
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+	The UDL on the footing for unit width =				239.49	KN/m			
+									
+	The critical section for bending is at a distance of 1/4xwidth of bottom footing from the centre,ie,at section X--X								
+									
+	Hence,the length of cantilever portion to be considered for design = 								
+									
+						0.83m			
+									
+	Hence,the critical bending moment = (1/2)Wl2 =					82.49KN-m			
+									
+									
+	Effective depth required d =			Mu/0.133fckb   =		157.51mm			
+									
+									
+	The over all depth required(Assuming 16mm dia bars) =					215.51mm			
+									
+									
+	However provide overall depth of  =					450.00mm			
+									
+	Hence,effective depth =					392.00mm			
+									
+									
+	Bottom steel:-								
+									
+	Mu/bd2 =	0.537							
+									
+	From table 3 of SP 16,percentage of steel required =					0.156			
+									
+									
+	Area of steel required =					611.52sqmm			
+									
+									
+	Hence provide 12mm dia bars at 125mm c/c along width,the area of reinforcement comes to								
+									
+						904.32sqmm			
+	Distribution steel:-								
+									
+	Provide distribution reinforcement of 0.15% of cross sectional area of footing								
+									
+	Hence,the distribution reinforcement required =					675.00sqmm			
+									
+	Adopting 12mm dia bars,the spacing required = 					167.00mm			
+									
+									
+	However provide 12mm dia bars at 150mm c/c spacing,as distribution reinforcement								
+									
+									
+	Check for one way shear:-								
+									
+		The critical section for beam shear is at distance of 'd' from the face of the column,ie,at Y-Y							
+									
+	Hence,the factored design shear force  VFd =				35.92KN				
+									
+									
+	Nominal shear stress Tv  =			0.1N/sqmm	<2.8 N/sqmm				
+					(As per Table 20 of 1S 456)				
+									
+		Hence,the section is safe from shear point of view							
+									
+									
+		Assumed percentage area of the steel reinforcement =				0.23%			
+									
+									
+		The design shear strength of concrete for the above steel percentage from 							
+		Table 19 of IS 456 is 							
+				0.35	Hence Vuc =	137.20KN			
+									
+				0.35>0.1					
+									
+			Hence,the depth provided is safe from beam shear point of view						
+									
+	The check for two way shear is not necessary in the present context.								
