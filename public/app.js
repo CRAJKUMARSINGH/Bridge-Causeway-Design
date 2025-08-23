@@ -532,12 +532,14 @@ class CausewayDesignApp {
         this.scene.background = new THREE.Color(0xf0f0f0);
         
         // Camera setup
-        this.camera = new THREE.PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000);
+        this.camera = new THREE.PerspectiveCamera(75, container.clientWidth / Math.max(container.clientHeight, 1), 0.1, 1000);
         this.camera.position.set(10, 10, 10);
         
         // Renderer setup
         this.renderer = new THREE.WebGLRenderer({ antialias: true });
-        this.renderer.setSize(container.clientWidth, container.clientHeight);
+        const width = Math.max(container.clientWidth || 800, 300);
+        const height = Math.max(container.clientHeight || 600, 200);
+        this.renderer.setSize(width, height);
         this.renderer.shadowMap.enabled = true;
         container.appendChild(this.renderer.domElement);
         
@@ -640,7 +642,11 @@ class CausewayDesignApp {
             this.causeway.rotation.y = THREE.MathUtils.degToRad(this.controls.rotationY);
         }
         
-        this.camera.position.multiplyScalar(this.controls.zoom / this.camera.position.length());
+        if (this.controls.zoom > 0) {
+            const currentLen = this.camera.position.length();
+            const targetScale = this.controls.zoom / currentLen;
+            this.camera.position.multiplyScalar(targetScale);
+        }
         this.camera.lookAt(this.scene.position);
         
         this.renderer.render(this.scene, this.camera);
@@ -743,15 +749,31 @@ class CausewayDesignApp {
 
 // Initialize the application when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-    new CausewayDesignApp();
+    const app = new CausewayDesignApp();
+    window.app = app;
+    // When initially hidden, size may be zero; ensure a resize when 3D tab is opened
+    document.querySelector('[data-tab="3d"]').addEventListener('click', () => {
+        setTimeout(() => {
+            if (window.app && window.app.renderer) {
+                const container = document.getElementById('3dScene');
+                const w = Math.max(container.clientWidth || 800, 300);
+                const h = Math.max(container.clientHeight || 600, 200);
+                window.app.renderer.setSize(w, h);
+                window.app.camera.aspect = w / Math.max(h, 1);
+                window.app.camera.updateProjectionMatrix();
+            }
+        }, 0);
+    });
 });
 
 // Handle window resize for 3D scene
 window.addEventListener('resize', () => {
     const container = document.getElementById('3dScene');
-    if (container && window.app && window.app.renderer) {
-        window.app.renderer.setSize(container.clientWidth, container.clientHeight);
-        window.app.camera.aspect = container.clientWidth / container.clientHeight;
+    if (container && window.app && window.app.renderer && window.app.camera) {
+        const w = Math.max(container.clientWidth || 800, 300);
+        const h = Math.max(container.clientHeight || 600, 200);
+        window.app.renderer.setSize(w, h);
+        window.app.camera.aspect = w / Math.max(h, 1);
         window.app.camera.updateProjectionMatrix();
     }
 });

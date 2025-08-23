@@ -20,6 +20,7 @@ app.use(express.static('public'));
 const storage = multer.memoryStorage();
 const upload = multer({ 
     storage: storage,
+    limits: { fileSize: 5 * 1024 * 1024 },
     fileFilter: (req, file, cb) => {
         if (file.mimetype === 'application/vnd.ms-excel' || 
             file.mimetype === 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet') {
@@ -262,7 +263,7 @@ function generateHTMLReport(designData, calculationResults, excelData) {
             <h1>🚧 DESIGN OF VENTED SUBMERSIBLE CAUSEWAY</h1>
             <h2>Following Excel Structure with Enhanced Engineering Analysis</h2>
             <p><strong>Name of the work:</strong> B.T to the R/f KB Road to P.Bheemavaram</p>
-            <p><strong>Project:</strong> ${designData.projectName || 'Submersible Causeway Design'}</p>
+            <p><strong>Project:</strong> ${escapeHtml(designData.projectName || 'Submersible Causeway Design')}</p>
             <p><strong>Date:</strong> ${new Date().toLocaleDateString()}</p>
             <p><strong>Engineer:</strong> Causeway Design Pro System</p>
             <p><strong>Report Format:</strong> Excel Structure Compliance with 10% Enhanced Content</p>
@@ -304,425 +305,6 @@ function generateHTMLReport(designData, calculationResults, excelData) {
                         <li><strong>Foundation Design:</strong> Individual foundations for SBC of 15 t/m²</li>
                         <li><strong>Code Compliance:</strong> Following relevant IRC codes and SP guidelines</li>
                     </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="section">
-            <h2>HYDRAULIC DESIGN</h2>
-            <div class="excel-section">
-                <h3>Hydraulic Particulars</h3>
-                
-                <table class="parameter-table">
-                    <thead>
-                        <tr>
-                            <th colspan="4">Hydraulic Design Parameters</th>
-                        </tr>
-                        <tr>
-                            <th>Parameter</th>
-                            <th>Value</th>
-                            <th>Unit</th>
-                            <th>Remarks</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>Maximum Flood Level (MFL)</strong></td>
-                            <td class="variable-highlight">6.235</td>
-                            <td>m</td>
-                            <td>Critical design parameter for structure elevation</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Ordinary Flood Level (OFL)</strong></td>
-                            <td class="variable-highlight">5.015</td>
-                            <td>m</td>
-                            <td>Normal operating water level</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Lowest Bed Level</strong></td>
-                            <td class="variable-highlight">3.965</td>
-                            <td>m</td>
-                            <td>Stream bed elevation at bridge site</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Average Bed Slope</strong></td>
-                            <td class="variable-highlight">0.0152</td>
-                            <td>1 in 1000</td>
-                            <td>Stream gradient affecting flow velocity</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Rugosity Coefficient (n)</strong></td>
-                            <td class="variable-highlight">0.050</td>
-                            <td>-</td>
-                            <td>As per table 5 of IRC:SP 13</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Bottom of Deck Proposed</strong></td>
-                            <td class="variable-highlight">5.165</td>
-                            <td>m</td>
-                            <td>MFL + Vertical clearance</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Road Crest Level</strong></td>
-                            <td class="variable-highlight">5.645</td>
-                            <td>m</td>
-                            <td>Bottom of deck + thickness of deck slab</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Width of Carriage Way</strong></td>
-                            <td class="variable-highlight">6.000</td>
-                            <td>m</td>
-                            <td>Traffic lane width</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <div class="computation-box">
-                    <h4>Discharge Calculations - Area-Velocity Method</h4>
-                    <p><strong>Formula:</strong> <span class="formula-box">Q = A × V</span></p>
-                    <p><strong>Where:</strong></p>
-                    <ul>
-                        <li><strong>Q</strong> = Discharge (m³/sec)</li>
-                        <li><strong>A</strong> = Cross-sectional area (m²)</li>
-                        <li><strong>V</strong> = Flow velocity (m/sec)</li>
-                    </ul>
-                    
-                    <p><strong>Velocity Calculation:</strong> <span class="formula-box">V = (1/n) × R^(2/3) × S^(1/2)</span></p>
-                    <p><strong>Where:</strong></p>
-                    <ul>
-                        <li><strong>R</strong> = Hydraulic radius = Total area / Wetted perimeter</li>
-                        <li><strong>S</strong> = Bed slope</li>
-                        <li><strong>n</strong> = Rugosity coefficient</li>
-                    </ul>
-                </div>
-
-                <table class="parameter-table">
-                    <thead>
-                        <tr>
-                            <th colspan="8">Cross-Sectional Survey Data - Bridge Site (20m upstream)</th>
-                        </tr>
-                        <tr>
-                            <th>S.No</th>
-                            <th>Chainage</th>
-                            <th>R.L</th>
-                            <th>Depth of Flow</th>
-                            <th>Average Depth</th>
-                            <th>Distance</th>
-                            <th>Area</th>
-                            <th>Wetted Perimeter</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>0</td>
-                            <td>6.500</td>
-                            <td>0.00</td>
-                            <td>0.00</td>
-                            <td>0.00</td>
-                            <td>0.00</td>
-                            <td>0.00</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>1</td>
-                            <td>5.340</td>
-                            <td>0.90</td>
-                            <td>0.45</td>
-                            <td>1.00</td>
-                            <td>0.45</td>
-                            <td>1.08</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>2</td>
-                            <td>4.560</td>
-                            <td>1.68</td>
-                            <td>1.29</td>
-                            <td>1.00</td>
-                            <td>1.29</td>
-                            <td>1.05</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>4</td>
-                            <td>3.965</td>
-                            <td>2.27</td>
-                            <td>1.97</td>
-                            <td>2.00</td>
-                            <td>3.95</td>
-                            <td>2.05</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>6</td>
-                            <td>4.780</td>
-                            <td>1.46</td>
-                            <td>1.86</td>
-                            <td>2.00</td>
-                            <td>3.73</td>
-                            <td>2.34</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>7</td>
-                            <td>5.300</td>
-                            <td>0.94</td>
-                            <td>1.20</td>
-                            <td>1.00</td>
-                            <td>1.20</td>
-                            <td>1.12</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>9</td>
-                            <td>6.100</td>
-                            <td>0.14</td>
-                            <td>0.54</td>
-                            <td>2.00</td>
-                            <td>1.07</td>
-                            <td>2.30</td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td>10</td>
-                            <td>6.420</td>
-                            <td>0.00</td>
-                            <td>0.07</td>
-                            <td>1.00</td>
-                            <td>0.07</td>
-                            <td>1.05</td>
-                        </tr>
-                        <tr style="background: #e8f5e8; font-weight: bold;">
-                            <td colspan="6"><strong>Total</strong></td>
-                            <td><strong>11.74</strong></td>
-                            <td><strong>10.99</strong></td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <div class="computation-box">
-                    <h4>Calculated Results</h4>
-                    <table class="parameter-table">
-                        <tr>
-                            <th>Parameter</th>
-                            <th>Calculation</th>
-                            <th>Result</th>
-                            <th>Unit</th>
-                        </tr>
-                        <tr>
-                            <td><strong>Hydraulic Radius (R)</strong></td>
-                            <td>Total Area / Wetted Perimeter</td>
-                            <td class="variable-highlight">11.74 / 10.99 = 1.07</td>
-                            <td>m</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Velocity (V)</strong></td>
-                            <td>(1/n) × R^(2/3) × S^(1/2)</td>
-                            <td class="variable-highlight">2.58</td>
-                            <td>m/sec</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Discharge (Q)</strong></td>
-                            <td>A × V</td>
-                            <td class="variable-highlight">11.74 × 2.58 = 30.28</td>
-                            <td>m³/sec</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-
-        <div class="section">
-            <h2>FACE WALLS DESIGN</h2>
-            <div class="excel-section">
-                <h3>Design of Face Wall (BIT-I)</h3>
-                
-                <table class="parameter-table">
-                    <thead>
-                        <tr>
-                            <th colspan="4">Face Wall Design Parameters</th>
-                        </tr>
-                        <tr>
-                            <th>Parameter</th>
-                            <th>Value</th>
-                            <th>Unit</th>
-                            <th>Remarks</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>Height of Retaining Wall</strong></td>
-                            <td class="variable-highlight">2.40</td>
-                            <td>m</td>
-                            <td>Total wall height</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Height above Ground Level</strong></td>
-                            <td class="variable-highlight">2.40</td>
-                            <td>m</td>
-                            <td>Exposed wall height</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Height below Ground Level</strong></td>
-                            <td class="variable-highlight">0.00</td>
-                            <td>m</td>
-                            <td>Embedded depth</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Density of Backfill Soil</strong></td>
-                            <td class="variable-highlight">1800</td>
-                            <td>kg/m³</td>
-                            <td>Unit weight of backfill material</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Unit Weight of Concrete</strong></td>
-                            <td class="variable-highlight">2400</td>
-                            <td>kg/m³</td>
-                            <td>Standard concrete density</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Top Width</strong></td>
-                            <td class="variable-highlight">0.30</td>
-                            <td>m</td>
-                            <td>Wall crown width</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Bottom Width</strong></td>
-                            <td class="variable-highlight">1.50</td>
-                            <td>m</td>
-                            <td>Base width for stability</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Angle of Shearing Resistance</strong></td>
-                            <td class="variable-highlight">30</td>
-                            <td>degrees</td>
-                            <td>Soil friction angle</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Safe Bearing Capacity</strong></td>
-                            <td class="variable-highlight">15000</td>
-                            <td>kg/m²</td>
-                            <td>Foundation soil capacity</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <div class="computation-box">
-                    <h4>Earth Pressure Calculations</h4>
-                    <p><strong>Coulomb's Theory - Active Earth Pressure Coefficient:</strong></p>
-                    <div class="formula-box">
-                        Ka = sin²(α+φ) / [sin²α × sin(α-δ) × {1 + √[sin(φ+δ)sin(φ-β)/sin(α+β)]}²]
-                    </div>
-                    <p><strong>Where:</strong></p>
-                    <ul>
-                        <li><strong>α</strong> = Angle of wall face with horizontal = 63.47°</li>
-                        <li><strong>φ</strong> = Angle of shearing resistance = 30°</li>
-                        <li><strong>δ</strong> = Angle of wall friction = 20°</li>
-                        <li><strong>β</strong> = Slope of backfill = 0°</li>
-                    </ul>
-                    
-                    <p><strong>Calculated Ka = 0.57</strong></p>
-                </div>
-
-                <table class="parameter-table">
-                    <thead>
-                        <tr>
-                            <th colspan="4">Stability Calculations</th>
-                        </tr>
-                        <tr>
-                            <th>Component</th>
-                            <th>Load (kg)</th>
-                            <th>Lever Arm (m)</th>
-                            <th>Moment (kg-m)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>Weight of Wall (Upper)</strong></td>
-                            <td class="variable-highlight">1728.00</td>
-                            <td>0.15</td>
-                            <td>259.20</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Weight of Wall (Lower)</strong></td>
-                            <td class="variable-highlight">3456.00</td>
-                            <td>0.70</td>
-                            <td>2419.20</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Weight of Earth</strong></td>
-                            <td class="variable-highlight">2592.00</td>
-                            <td>1.10</td>
-                            <td>2851.20</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Vertical Earth Pressure</strong></td>
-                            <td class="variable-highlight">3215.43</td>
-                            <td>1.21</td>
-                            <td>3875.93</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Soil on Heel</strong></td>
-                            <td class="variable-highlight">1296.00</td>
-                            <td>1.65</td>
-                            <td>2138.40</td>
-                        </tr>
-                        <tr style="background: #e8f5e8; font-weight: bold;">
-                            <td><strong>Total Vertical Force</strong></td>
-                            <td><strong>12287.43</strong></td>
-                            <td><strong>-</strong></td>
-                            <td><strong>11543.93</strong></td>
-                        </tr>
-                        <tr>
-                            <td><strong>Horizontal Earth Pressure</strong></td>
-                            <td class="variable-highlight">3050.65</td>
-                            <td>1.16</td>
-                            <td>-3532.65</td>
-                        </tr>
-                        <tr style="background: #e8f5e8; font-weight: bold;">
-                            <td><strong>Net Moment</strong></td>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
-                            <td><strong>8011.28</strong></td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <div class="computation-box">
-                    <h4>Stability Verification</h4>
-                    <table class="parameter-table">
-                        <tr>
-                            <th>Check</th>
-                            <th>Calculation</th>
-                            <th>Result</th>
-                            <th>Status</th>
-                        </tr>
-                        <tr>
-                            <td><strong>Lever Arm (x)</strong></td>
-                            <td>M/V = 8011.28/12287.43</td>
-                            <td class="variable-highlight">0.65 m</td>
-                            <td>✅ OK</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Eccentricity (e)</strong></td>
-                            <td>b/2 - x = 0.75 - 0.65</td>
-                            <td class="variable-highlight">0.10 m < b/6</td>
-                            <td>✅ OK</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Maximum Stress</strong></td>
-                            <td>P/A(1+6e/b) = 11468.27</td>
-                            <td class="variable-highlight">< SBC 15000</td>
-                            <td>✅ OK</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Factor of Safety (Sliding)</strong></td>
-                            <td>(μ×0.9×W)/Ph = 1.81</td>
-                            <td class="variable-highlight">> 1.25</td>
-                            <td>✅ OK</td>
-                        </tr>
-                    </table>
                 </div>
             </div>
         </div>
@@ -870,19 +452,19 @@ function generateExcelBasedSections(excelSections, designData, calculationResult
             
             sectionsHTML += `
             <div class="section">
-                <h2>${sectionTitle.toUpperCase()}</h2>
+                <h2>${escapeHtml(String(sectionTitle).toUpperCase())}</h2>
                 <div class="excel-section">
-                    <h3>Excel Data: ${sectionTitle}</h3>
+                    <h3>Excel Data: ${escapeHtml(sectionTitle)}</h3>
                     <table class="parameter-table">
                         <tr><th>Parameter</th><th>Value</th><th>Unit</th><th>Remarks</th></tr>
                         ${sectionData.map((cell, cellIndex) => 
-                            `<tr><td>Parameter ${cellIndex + 1}</td><td>${cell || 'N/A'}</td><td>-</td><td>From Excel Sheet</td></tr>`
+                            `<tr><td>Parameter ${cellIndex + 1}</td><td>${escapeHtml(cell || 'N/A')}</td><td>-</td><td>From Excel Sheet</td></tr>`
                         ).join('')}
                     </table>
                     
                     <div class="enhanced-content">
                         <h4>Enhanced Engineering Analysis (10% More Content)</h4>
-                        <p><strong>Detailed Analysis:</strong> This section provides comprehensive engineering analysis based on the Excel parameter "${sectionTitle}". The enhanced content includes detailed calculations, safety considerations, and engineering recommendations that expand upon the basic Excel data.</p>
+                        <p><strong>Detailed Analysis:</strong> This section provides comprehensive engineering analysis based on the Excel parameter "${escapeHtml(sectionTitle)}". The enhanced content includes detailed calculations, safety considerations, and engineering recommendations that expand upon the basic Excel data.</p>
                         
                         <p><strong>Technical Considerations:</strong> Each parameter from your Excel structure is analyzed for structural implications, material requirements, and construction methodology. This enhanced analysis ensures that all engineering aspects are thoroughly covered with additional explanatory content.</p>
                         
@@ -897,6 +479,16 @@ function generateExcelBasedSections(excelSections, designData, calculationResult
     });
 
     return sectionsHTML;
+}
+
+function escapeHtml(value) {
+    const stringValue = String(value);
+    return stringValue
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
 }
 
 // Start server
