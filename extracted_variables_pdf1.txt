@@ -1,0 +1,259 @@
+VARIABLES EXTRACTED FROM PDF 1: DESIGN OF VENTED SUBMERSIBLE CAUSEWAY
+===========================================================================
+
+PROJECT INFORMATION:
+- Project Name: B.T to the R/f KB Road to P.Bheemavaram
+- Structure Type: Vented Submersible Causeway
+
+DESIGN PHILOSOPHY PARAMETERS:
+- RTL obstruction to flow: < 70% when flow is at RTL
+- HFL obstruction to flow: < 30% when flow is at HFL
+- IRC Class A live load: Required for bridges and culverts of medium importance
+- Design codes referenced: IRC 6:2000, IRC-SP:82-2008, IRC SP:82-2007, IRC:SP20-2002
+
+GEOMETRIC DESIGN PARAMETERS:
+- Clear Right Span: 6.00m
+- Deck slab length: 6.800m
+- Width of the carriage way: 6.00m
+- Thickness of deck slab: 0.480m (as per IRC SP 20)
+- Thickness of wearing coat: 0.075m
+- Height of guard stones: 0.750m
+- Thickness of dirt wall: 0.30m
+- Sectional area of dirt wall: 0.370 sq.m
+- Thickness of strip footing: 0.45m
+- Height of abutments: 1.200m
+
+ABUTMENT DIMENSIONS:
+- Top width of abutments: 0.750m
+- Bottom width of abutments: 1.05m
+- Sectional area of abutment section: 1.080 sq.m
+- Bank side batter of abutment: 0.000m
+- Stream side batter of abutment: 0.300m
+
+FOOTING DIMENSIONS:
+- Width of 1st footing: 1.35m
+- Thickness of 1st footing: 0.30m
+- Canal side offset of 1st footing wrt abutment: 0.15m
+- Bank side offset of 1st footing wrt abutment: 0.15m
+- Width of 2nd footing: 1.50m
+- Thickness of 2nd footing: 0.30m
+- Canal side offset of 2nd footing wrt abutment: 0.30m
+- Bank side offset of 2nd footing wrt abutment: 0.15m
+- Width of 3rd footing: 1.65m
+- Thickness of 3rd footing: 0.30m
+- Canal side offset of 3rd footing wrt abutment: 0.45m
+- Bank side offset of 3rd footing wrt abutment: 0.15m
+
+RCC STRIP FOOTING:
+- Width of VRCC strip footing: 1.95m
+- Thickness of VRCC strip footing (d3): 0.45m
+- Canal side offset of RCC strip footing wrt abutment (s5): 0.60m
+- Bank side offset of RCC strip footing wrt abutment (s6): 0.30m
+- Offset of top footing along width: 0.00m
+- Offset of 2nd footing along width: 0.00m
+- Offset of 3rd footing along width: 0.00m
+- Offset of RCC strip footing along width (w1): 0.15m
+
+MATERIAL PROPERTIES:
+- Unit weight of RCC (γrc): 25 KN/cum
+- Unit weight of PCC (γpc): 24 KN/cum
+- Density of back fill soil behind abutments (γ): 18 KN/Cum
+- Unit weight of water (γw): 10 KN/Cum
+- Angle of shearing resistance of back fill material (Q): 30°
+- Angle of face of wall supporting earth with horizontal: 90°
+- Slope of back fill (b): 0°
+- Angle of wall friction (q): 15°
+- Safe Bearing Capacity of the soil (SBC): 15.00 t/sq.m
+- Compressive strength of concrete for VRCC (fck): 25.00 N/sq.mm
+- Compressive strength of concrete for PCC (fck): 20.00 N/sq.mm
+- Yield strength of steel (fy): 415.00 N/sq.mm
+- Cover to reinforcement: 50.00mm
+
+LEVELS:
+- Height of surcharge considered (h3): 1.20m
+- Road crest level (RTL): 5.645m
+- Low bed level (LBL): 3.965m
+- High flood Level (HFL): 6.235m
+- Bottom of foundation level (BFL): 2.315m
+
+BEARING TYPE:
+- Type of bearings: No bearings proposed
+
+LOAD CALCULATIONS (DEAD LOADS):
+- Self weight of the deck slab: 244.80 KN
+- Self weight of dirt wall over abutment: 55.50 KN
+- Self weight of wearing coat: 38.25 KN
+- Total dead load from superstructure: 338.55 KN
+- Self weight of the abutment section: 155.52 KN
+- Self weight of top footing: 58.32 KN
+- Self weight of 2nd footing: 64.80 KN
+- Self weight of 3rd footing: 71.28 KN
+- Self weight of 4th footing: 0.00 KN
+- Total self weight of abutments and footings: 349.92 KN
+
+LIVE LOAD PARAMETERS:
+- IRC Class A loading pattern applied
+- Ground contact area for 11.4t axle: B=250mm, W=500mm
+- Ground contact area for 6.8t axle: B=200mm, W=380mm
+- Ground contact area for 2.7t axle: B=150mm, W=200mm
+- Allowance for guide posts: 0.3m
+- Clear distance of vehicle from edge of guide post: 0.15m
+- Total allowance (f): 0.45m
+- Width of area loaded with 7.25KN/m² on left side: 0.45m
+- Width of area loaded on right side (k): 3.25m
+- Total width loaded: 3.70m
+
+LIVE LOAD COMPONENTS:
+- Wheel loads (Point loads): 296.00 KN
+- Live load in remaining portion (Left side) - UDL: 22.185 KN
+- Live load in remaining portion (Right side) - UDL: 160.225 KN
+- Total resultant live load: 478.41 KN
+
+LIVE LOAD ECCENTRICITIES:
+- Eccentricity w.r.t y-direction (Along direction of travel): 0.543m
+- Distance of centroid from y-axis: 2.457m
+- Eccentricity w.r.t x-direction (At right angle to travel): 0.804m
+- Distance of centroid from x-axis: 4.204m
+
+REACTIONS ON ABUTMENTS:
+- Reaction due to loads Ra: 182.64 KN
+- Reaction due to point loads Rb: 295.77 KN
+- Critical reaction Ra: 295.77 KN
+- Corrected reaction: 295.77 KN
+- Eccentricity of live load reaction: 0.01m
+
+IMPACT LOAD:
+- Impact factor: 4.5/(6+L) = 0.352
+- Impact allowance for top 3m of abutments: 0.176
+- Impact load: 52.06 KN
+
+WIND LOAD:
+- Deck system height above LBL: 1.68m
+- Wind pressure at that height: 59.48 kg/m²
+- Height of deck system: 1.755m
+- Breadth of deck system: 7.4m
+- Wind force on deck system: 3.86 KN (with 50% perforations)
+- Wind force on live load vehicle at 1.5m above road: 18.00 KN
+- Location of wind force from top of RCC strip footing: 4.16m
+
+WATER CURRENT FORCES:
+- Velocity of stream at top of deck slab: √2 x Vmean = 3.65 m/sec
+- Pressure P = 52KV²: 201.24 kg/m²
+- K value: 1.5
+- Water current force on deck slab: 3.80 KN
+- Point of action from top of RCC strip footing: 3.09m
+- Water current force on abutment: 3.38 KN
+- Point of action from top of RCC strip footing: 2.88m
+
+TRACTIVE/BRAKING FORCES:
+- Breaking effect percentage of live load: 20%
+- Height above road surface: 1.2m
+- Longitudinal force transmitted to abutments: 47.84 KN
+- Location from top of RCC strip footing: 3.86m
+
+BUOYANCY:
+- Volume of abutment section: 6.48 cum
+- Volume of top footing: 2.43 cum
+- Volume of 2nd footing: 2.70 cum
+- Volume of 3rd footing: 2.97 cum
+- Volume of 4th footing: 0.00 cum
+- Total volume: 14.58 cum
+- Reduction in self weight: 145.80 KN
+
+EARTH PRESSURE CALCULATIONS:
+- Active earth pressure coefficient Ka: 0.3
+- Height of abutment above GL: 1.200m
+- Maximum pressure at base Pa: 6.48 KN/sq.m
+- Surcharge load: 6.48 KN/sq.m
+- Area of rectangular portion: 7.78
+- Area of triangular portion: 3.89
+- Total earth pressure: 11.67
+- Height from bottom of wall: 0.53m
+- Total earth pressure P: 69.98 KN
+- Horizontal component Ph: 67.60 KN
+- Vertical component Pv: 18.10 KN
+- Eccentricity of vertical component: 0.53m
+
+WATER PRESSURE FORCE:
+- Afflux: 0.131m
+- Head loss due to velocity increase: 0.012m
+- Uplift head: 0.543m
+- Uplift force on deck slab: 195.48 KN
+- Total horizontal water pressure force: 11.48 KN
+- Pressure height: 0.71m
+
+FRICTION FORCES:
+- Friction coefficient f: 1
+- Frictional force on bottom and top of deck slab: 4.96 KN
+- Location from top of RCC strip footing: 3.09m
+- Frictional force on canal side face of abutment: 0.50 KN
+- Location from top of RCC strip footing: 1.50m
+
+SILT LOAD:
+- Additional silt load thickness: 150mm
+- Silt density: 15 kN/m³
+
+STRESS ANALYSIS - CONCRETE PROPERTIES:
+- M20 grade concrete permissible compressive stress: 5000 KN/sq.m
+- M20 grade concrete permissible tensile stress: -2800 KN/sq.m
+
+FOOTING STRESS ANALYSIS DIMENSIONS:
+- 3rd footing breadth: 6.00m, depth: 1.65m, area: 9.9 m²
+- Section modulus about x-axis: 2.72 m³
+- Section modulus about y-axis: 9.90 m³
+- 2nd footing breadth: 6.00m, depth: 1.50m, area: 9 m²
+- Section modulus about x-axis: 2.25 m³
+- Section modulus about y-axis: 9.00 m³
+- 1st footing breadth: 6.00m, depth: 1.35m, area: 8.1 m²
+- Section modulus about x-axis: 1.82 m³
+- Section modulus about y-axis: 8.10 m³
+- Abutment base breadth: 6.00m, depth: 1.05m, area: 6.3 m²
+- Section modulus about x-axis: 1.10 m³
+- Section modulus about y-axis: 6.30 m³
+
+LOAD COMBINATIONS AND STRESS VALUES:
+(Multiple stress calculations for different load envelopes with specific values for heel, toe, upstream and downstream edges)
+
+STABILITY ANALYSIS:
+- Overturning moment (Load Envelope III): 177.66 KN-m
+- Restoring moment: 496.00 KN-m
+- Factor of safety against overturning: 2.79 > 2.0 (Safe)
+- Total vertical load: 912.05 KN
+- Total sliding force: 133.44 KN
+- Coefficient of friction: 0.80
+- Factor of safety against sliding: 5.47 > 1.5 (Safe)
+
+STRIP FOOTING DESIGN:
+- Strip footing breadth: 6.30m, depth: 1.95m, area: 12.285 m²
+- Section modulus about x-axis: 3.99 m³
+- Section modulus about y-axis: 12.90 m³
+- Permissible bearing pressure: 1.5 × SBC = 225 KN/sq.m
+- Self weight of RCC strip footing: 138.21 KN
+- Net bearing pressure on toe: 159.66 KN/sq.m
+- Design bearing pressure (1.5 times): 239.49 KN/sq.m
+- UDL on footing for unit width: 239.49 KN/m
+- Critical cantilever length: 0.83m
+- Critical bending moment: 82.49 KN-m
+
+REINFORCEMENT DESIGN:
+- Effective depth required: 157.51mm
+- Overall depth required: 215.51mm
+- Overall depth provided: 450.00mm
+- Effective depth provided: 392.00mm
+- Mu/bd²: 0.537
+- Steel percentage required: 0.156%
+- Area of steel required: 611.52 sq.mm
+- Main steel provided: 12mm dia bars at 125mm c/c
+- Area of reinforcement provided: 904.32 sq.mm
+- Distribution steel required: 675.00 sq.mm
+- Distribution steel provided: 12mm dia bars at 150mm c/c
+
+SHEAR ANALYSIS:
+- Factored design shear force VFd: 35.92 KN
+- Nominal shear stress Tv: 0.1 N/sq.mm < 2.8 N/sq.mm (Safe)
+- Steel reinforcement percentage: 0.23%
+- Design shear strength Vuc: 137.20 KN
+- Shear strength verification: 0.35 > 0.1 (Safe)
+
+ADDITIONAL LOAD ENVELOPE CALCULATIONS:
+(Multiple detailed calculations for different load combinations including canal dry/full conditions, with and without live loads)

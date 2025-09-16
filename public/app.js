@@ -231,9 +231,136 @@ class CausewayDesignApp {
     displayResults(result) {
         const container = document.getElementById('resultsContainer');
         
-        container.innerHTML = `
+        // Enhanced computation trace HTML with categories
+        const traceHTML = Array.isArray(result.trace) ? `
             <div class="result-card">
-                <h4>Structural Calculations</h4>
+                <h4>Comprehensive Computation Trace</h4>
+                <div class="trace-categories">
+                    ${this.buildTraceByCategory(result.trace)}
+                </div>
+            </div>
+        ` : '';
+        
+        // Enhanced inputs overview
+        const inputs = result.inputs || null;
+        const inputsHTML = inputs ? `
+            <div class="result-card">
+                <h4>Input Parameters & Design Data</h4>
+                <div class="result-grid">
+                    <div class="result-item"><div class="value">${inputs.length.value} ${inputs.length.unit}</div><div class="label">Length</div></div>
+                    <div class="result-item"><div class="value">${inputs.width.value} ${inputs.width.unit}</div><div class="label">Width</div></div>
+                    <div class="result-item"><div class="value">${inputs.height.value} ${inputs.height.unit}</div><div class="label">Height</div></div>
+                    <div class="result-item"><div class="value">${inputs.waterDepth.value} ${inputs.waterDepth.unit}</div><div class="label">Water Depth</div></div>
+                    <div class="result-item"><div class="value">${inputs.soilType.value}</div><div class="label">Soil Type</div></div>
+                    <div class="result-item"><div class="value">${inputs.loadType.value}</div><div class="label">Load Class</div></div>
+                    <div class="result-item"><div class="value">${inputs.safetyFactor.value}</div><div class="label">Safety Factor</div></div>
+                    <div class="result-item"><div class="value">${inputs.hfl.value} ${inputs.hfl.unit}</div><div class="label">HFL</div></div>
+                    <div class="result-item"><div class="value">${inputs.lbl.value} ${inputs.lbl.unit}</div><div class="label">LBL</div></div>
+                    <div class="result-item"><div class="value">${inputs.bedSlope.value}</div><div class="label">Bed Slope</div></div>
+                    <div class="result-item"><div class="value">${inputs.rugosityCoeff.value}</div><div class="label">Manning's n</div></div>
+                    <div class="result-item"><div class="value">${inputs.catchmentArea.value} ${inputs.catchmentArea.unit}</div><div class="label">Catchment</div></div>
+                </div>
+            </div>
+        ` : '';
+        
+        // Hydraulic design results
+        const hydraulicsHTML = result.hydraulics ? `
+            <div class="result-card">
+                <h4>Hydraulic Design (IRC SP:82-2008)</h4>
+                <div class="result-grid">
+                    <div class="result-item">
+                        <div class="value">${result.hydraulics.designDischarge} m³/s</div>
+                        <div class="label">Design Discharge</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="value">${result.hydraulics.hydraulicRadius} m</div>
+                        <div class="label">Hydraulic Radius</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="value">${result.hydraulics.velocity} m/s</div>
+                        <div class="label">Flow Velocity</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="value">${result.hydraulics.ventPercentage}%</div>
+                        <div class="label">Venting Ratio</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="value">${result.hydraulics.scourDepth} m</div>
+                        <div class="label">Max Scour Depth</div>
+                    </div>
+                </div>
+            </div>
+        ` : '';
+        
+        // Load analysis results
+        const loadsHTML = result.loads ? `
+            <div class="result-card">
+                <h4>Load Analysis (IRC 6:2000)</h4>
+                <div class="result-grid">
+                    <div class="result-item">
+                        <div class="value">${result.loads.deadLoad} kN</div>
+                        <div class="label">Dead Load</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="value">${result.loads.liveLoad} kN</div>
+                        <div class="label">Live Load</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="value">${result.loads.impactLoad} kN</div>
+                        <div class="label">Impact Load</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="value">${result.loads.windLoad} kN</div>
+                        <div class="label">Wind Load</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="value">${result.loads.waterCurrentForce} kN</div>
+                        <div class="label">Water Current</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="value">${result.loads.buoyancy} kN</div>
+                        <div class="label">Buoyancy</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="value">${result.loads.totalVertical} kN</div>
+                        <div class="label">Total Vertical</div>
+                    </div>
+                </div>
+            </div>
+        ` : '';
+        
+        // Safety checks
+        const safetyHTML = result.safetyChecks ? `
+            <div class="result-card ${result.safetyChecks.overall ? 'safe' : 'warning'}">
+                <h4>Comprehensive Safety Assessment</h4>
+                <div class="safety-grid">
+                    <div class="safety-item ${result.safetyChecks.foundation ? 'safe' : 'warning'}">
+                        <span class="indicator">${result.safetyChecks.foundation ? '✅' : '⚠️'}</span>
+                        <span class="label">Foundation</span>
+                    </div>
+                    <div class="safety-item ${result.safetyChecks.ventway ? 'safe' : 'warning'}">
+                        <span class="indicator">${result.safetyChecks.ventway ? '✅' : '⚠️'}</span>
+                        <span class="label">Ventway</span>
+                    </div>
+                    <div class="safety-item ${result.safetyChecks.scour ? 'safe' : 'warning'}">
+                        <span class="indicator">${result.safetyChecks.scour ? '✅' : '⚠️'}</span>
+                        <span class="label">Scour</span>
+                    </div>
+                    <div class="safety-item ${result.safetyChecks.deflection ? 'safe' : 'warning'}">
+                        <span class="indicator">${result.safetyChecks.deflection ? '✅' : '⚠️'}</span>
+                        <span class="label">Deflection</span>
+                    </div>
+                </div>
+                <p style="margin-top: 15px;"><strong>Overall Status:</strong> ${result.safetyChecks.overall ? '✅ DESIGN SAFE' : '⚠️ DESIGN REVIEW REQUIRED'}</p>
+            </div>
+        ` : '';
+        
+        container.innerHTML = `
+            ${inputsHTML}
+            ${hydraulicsHTML}
+            ${loadsHTML}
+            <div class="result-card">
+                <h4>Structural Analysis</h4>
                 <div class="result-grid">
                     <div class="result-item">
                         <div class="value">${result.calculations.volume} m³</div>
@@ -244,18 +371,18 @@ class CausewayDesignApp {
                         <div class="label">Surface Area</div>
                     </div>
                     <div class="result-item">
-                        <div class="value">${result.calculations.perimeter} m</div>
-                        <div class="label">Perimeter</div>
+                        <div class="value">${result.calculations.bendingMoment} kN·m</div>
+                        <div class="label">Max Moment</div>
                     </div>
                     <div class="result-item">
-                        <div class="value">${result.calculations.totalLoad} kN</div>
-                        <div class="label">Total Load</div>
+                        <div class="value">${result.calculations.deflection} mm</div>
+                        <div class="label">Max Deflection</div>
                     </div>
                 </div>
             </div>
             
             <div class="result-card">
-                <h4>Foundation Analysis</h4>
+                <h4>Foundation Design</h4>
                 <div class="result-grid">
                     <div class="result-item">
                         <div class="value">${result.calculations.foundationPressure} kN/m²</div>
@@ -263,7 +390,7 @@ class CausewayDesignApp {
                     </div>
                     <div class="result-item">
                         <div class="value">${result.calculations.safetyMargin}</div>
-                        <div class="label">Safety Margin</div>
+                        <div class="label">Safety Factor</div>
                     </div>
                     <div class="result-item">
                         <div class="value">${result.recommendations.foundationType}</div>
@@ -277,15 +404,15 @@ class CausewayDesignApp {
             </div>
             
             <div class="result-card">
-                <h4>Material Quantities</h4>
+                <h4>Material Specifications (IRC Standards)</h4>
                 <div class="result-grid">
                     <div class="result-item">
                         <div class="value">${result.calculations.materials.concrete} m³</div>
-                        <div class="label">Concrete</div>
+                        <div class="label">M25 Concrete</div>
                     </div>
                     <div class="result-item">
-                        <div class="value">${result.calculations.materials.steel} tons</div>
-                        <div class="label">Steel</div>
+                        <div class="value">${(result.calculations.materials.steel/1000).toFixed(2)} tons</div>
+                        <div class="label">Fe415 Steel</div>
                     </div>
                     <div class="result-item">
                         <div class="value">${result.calculations.materials.formwork} m²</div>
@@ -294,19 +421,105 @@ class CausewayDesignApp {
                 </div>
             </div>
             
-            <div class="result-card ${result.recommendations.isSafe ? 'safe' : 'warning'}">
-                <h4>Safety Assessment</h4>
-                <p><strong>Status:</strong> ${result.recommendations.isSafe ? '✅ SAFE' : '⚠️ REVIEW REQUIRED'}</p>
-                <p><strong>Safety Factor:</strong> ${result.calculations.safetyMargin}</p>
-                <p><strong>Recommendation:</strong> ${result.recommendations.isSafe ? 'Design meets safety requirements' : 'Consider increasing dimensions or improving foundation'}</p>
-            </div>
+            ${safetyHTML}
+            ${traceHTML}
         `;
+        
+        // Add CSS for enhanced styling
+        this.addEnhancedStyling();
 
         // Show PDF generation section
         document.getElementById('pdfGenerationSection').style.display = 'block';
         
         // Store results for PDF generation
         this.currentResults = result;
+    }
+    
+    buildTraceByCategory(trace) {
+        const categories = {};
+        trace.forEach(item => {
+            if (!categories[item.category]) categories[item.category] = [];
+            categories[item.category].push(item);
+        });
+        
+        return Object.entries(categories).map(([category, items]) => `
+            <div class="trace-category">
+                <h5>${category} Calculations</h5>
+                <div style="max-height: 300px; overflow:auto; border:1px solid #e2e8f0; border-radius:6px; margin:10px 0;">
+                    <table style="width:100%; border-collapse: collapse; font-size: 0.9em;">
+                        <thead>
+                            <tr style="background:#f8f9fa;">
+                                <th style="padding:6px 8px; border:1px solid #e2e8f0; text-align:left;">Parameter</th>
+                                <th style="padding:6px 8px; border:1px solid #e2e8f0; text-align:left;">Formula</th>
+                                <th style="padding:6px 8px; border:1px solid #e2e8f0; text-align:left;">Calculation</th>
+                                <th style="padding:6px 8px; border:1px solid #e2e8f0; text-align:left;">Result</th>
+                                <th style="padding:6px 8px; border:1px solid #e2e8f0; text-align:left;">Reference</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${items.map(item => `
+                                <tr>
+                                    <td style="padding:6px 8px; border:1px solid #e2e8f0; font-weight:500;">${item.name}</td>
+                                    <td style="padding:6px 8px; border:1px solid #e2e8f0; font-family:'Courier New',monospace; color:#2563eb;">${item.formula}</td>
+                                    <td style="padding:6px 8px; border:1px solid #e2e8f0; font-family:'Courier New',monospace; color:#059669;">${item.substituted}</td>
+                                    <td style="padding:6px 8px; border:1px solid #e2e8f0; font-weight:600; color:#dc2626;">${item.result}</td>
+                                    <td style="padding:6px 8px; border:1px solid #e2e8f0; font-size:0.8em; color:#6b7280;">${item.reference}</td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        `).join('');
+    }
+    
+    addEnhancedStyling() {
+        const style = document.createElement('style');
+        style.textContent = `
+            .trace-category h5 {
+                color: #374151;
+                margin: 15px 0 5px 0;
+                padding: 8px 12px;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                border-radius: 4px;
+                font-size: 0.95em;
+            }
+            .safety-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+                gap: 10px;
+                margin: 15px 0;
+            }
+            .safety-item {
+                display: flex;
+                align-items: center;
+                padding: 8px 12px;
+                border: 1px solid #e2e8f0;
+                border-radius: 6px;
+                background: #f9fafb;
+            }
+            .safety-item.safe {
+                border-color: #10b981;
+                background: #ecfdf5;
+            }
+            .safety-item.warning {
+                border-color: #f59e0b;
+                background: #fffbeb;
+            }
+            .safety-item .indicator {
+                margin-right: 8px;
+                font-size: 1.1em;
+            }
+            .safety-item .label {
+                font-size: 0.9em;
+                font-weight: 500;
+            }
+        `;
+        if (!document.head.querySelector('#enhanced-styling')) {
+            style.id = 'enhanced-styling';
+            document.head.appendChild(style);
+        }
     }
 
     async generatePDFReport() {
@@ -398,8 +611,11 @@ class CausewayDesignApp {
             isDrawingMode: false
         });
 
-        this.canvas.setWidth(800);
-        this.canvas.setHeight(600);
+        const container = document.querySelector('.canvas-container');
+        const width = Math.min(1000, container.clientWidth - 40);
+        const height = Math.max(400, Math.min(700, container.clientHeight - 40 || 600));
+        this.canvas.setWidth(width);
+        this.canvas.setHeight(height);
         this.canvas.backgroundColor = '#ffffff';
 
         // Drawing mode
@@ -640,7 +856,11 @@ class CausewayDesignApp {
             this.causeway.rotation.y = THREE.MathUtils.degToRad(this.controls.rotationY);
         }
         
-        this.camera.position.multiplyScalar(this.controls.zoom / this.camera.position.length());
+        const dir = new THREE.Vector3();
+        this.camera.getWorldDirection(dir);
+        const distance = 15 / this.controls.zoom;
+        this.camera.position.copy(dir.multiplyScalar(-distance));
+        this.camera.position.y = 10 / this.controls.zoom;
         this.camera.lookAt(this.scene.position);
         
         this.renderer.render(this.scene, this.camera);
@@ -743,7 +963,7 @@ class CausewayDesignApp {
 
 // Initialize the application when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-    new CausewayDesignApp();
+    window.app = new CausewayDesignApp();
 });
 
 // Handle window resize for 3D scene
