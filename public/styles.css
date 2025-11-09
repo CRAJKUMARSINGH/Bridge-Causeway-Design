@@ -605,6 +605,27 @@ body {
     text-align: center;
 }
 
+.report-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.report-buttons .btn {
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.excel-info {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #28a745;
+    font-weight: 500;
+}
+
 .pdf-info {
     margin-top: 1rem;
     color: #4a5568;
@@ -630,4 +651,461 @@ body {
 
 @keyframes spin {
     to { transform: rotate(360deg); }
+}
+
+/* Enhanced Features - Optimization Tab */
+.optimize-container, .cost-container {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 1rem;
+}
+
+.optimize-container h2, .cost-container h2 {
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.optimize-section, .comparison-section, .environmental-section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #f7fafc, #edf2f7);
+    border-radius: 12px;
+}
+
+.optimize-section h3, .comparison-section h3, .environmental-section h3 {
+    color: #2d3748;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.optimization-results, .comparison-results, .environmental-results {
+    margin-top: 1rem;
+    min-height: 200px;
+}
+
+.optimization-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #48bb78;
+    transition: all 0.3s ease;
+}
+
+.optimization-card:hover {
+    transform: translateX(5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.optimization-card.cost-reduction {
+    border-left-color: #48bb78;
+}
+
+.optimization-card.material-optimization {
+    border-left-color: #667eea;
+}
+
+.optimization-card.hydraulic-optimization {
+    border-left-color: #4299e1;
+}
+
+.optimization-card.foundation-optimization {
+    border-left-color: #ed8936;
+}
+
+.optimization-card h4 {
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.optimization-card .suggestion {
+    color: #4a5568;
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+}
+
+.optimization-card .savings {
+    display: inline-block;
+    background: linear-gradient(135deg, #48bb78, #38a169);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+}
+
+.optimization-card .impact {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.optimization-card .impact.low_risk {
+    background: rgba(72, 187, 120, 0.1);
+    color: #38a169;
+}
+
+.optimization-card .impact.medium_risk {
+    background: rgba(237, 137, 54, 0.1);
+    color: #dd6b20;
+}
+
+.optimization-card .impact.high_risk {
+    background: rgba(245, 101, 101, 0.1);
+    color: #e53e3e;
+}
+
+.comparison-controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.comparison-table {
+    width: 100%;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.comparison-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.comparison-table th {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.comparison-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.comparison-table tr:hover {
+    background: rgba(102, 126, 234, 0.05);
+}
+
+.comparison-table .better {
+    color: #38a169;
+    font-weight: 600;
+}
+
+.comparison-table .worse {
+    color: #e53e3e;
+    font-weight: 600;
+}
+
+/* Environmental Impact Styles */
+.environmental-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.environmental-card h4 {
+    color: #2d3748;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.carbon-footprint {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.carbon-item {
+    background: linear-gradient(135deg, #f7fafc, #edf2f7);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.carbon-item .value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #48bb78;
+    margin-bottom: 0.25rem;
+}
+
+.carbon-item .label {
+    font-size: 0.9rem;
+    color: #718096;
+}
+
+.environmental-rating {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+
+.environmental-rating.excellent {
+    background: linear-gradient(135deg, #48bb78, #38a169);
+    color: white;
+}
+
+.environmental-rating.good {
+    background: linear-gradient(135deg, #4299e1, #3182ce);
+    color: white;
+}
+
+.environmental-rating.fair {
+    background: linear-gradient(135deg, #ed8936, #dd6b20);
+    color: white;
+}
+
+.environmental-rating.needs-improvement {
+    background: linear-gradient(135deg, #f56565, #e53e3e);
+    color: white;
+}
+
+.recommendations-list {
+    list-style: none;
+    padding: 0;
+}
+
+.recommendations-list li {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    background: rgba(72, 187, 120, 0.1);
+    border-left: 3px solid #48bb78;
+    border-radius: 4px;
+    color: #2d3748;
+}
+
+.recommendations-list li:before {
+    content: "✓ ";
+    color: #48bb78;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+/* Cost Estimation Styles */
+.cost-controls {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.cost-controls .form-group {
+    flex: 1;
+    min-width: 200px;
+}
+
+.cost-results {
+    min-height: 300px;
+}
+
+.cost-summary {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.cost-summary h3 {
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.cost-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.cost-item {
+    background: linear-gradient(135deg, #f7fafc, #edf2f7);
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cost-item .value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #667eea;
+    margin-bottom: 0.25rem;
+}
+
+.cost-item .label {
+    font-size: 0.9rem;
+    color: #718096;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.total-cost {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.total-cost .value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.total-cost .label {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.cost-breakdown-chart {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+.cost-breakdown-chart h3 {
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Saved Designs List */
+.saved-designs-list {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.saved-design-item {
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(135deg, #f7fafc, #edf2f7);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.saved-design-item:hover {
+    transform: translateX(5px);
+    background: linear-gradient(135deg, #edf2f7, #e2e8f0);
+}
+
+.saved-design-item .name {
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.saved-design-item .timestamp {
+    font-size: 0.8rem;
+    color: #718096;
+}
+
+/* Success/Error Messages */
+.message {
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.message.success {
+    background: rgba(72, 187, 120, 0.1);
+    color: #38a169;
+    border: 1px solid rgba(72, 187, 120, 0.3);
+}
+
+.message.error {
+    background: rgba(245, 101, 101, 0.1);
+    color: #e53e3e;
+    border: 1px solid rgba(245, 101, 101, 0.3);
+}
+
+.message.info {
+    background: rgba(66, 153, 225, 0.1);
+    color: #3182ce;
+    border: 1px solid rgba(66, 153, 225, 0.3);
+}
+
+/* Animations */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slide-in {
+    animation: slideIn 0.3s ease-out;
+}
+
+/* Print Styles */
+@media print {
+    .app-header, .app-footer, .nav-menu, .btn {
+        display: none;
+    }
+    
+    .main-content {
+        max-width: 100%;
+        padding: 0;
+    }
+    
+    .tab-content {
+        display: block !important;
+    }
 }

@@ -1,4 +1,4 @@
-// Causeway Design Pro - Main Application
+// Causeway Design Pro - Enhanced Main Application
 class CausewayDesignApp {
     constructor() {
         this.currentTab = 'design';
@@ -9,6 +9,10 @@ class CausewayDesignApp {
         this.renderer = null;
         this.excelData = null;
         this.charts = {};
+        this.designHistory = [];
+        this.currentHistoryIndex = -1;
+        this.autoSaveInterval = null;
+        this.comparisonMode = false;
         
         this.init();
     }
@@ -41,6 +45,11 @@ class CausewayDesignApp {
         // PDF generation button
         document.getElementById('generatePdfBtn').addEventListener('click', () => {
             this.generatePDFReport();
+        });
+
+        // Excel workbook generation button
+        document.getElementById('generateExcelBtn').addEventListener('click', () => {
+            this.generateExcelWorkbook();
         });
 
         // Drawing tools
@@ -531,6 +540,24 @@ class CausewayDesignApp {
         try {
             this.showStatus('Generating comprehensive PDF report...', 'loading');
             
+            // Optimize Excel data to reduce payload size
+            let optimizedExcelData = null;
+            if (this.excelData && this.excelData.sheets) {
+                optimizedExcelData = {
+                    sheetNames: this.excelData.sheetNames || [],
+                    sheets: {}
+                };
+                
+                // Only include essential sheet data, limit rows per sheet
+                Object.keys(this.excelData.sheets).forEach(sheetName => {
+                    const sheetData = this.excelData.sheets[sheetName];
+                    if (Array.isArray(sheetData)) {
+                        // Limit to first 50 rows to reduce size
+                        optimizedExcelData.sheets[sheetName] = sheetData.slice(0, 50);
+                    }
+                });
+            }
+            
             const reportData = {
                 designData: {
                     length: parseFloat(document.getElementById('length').value) || 0,
@@ -543,10 +570,25 @@ class CausewayDesignApp {
                     projectName: 'Submersible Causeway Design'
                 },
                 calculationResults: this.currentResults,
-                excelData: this.excelData
+                excelData: optimizedExcelData
             };
 
-            console.log('Sending PDF generation request with data:', reportData);
+            // Log payload size for debugging
+            const payloadSize = new Blob([JSON.stringify(reportData)]).size;
+            console.log('PDF generation payload size:', Math.round(payloadSize / 1024), 'KB');
+            
+            if (payloadSize > 45 * 1024 * 1024) { // 45MB limit
+                console.warn('Payload size exceeds 45MB, further reducing Excel data...');
+                // Further reduce Excel data if still too large
+                if (optimizedExcelData && optimizedExcelData.sheets) {
+                    Object.keys(optimizedExcelData.sheets).forEach(sheetName => {
+                        optimizedExcelData.sheets[sheetName] = optimizedExcelData.sheets[sheetName].slice(0, 20);
+                    });
+                }
+                reportData.excelData = optimizedExcelData;
+            }
+
+            console.log('Sending PDF generation request with optimized data');
 
             const response = await fetch('/generate-pdf-report', {
                 method: 'POST',
@@ -563,18 +605,24 @@ class CausewayDesignApp {
             if (!response.ok) {
                 const errorText = await response.text();
                 console.error('Server error response:', errorText);
+                
+                // Check for specific payload size error
+                if (response.status === 413) {
+                    throw new Error('Request payload too large. The Excel data or calculation results are too big. Please try with smaller data or contact support.');
+                }
+                
                 throw new Error(`Server error: ${response.status} - ${errorText}`);
             }
 
             const responseText = await response.text();
-            console.log('Raw response text:', responseText);
+            console.log('Raw response received, length:', responseText.length);
 
             let result;
             try {
                 result = JSON.parse(responseText);
             } catch (parseError) {
                 console.error('JSON parse error:', parseError);
-                console.error('Response that failed to parse:', responseText);
+                console.error('Response that failed to parse:', responseText.substring(0, 500) + '...');
                 throw new Error(`Invalid JSON response: ${parseError.message}`);
             }
 
@@ -583,12 +631,73 @@ class CausewayDesignApp {
                 
                 // Create and download the report
                 this.downloadReport(result.htmlContent);
+                
+                // Show payload information if available
+                if (result.payloadInfo) {
+                    console.log('Payload info:', result.payloadInfo);
+                }
             } else {
                 this.showStatus(`PDF generation failed: ${result.error}`, 'error');
             }
         } catch (error) {
             console.error('PDF generation error:', error);
             this.showStatus(`PDF generation failed: ${error.message}`, 'error');
+        }
+    }
+
+    // Generate Excel Workbook
+    async generateExcelWorkbook() {
+        if (!this.currentResults) {
+            this.showStatus('Please calculate design first', 'error');
+            return;
+        }
+
+        try {
+            this.showStatus('Generating Excel workbook with formulas...', 'loading');
+            
+            const workbookData = {
+                designData: {
+                    length: parseFloat(document.getElementById('length').value) || 0,
+                    width: parseFloat(document.getElementById('width').value) || 0,
+                    height: parseFloat(document.getElementById('height').value) || 0,
+                    waterDepth: parseFloat(document.getElementById('waterDepth').value) || 0,
+                    soilType: document.getElementById('soilType').value,
+                    loadType: document.getElementById('loadType').value,
+                    safetyFactor: parseFloat(document.getElementById('safetyFactor').value) || 2.5,
+                    projectName: 'Submersible Causeway Design'
+                },
+                calculationResults: this.currentResults
+            };
+
+            console.log('Sending Excel workbook generation request with data:', workbookData);
+
+            const response = await fetch('/generate-excel-workbook', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(workbookData)
+            });
+
+            if (response.ok) {
+                const blob = await response.blob();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'Causeway_Design_Workbook.xlsx';
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+                document.body.removeChild(a);
+                
+                this.showStatus('Excel workbook generated successfully!', 'success');
+            } else {
+                const errorText = await response.text();
+                throw new Error(`Server error: ${response.status} - ${errorText}`);
+            }
+        } catch (error) {
+            console.error('Excel workbook generation error:', error);
+            this.showStatus(`Excel workbook generation failed: ${error.message}`, 'error');
         }
     }
 

@@ -22,6 +22,8 @@
                     <button class="nav-btn" data-tab="drawing">Drawing</button>
                     <button class="nav-btn" data-tab="3d">3D View</button>
                     <button class="nav-btn" data-tab="analysis">Analysis</button>
+                    <button class="nav-btn" data-tab="optimize">Optimize</button>
+                    <button class="nav-btn" data-tab="cost">Cost</button>
                 </nav>
             </div>
         </header>
@@ -107,12 +109,21 @@
                             </div>
                         </div>
                         <div id="pdfGenerationSection" class="pdf-section" style="display: none;">
-                            <button id="generatePdfBtn" class="btn btn-primary">
-                                <i class="fas fa-file-pdf"></i> Generate Comprehensive PDF Report
-                            </button>
+                            <div class="report-buttons">
+                                <button id="generatePdfBtn" class="btn btn-primary">
+                                    <i class="fas fa-file-pdf"></i> Generate Comprehensive PDF Report
+                                </button>
+                                <button id="generateExcelBtn" class="btn btn-success">
+                                    <i class="fas fa-file-excel"></i> Generate Excel Workbook
+                                </button>
+                            </div>
                             <p class="pdf-info">
                                 <i class="fas fa-info-circle"></i>
                                 Creates detailed design documentation with 10% enhanced content, following your Excel structure
+                            </p>
+                            <p class="excel-info">
+                                <i class="fas fa-calculator"></i>
+                                Generates Excel workbook with formulas for hydraulic, structural, and material calculations
                             </p>
                         </div>
                     </div>
@@ -205,6 +216,79 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Optimize Tab -->
+            <div class="tab-content" id="optimize-tab">
+                <div class="optimize-container">
+                    <h2><i class="fas fa-magic"></i> Design Optimization</h2>
+                    <div class="optimize-section">
+                        <button id="analyzeOptimizationBtn" class="btn btn-primary">
+                            <i class="fas fa-search"></i> Analyze Current Design
+                        </button>
+                        <div id="optimizationResults" class="optimization-results">
+                            <div class="placeholder-message">
+                                <i class="fas fa-lightbulb"></i>
+                                <p>Click "Analyze Current Design" to get optimization suggestions</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="comparison-section">
+                        <h3><i class="fas fa-balance-scale"></i> Design Comparison</h3>
+                        <div class="comparison-controls">
+                            <button id="saveCurrentDesignBtn" class="btn btn-success">
+                                <i class="fas fa-save"></i> Save Current Design
+                            </button>
+                            <button id="loadSavedDesignBtn" class="btn btn-secondary">
+                                <i class="fas fa-folder-open"></i> Load Saved Design
+                            </button>
+                            <button id="compareDesignsBtn" class="btn btn-primary">
+                                <i class="fas fa-exchange-alt"></i> Compare Designs
+                            </button>
+                        </div>
+                        <div id="comparisonResults" class="comparison-results"></div>
+                    </div>
+                    
+                    <div class="environmental-section">
+                        <h3><i class="fas fa-leaf"></i> Environmental Impact</h3>
+                        <button id="assessEnvironmentBtn" class="btn btn-success">
+                            <i class="fas fa-tree"></i> Assess Environmental Impact
+                        </button>
+                        <div id="environmentalResults" class="environmental-results"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cost Tab -->
+            <div class="tab-content" id="cost-tab">
+                <div class="cost-container">
+                    <h2><i class="fas fa-calculator"></i> Cost Estimation</h2>
+                    <div class="cost-controls">
+                        <div class="form-group">
+                            <label for="regionSelect">Region/Location</label>
+                            <select id="regionSelect">
+                                <option value="standard">Standard Rates</option>
+                                <option value="urban">Urban Area (+20%)</option>
+                                <option value="rural">Rural Area (-15%)</option>
+                            </select>
+                        </div>
+                        <button id="calculateCostBtn" class="btn btn-primary">
+                            <i class="fas fa-rupee-sign"></i> Calculate Cost
+                        </button>
+                    </div>
+                    <div id="costResults" class="cost-results">
+                        <div class="placeholder-message">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <p>Calculate design first, then estimate costs</p>
+                        </div>
+                    </div>
+                    
+                    <div class="cost-breakdown-chart">
+                        <h3><i class="fas fa-chart-pie"></i> Cost Breakdown</h3>
+                        <canvas id="costChart" width="400" height="300"></canvas>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <!-- Footer -->
@@ -218,5 +302,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="app.js"></script>
+    <script src="app-enhanced.js"></script>
 </body>
 </html>

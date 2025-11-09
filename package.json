@@ -37,5 +37,14 @@
     "pdf-reports"
   ],
   "author": "Causeway Design Team",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CRAJKUMARSINGH/Causeway.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/CRAJKUMARSINGH/Causeway/issues"
+  },
+  "homepage": "https://github.com/CRAJKUMARSINGH/Causeway#readme"
 }
