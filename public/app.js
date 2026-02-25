@@ -1084,3 +1084,93 @@ window.addEventListener('resize', () => {
         window.app.camera.updateProjectionMatrix();
     }
 });
+
+
+// ============================================================================
+// GIFT FEATURES INTEGRATION
+// ============================================================================
+
+// Extend the calculateDesign function to include health score
+const originalCalculateDesign = CausewayDesignApp.prototype.calculateDesign;
+CausewayDesignApp.prototype.calculateDesign = function() {
+    originalCalculateDesign.call(this);
+    
+    // After calculation, update health score and add to recent designs
+    setTimeout(() => {
+        if (window.lastCalculationResult) {
+            const healthScore = designHealthScore.calculate(window.lastCalculationResult);
+            if (healthScore) {
+                designHealthScore.render(healthScore);
+            }
+            
+            // Add to recent designs
+            quickActionsDashboard.addRecentDesign(window.lastCalculationResult);
+        }
+    }, 500);
+};
+
+// Add library export button handler
+document.addEventListener('DOMContentLoaded', () => {
+    const exportBtn = document.getElementById('exportLibraryBtn');
+    if (exportBtn) {
+        exportBtn.addEventListener('click', () => {
+            designLibrary.exportLibrary();
+        });
+    }
+    
+    const importFile = document.getElementById('importLibraryFile');
+    if (importFile) {
+        importFile.addEventListener('change', (e) => {
+            if (e.target.files.length > 0) {
+                designLibrary.importLibrary(e.target.files[0]);
+            }
+        });
+    }
+    
+    // Initialize templates
+    designTemplates.renderTemplates();
+    
+    // Initialize library
+    designLibrary.renderLibrary();
+});
+
+// Override switchTab to handle new tabs
+const originalSwitchTab = CausewayDesignApp.prototype.switchTab;
+CausewayDesignApp.prototype.switchTab = function(tabName) {
+    originalSwitchTab.call(this, tabName);
+    
+    // Render content for specific tabs
+    if (tabName === 'dashboard') {
+        quickActionsDashboard.render();
+    } else if (tabName === 'templates') {
+        designTemplates.renderTemplates();
+    } else if (tabName === 'library') {
+        designLibrary.renderLibrary();
+    } else if (tabName === 'health' && window.lastCalculationResult) {
+        const healthScore = designHealthScore.calculate(window.lastCalculationResult);
+        if (healthScore) {
+            designHealthScore.render(healthScore);
+        }
+    }
+};
+
+// Store last calculation result globally for health score
+window.lastCalculationResult = null;
+
+// Intercept fetch responses to store calculation results
+const originalFetch = window.fetch;
+window.fetch = function(...args) {
+    return originalFetch.apply(this, args).then(response => {
+        const clonedResponse = response.clone();
+        
+        if (args[0] === '/calculate-causeway' && response.ok) {
+            clonedResponse.json().then(data => {
+                if (data.success) {
+                    window.lastCalculationResult = data;
+                }
+            }).catch(() => {});
+        }
+        
+        return response;
+    });
+};

@@ -1,17 +1,23 @@
 # 🚧 CAUSEWAY DESIGN PRO - Professional Engineering Application
 
-## 🚀 **Quick Start (For Users)**
+**Version:** 2.0 Enhanced Edition | **Status:** Production Ready ✅
 
-### **Easiest Way to Run:**
-1. **Double-click** `START_APP.bat` 
-2. **Wait** for the app to start
-3. **Browser opens automatically** to `http://localhost:3000`
+## 🚀 Quick Start (30 Seconds)
 
-### **First Time Setup:**
-1. **Double-click** `INSTALL_DEPS.bat` (only once)
-2. **Then double-click** `START_APP.bat`
+### Windows (Easiest):
+```bash
+# Double-click: START_APP.bat
+```
 
-📖 **For detailed instructions, see [HOW_TO_RUN.md](HOW_TO_RUN.md)**
+### All Platforms:
+```bash
+npm install  # First time only
+npm start    # Every time
+```
+
+**Access:** http://localhost:3000
+
+📖 **Complete Guide:** [COMPLETE_GUIDE.md](COMPLETE_GUIDE.md) | **Deploy:** [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)
 
 ---
 
